@@ -1,0 +1,30 @@
+{% extends '_base.html' %}
+
+{% block content %}
+<h1>Lexington Tune Book</h1>
+
+<h2>Reels</h2>
+{% for tune in tune_list %}
+    {% if tune.tune_type == 'reel' %}
+    <h3>{{ tune.title }}</h3>
+    <p>
+<pre>
+{{ tune.abc_notation }}
+</pre>
+    </p>
+    {% endif %}
+{% endfor %}
+
+<h2>Jigs</h2>
+{% for tune in tune_list %}
+    {% if tune.tune_type == 'jig' %}
+    <h3>{{ tune.title }}</h3>
+    <p>
+<pre>
+{{ tune.abc_notation }}
+</pre>
+    </p>
+    {% endif %}
+{% endfor %}
+
+{% endblock %}
