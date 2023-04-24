@@ -3,28 +3,54 @@
 {% block content %}
 <h1>Lexington Tune Book</h1>
 
-<h2>Reels</h2>
+<h2 class="tune-type-title">Reels</h2>
+<hr>
 {% for tune in tune_list %}
     {% if tune.tune_type == 'reel' %}
-    <h3>{{ tune.title }}</h3>
+    <h3 class="tune-title" id="{{ tune.title }}">{{ tune.title }}</h3>
+    <h4 class="tune-id">ID:{{loop.index}}</h4>
     <p>
+<div id="tune{{loop.index}}" class="tune">
 <pre>
 {{ tune.abc_notation }}
 </pre>
+</div>
+<div class="abc-notation-raw">
+<h4>ABC Notation</h4>
+<pre>
+{{ tune.abc_notation }}
+</pre>
+</div>
     </p>
     {% endif %}
 {% endfor %}
 
-<h2>Jigs</h2>
+<h2 class="tune-type-title">Jigs</h2>
+<hr>
 {% for tune in tune_list %}
     {% if tune.tune_type == 'jig' %}
-    <h3>{{ tune.title }}</h3>
+    <h3 class="tune-title" id="{{ tune.title }}">{{ tune.title }}</h3>
+    <h4 class="tune-id">ID:{{loop.index}}</h4>
     <p>
+<div id="tune{{loop.index}}" class="tune">
 <pre>
 {{ tune.abc_notation }}
 </pre>
+</div>
     </p>
     {% endif %}
 {% endfor %}
 
+{% endblock %}
+
+{% block afterJavascript %}
+<script type="text/javascript">
+    var els = document.getElementsByClassName('tune');
+    
+    var visualOptions = { responsive: 'resize' };
+    for (let index = 0; index < els.length; index++) {
+        ABCJS.renderAbc(els[index].id,els[index].textContent,visualOptions)
+        // ABCJS.renderAbc(els[index].id,els[index].textContent)
+    }
+</script>
 {% endblock %}

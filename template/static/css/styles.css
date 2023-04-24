@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 90vw;
+    max-width: 600px;
+}
+
+h1, h2 {
+    padding: 10px 10px 20px 10px;
+}
+
+h3 {
+    padding: 20px 10px 0px 10px;
+    text-align: left;
+}
+
+.tune-type-title {
+    text-align: left;
+    padding: 30px 10px 0px 10px;
+}
+
+.tune-title {
+    text-align: left;
+    padding: 10px 10px 0px 10px;
+}
+
+.abc-notation-raw {
+    text-align: left;
+    padding: 10px 30px;
+}
+
+.tune-id {
+    visibility: hidden;
+}
+
+.tune {
+    max-width: 600px;
+}
