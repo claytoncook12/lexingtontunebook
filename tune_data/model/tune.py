@@ -3,7 +3,7 @@ import typing as t
 import datetime as datetime
 
 tune_types: list[str] = [
-    'reel','jig','hornpipe','slip jig'
+    'reel','jig','hornpipe','slip jig','slide','mazurka'
 ]
 
 class YoutubeVideoEmbed:

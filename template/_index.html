@@ -3,10 +3,9 @@
 {% block content %}
 <h1>Lexington Tune Book</h1>
 
-<h2 class="tune-type-title">Reels</h2>
+<h2 class="tune-type-title">Tunes</h2>
 <hr>
 {% for tune in tune_list %}
-    {% if tune.tune_type == 'reel' %}
     <h3 class="tune-title" id="{{ tune.title }}">{{ tune.title }}</h3>
     <h4 class="tune-id">ID:{{loop.index}}</h4>
     <div id="tune{{loop.index}}" class="tune">
@@ -48,7 +47,6 @@
             <pre>{{ tune.abc_notation }}</pre>
         </div>
     </div>
-    {% endif %}
 {% endfor %}
 
 {% endblock %}
