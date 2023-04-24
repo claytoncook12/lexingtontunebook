@@ -5,8 +5,8 @@ tune_list: list[Tune] = [
         'Concertina Reel',
         'reel',
         """T: Concertina Reel
-R:reel
-M:C|
+R: reel
+M: C|
 K: D
   A2FA BAFA|A2FA BAFA|B2cA BAcA|B2cA BAFG |
   A2FA BAFA|A2FA BAFE|FABc d2dB|AFEF D2FG:|
