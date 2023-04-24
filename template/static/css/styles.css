@@ -21,6 +21,11 @@ h3 {
     text-align: left;
 }
 
+h4 {
+    padding: 20px 10px 0px 10px;
+    text-align: left;
+}
+
 .tune-type-title {
     text-align: left;
     padding: 30px 10px 0px 10px;
@@ -28,18 +33,59 @@ h3 {
 
 .tune-title {
     text-align: left;
+    text-decoration: underline;
     padding: 10px 10px 0px 10px;
 }
 
-.abc-notation-raw {
+.tune-additional-data {
     text-align: left;
     padding: 10px 30px;
 }
 
 .tune-id {
     visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .tune {
     max-width: 600px;
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.audio-title {
+    padding: 10px 0 0 0;
+}
+
+.audio-container {
+    text-align: center;
+}
+
+.video-title {
+    padding: 10px 0 0 0;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.abc-notation-container {
+    padding: 10px;
+    font-size: 12px;
 }
