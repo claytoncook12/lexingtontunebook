@@ -18,7 +18,7 @@ K: Edor
   ),
 #--------------------------------------------------------------
   Tune(
-    "The Wise Maid",
+    "Wise Maid, The",
     "reel",
     """T: The Wise Maid
 R: Reel
@@ -50,7 +50,7 @@ K: Edor
   ),
 #--------------------------------------------------------------
   Tune(
-    "The Whistling Postman",
+    "Whistling Postman, The",
     "jig",
     """T: The Whistling Postman
 C: Charlie Mulvihill
@@ -171,7 +171,7 @@ K: Dmaj
   ),
 #--------------------------------------------------------------
   Tune(
-    "The Brosna",
+    "Brosna, The",
     "slide",
     """T: The Brosna
 R: Slide
@@ -187,7 +187,7 @@ K: Gmaj
   ),
 #--------------------------------------------------------------
   Tune(
-    "Shoe the Donkey",
+    "Shoe The Donkey",
     "mazurka",
     """T: Shoe The Donkey
 R: Mazurka
@@ -203,7 +203,7 @@ B2 A2 B2|"C"c3 Bcd|1 e2 d2 c2|"G"B3 ABc:|2 e2 d2 "D"F2|"G" G4|| """,
   ),
 #--------------------------------------------------------------
   Tune(
-    "The Barony Jig",
+    "Barony Jig, The",
     "slip jig",
     """T: The Barony Jig
 S: O'Neill - Dance Music of Ireland: 1001 Gems (1907), No. 970
@@ -220,7 +220,7 @@ c2d ecA AGE|c2d efd e2e|cde ged ecA|GED DEG A2:||""",
   ),
 #--------------------------------------------------------------
   Tune(
-    "The Snowy Path",
+    "Snowy Path, The",
     "slip jig",
     """T: The Snowy Path
 C: Mark Kelly
@@ -291,7 +291,38 @@ BA| G2DG B2GB|dBeB dBAB|d2Bd efge|   dBAB GEDE |
     YoutubeVideoEmbed("Banjo Buddy", "banjo", "https://www.youtube.com/embed/TuONrq0tQSo")
   ],
   []
+  ),
+#---------------------------------------------------------------
+  Tune(
+    "Ships are Sailing",
+    "reel",
+    """T: Ships are Sailing
+R: reel
+M: C|
+K: Em
+"Em"Beed BcdB|"D"ADFD ADFA|"Em"E3F "D/F#"GFGA|"G"Beef "D"gfed|
+"Em"Beed BcdB|"D"ADFD ADFA|"Em"E3F GFGA|1) "Em"Beed e4:|2) "Em"Beed e3f||
+"Em"g3a  bgeg|"D"f2fg afdf|"Em"gfga bgeg|"D"fede "Em"e3f|
+"Em"g2ga bgeg|"D"fefg afdf|"G"g2bg "D/F#"fgaf|1) "Em"edef "D"gfef:|2) "Em"edef "D"gfed||""",
+  [],
+  []
+  ),
+#----------------------------------------------------------------
+  Tune(
+    "Father Kelly's",
+    "reel",
+    """T: Father Kelly's
+R: Reel
+M: C|
+K:G
+"G"B2GB AGEG|"G"DGGF G2AB|"C"cBAB  cBAG|"D"EAAG FDGA|
+"G"B2GB "D/F#"AGEG|"G"DGGE "G/B"GABc|"C"d2Bd  gdBd|1) "D"cFEF "G"G3A :|2) "D"cAFA "G"GABc||
+"G"d2Bd gdBd|dGBd gdBd|"A"e2^ce "A/C#"agfe|"D"defg agfe|
+"G"d2Bd gdBd|"G/B"dGBd gdBd|"C"c2Ac  "Am"BAGB|1) "D"AGFA "G"GABc :|2) "D"AGFA "G"G3A||""",
+    [],
+    []
   )
 ]
 
+tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
 tune_dict: dict[str, Tune] = {tune.title: tune for tune in tune_list}

@@ -1,48 +1,40 @@
 {% extends '_base.html' %}
 
 {% block content %}
-{% for tune in tune_list %}
-    <h3 class="tune-title" id="{{ tune.title }}">{{ tune.title }}</h3>
-    <h4 class="tune-id">ID:{{loop.index}}</h4>
-    <div id="tune{{loop.index}}" class="tune">
-        <pre>{{ tune.abc_notation }}</pre>
-    </div>
-    <div class="tune-additional-data">
-        {% if tune.reference_audios|length > 0 %}
-            <h4>Audio References</h4>
-            {% for audio in tune.reference_audios %}
-                <div class="audio-container">
-                    <h5 class="audio-title">{{ audio.title }}</h5>
-                    <h5>Instrument: {{ audio.instruments }}</h5>
-                    <audio controls>
-                        <source src="static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
-                    </audio>
-                </div>
-            {% endfor %}
-        {% endif %}
-        
-        {% if tune.reference_videos|length > 0 %}
-            <h4>Video References</h4>
-            {% for video in tune.reference_videos %}
-                <div class="video-container">
-                    <h5 class="video-title">{{ video.title }}</h5>
-                    <h5>Instrument: {{ video.instruments }}</h5>
-                    <div class="iframe-container">
-                        <iframe
-                            class="responsive-iframe"
-                            src="{{ video.embed_url }}"
-                        >
-                        </iframe>
-                    </div>
-                </div>
-            {% endfor %}
-        {% endif %}
 
-        <h4>ABC Notation</h4>
-        <div class="abc-notation-container">
-            <pre>{{ tune.abc_notation }}</pre>
-        </div>
-    </div>
+{% for tune_type in tune_types %}
+    <h2 class="tune-type-title">{{ tune_type|title }} Sets</h2>
+    <hr class="hr-short">
+    <ol>
+    {% for set in set_list %}
+        {% if tune_type == set.set_type %}
+        <li class="set-name">
+            {{ set.set_name() }}
+            <div class="tune-additional-data">
+                {% if set.reference_audios|length > 0 %}
+                    <h4>Audio References</h4>
+                    {% for audio in set.reference_audios %}
+                        <div class="audio-container">
+                            <h5 class="audio-title">{{ audio.title }}</h5>
+                            <h5>Instrument: {{ audio.instruments }}</h5>
+                            <audio controls>
+                                <source src="static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
+                            </audio>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+            {% for tune in set.set_tune_list %}
+                <a href="tune.html#{{ tune.slug_id() }}">
+                    <div id="{{ tune.slug_id() }}" class="tune" >
+                        <pre>{{ tune.abc_notation }}</pre>
+                    </div>
+                </a>
+            {% endfor%}
+        </li>
+        {% endif %}
+    {% endfor %}
+    </ol>
 {% endfor %}
 
 {% endblock %}

@@ -3,7 +3,9 @@
 import os, shutil
 from jinja2 import Template, Environment, FileSystemLoader
 
-from tune_data.tune_data import tune_list, tune_dict
+from tune_data.tune_data import tune_list, tune_list_alphab, tune_dict
+from tune_data.model.tune import tune_types
+from tune_data.sets_data import set_list
 
 class SiteGenerator(object):
     def __init__(self):
@@ -39,8 +41,8 @@ class SiteGenerator(object):
         template = self.env.get_template('_index.html')
         with open('public/index.html', 'w+') as file:
             html = template.render(
-                tune_list = tune_list,
-                tune_dict = tune_dict
+                tune_types = ['reel','jig','slip jig','slide','mazurka'],
+                set_list = set_list
             )
             file.write(html)
     
@@ -50,8 +52,8 @@ class SiteGenerator(object):
         template = self.env.get_template('_tune.html')
         with open('public/tune.html', 'w+') as file:
             html = template.render(
-                tune_list = tune_list,
-                tune_dict = tune_dict
+                tune_types = tune_types,
+                tune_list = tune_list_alphab
             )
             file.write(html)
     

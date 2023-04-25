@@ -2,8 +2,11 @@ import re
 import typing as t
 import datetime as datetime
 
+from shared_functions import slugify
+
 tune_types: list[str] = [
-    'reel','jig','hornpipe','slip jig','slide','mazurka'
+    'reel','jig','slip jig','hornpipe','polkas','slide','mazurka','marche',
+    'hop jig','waltz','set dance' 
 ]
 
 class YoutubeVideoEmbed:
@@ -102,6 +105,9 @@ class Tune:
     
     def __ne__(self, __value: object) -> bool:
         return not(self == __value)
+
+    def slug_id(self) -> str:
+        return slugify(self.title)
 
 
 def is_valid(input:str, valid_input: list[str]):

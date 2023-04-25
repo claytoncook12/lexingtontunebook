@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lexington Tunes</title>
+    <title>KIMA Tunes</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="static/css/styles.css">
 
     <!-- Javascript Files -->
-    <script src="static/js/abcjs-plugin-min.js"></script>
     <script src="static/js/abcjs-basic-min.js"></script>
 </head>
 <body>
 
-<!-- Main Content -->
-<div class="main">
-    <h1>Lexington Tune Book</h1>
+<!-- Header -->
+<div class="header">
+    <img 
+        src="static/images/KIMAlogo500.png"
+        style="width: 80px;"
+    >
+    <h1 class="header-title">Kentucky Irish Music Academy<br>Tune Book</h1>
     <div class="navigation">
         <a href="index.html">Sets</a>
         <a href="tune.html">Tunes</a>
     </div>
-    <hr style="margin-top: 5px;">
+</div>
+
+<!-- Main Content -->
+<div class="main">
     {% block content %}{% endblock %}
 </div>
 
+<!-- Bottom Padding -->
+<div class="bottom-padding"></div>
 
 <!-- After Javascript -->
 {% block afterJavascript %}{% endblock %}

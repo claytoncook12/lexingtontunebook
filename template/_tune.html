@@ -1,6 +1,65 @@
 {% extends '_base.html' %}
 
 {% block content %}
-<h2 class="tune-type-title">Tunes</h2>
+{% for tune_type in tune_types %}
+    <h2 class="tune-type-title">{{ tune_type|title }}s</h2>
+    <hr class="hr-short">
+    {% for tune in tune_list %}
+        {% if tune_type == tune.tune_type %}
+            <h3 class="tune-title" id="{{ tune.slug_id() }}">{{ tune.title }}</h3>
+            <h4 class="tune-id">ID:{{loop.index}}</h4>
+            <div id="tune{{loop.index}}" class="tune">
+                <pre>{{ tune.abc_notation }}</pre>
+            </div>
+            <div class="tune-additional-data">
+                {% if tune.reference_audios|length > 0 %}
+                    <h4>Audio References</h4>
+                    {% for audio in tune.reference_audios %}
+                        <div class="audio-container">
+                            <h5 class="audio-title">{{ audio.title }}</h5>
+                            <h5>Instrument: {{ audio.instruments }}</h5>
+                            <audio controls>
+                                <source src="static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
+                            </audio>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+                
+                {% if tune.reference_videos|length > 0 %}
+                    <h4>Video References</h4>
+                    {% for video in tune.reference_videos %}
+                        <div class="video-container">
+                            <h5 class="video-title">{{ video.title }}</h5>
+                            <h5>Instrument: {{ video.instruments }}</h5>
+                            <div class="iframe-container">
+                                <iframe
+                                    class="responsive-iframe"
+                                    src="{{ video.embed_url }}"
+                                >
+                                </iframe>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endif %}
 
+                <h4>ABC Notation</h4>
+                <div class="abc-notation-container">
+                    <pre>{{ tune.abc_notation }}</pre>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% endblock %}
+
+{% block afterJavascript %}
+<script type="text/javascript">
+    var els = document.getElementsByClassName('tune');
+    
+    var visualOptions = { responsive: 'resize' };
+    for (let index = 0; index < els.length; index++) {
+        ABCJS.renderAbc(els[index].id,els[index].textContent,visualOptions)
+        // ABCJS.renderAbc(els[index].id,els[index].textContent)
+    }
+</script>
 {% endblock %}
