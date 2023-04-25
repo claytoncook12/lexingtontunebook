@@ -1,4 +1,6 @@
-from tune_data.model.tune import Tune
+from tune_data.model.tune import Tune, tune_types, is_valid
+
+set_types: list[str] = tune_types
 
 class Set:
     """
@@ -12,8 +14,13 @@ class Set:
 
     def __init__(
         self,
+        set_type: str,
         set_list: list[Tune]
     ):
+        if is_valid(set_type, set_types):
+            self.set_type = set_type
+        else:
+            raise ValueError(f'"{set_type}" is not a valid set type.\n\tValid set types are {set_types}')
         self.set_list = set_list
 
     def set_name(self) -> str:
