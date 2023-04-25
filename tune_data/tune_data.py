@@ -293,3 +293,5 @@ BA| G2DG B2GB|dBeB dBAB|d2Bd efge|   dBAB GEDE |
   []
   )
 ]
+
+tune_dict: dict[str, Tune] = {tune.title: tune for tune in tune_list}

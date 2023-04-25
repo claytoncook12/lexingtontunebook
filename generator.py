@@ -3,7 +3,7 @@
 import os, shutil
 from jinja2 import Template, Environment, FileSystemLoader
 
-from tune_data.tune_data import tune_list
+from tune_data.tune_data import tune_list, tune_dict
 
 class SiteGenerator(object):
     def __init__(self):
@@ -38,7 +38,8 @@ class SiteGenerator(object):
         template = self.env.get_template('_index.html')
         with open('public/index.html', 'w+') as file:
             html = template.render(
-                tune_list = tune_list
+                tune_list = tune_list,
+                tune_dict = tune_dict
             )
             file.write(html)
     

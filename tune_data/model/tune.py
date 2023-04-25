@@ -90,6 +90,18 @@ class Tune:
         self.abc_notation = abc_notation
         self.reference_videos = reference_videos
         self.reference_audios = reference_audios
+    
+    def __str__(self) -> str:
+        return self.title
+    
+    def __hash__(self) -> int:
+        return hash(self.title)
+    
+    def __eq__(self, __value: object) -> bool:
+        return self.title == __value
+    
+    def __ne__(self, __value: object) -> bool:
+        return not(self == __value)
 
 
 def is_valid(input:str, valid_input: list[str]):
