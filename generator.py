@@ -15,6 +15,7 @@ class SiteGenerator(object):
         self.empty_public()
         self.copy_static()
         self.render_main_page()
+        self.render_tune_page()
         self.finished()
 
     def empty_public(self) -> None:
@@ -37,6 +38,17 @@ class SiteGenerator(object):
         print("Rendering Main page to static file.")
         template = self.env.get_template('_index.html')
         with open('public/index.html', 'w+') as file:
+            html = template.render(
+                tune_list = tune_list,
+                tune_dict = tune_dict
+            )
+            file.write(html)
+    
+    def render_tune_page(self) -> None:
+        """ Create Tune Page """
+        print("Rendering Tune page to static file.")
+        template = self.env.get_template('_tune.html')
+        with open('public/tune.html', 'w+') as file:
             html = template.render(
                 tune_list = tune_list,
                 tune_dict = tune_dict
