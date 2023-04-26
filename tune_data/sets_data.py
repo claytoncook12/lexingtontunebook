@@ -36,6 +36,12 @@ set_list: list[Set] = [
         [tune_dict["A Fig For A Kiss"], tune_dict["O'Farrell's Welcome to Limerick"]],
         []
     ),
+    # POLKAS
+    Set(
+        'polka',
+        [tune_dict["I Looked East And I Looked West"],tune_dict["Julia Clifford's"],tune_dict["Scartaglen"]],
+        []
+    ),
     # SLIDES
     Set(
         'slide',

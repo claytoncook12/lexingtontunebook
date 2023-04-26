@@ -5,7 +5,7 @@ import datetime as datetime
 from shared_functions import slugify
 
 tune_types: list[str] = [
-    'reel','jig','slip jig','hornpipe','polkas','slide','mazurka','marche',
+    'reel','jig','slip jig','hornpipe','polka','slide','mazurka','marche',
     'hop jig','waltz','set dance' 
 ]
 

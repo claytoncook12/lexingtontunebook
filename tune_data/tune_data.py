@@ -14,7 +14,7 @@ K: Edor
 |:gf|"Em"eBB2 eBgB|eBB2 gedB|"D"A2FA DAFA|A2FA defg|
 "Em"eBB2 eBgB|eBB2 defg|"D"afec dBAF|DEFD "Em"E2:|""",
     [],
-    []
+    [AudioReferences("Cooley's","flute","Cooley's - Flute - 80 bpm.mp3")]
   ),
 #--------------------------------------------------------------
   Tune(
@@ -305,7 +305,9 @@ K: Em
 "Em"g3a  bgeg|"D"f2fg afdf|"Em"gfga bgeg|"D"fede "Em"e3f|
 "Em"g2ga bgeg|"D"fefg afdf|"G"g2bg "D/F#"fgaf|1) "Em"edef "D"gfef:|2) "Em"edef "D"gfed||""",
   [],
-  []
+  [
+    AudioReferences("Ships Are Sailing (slow)","concertina","09 Ships Are Sailing (slow).mp3")
+  ]
   ),
 #----------------------------------------------------------------
   Tune(
@@ -319,6 +321,56 @@ K:G
 "G"B2GB "D/F#"AGEG|"G"DGGE "G/B"GABc|"C"d2Bd  gdBd|1) "D"cFEF "G"G3A :|2) "D"cAFA "G"GABc||
 "G"d2Bd gdBd|dGBd gdBd|"A"e2^ce "A/C#"agfe|"D"defg agfe|
 "G"d2Bd gdBd|"G/B"dGBd gdBd|"C"c2Ac  "Am"BAGB|1) "D"AGFA "G"GABc :|2) "D"AGFA "G"G3A||""",
+    [],
+    []
+  ),
+#-----------------------------------------------------------------
+  Tune(
+    "I Looked East And I Looked West",
+    "polka",
+    """T:I Looked East And I Looked West
+R:Polka
+M:2/4
+L:1/8
+K:G
+GB BA/G/|FA AB/A/|GA Bc|   d2 cA     |
+GA BA/G/|FA A>B  |cA FA|1) G2 GD    :|2) G2 GB/c/||
+dg fe   |fA A>B  |cd ef|   g2 fe     |
+dg fe   |fA A>B  |cA FA|1) G2 GB/c/ :|2) g2 GD||""",
+    [],
+    []
+  ),
+#-----------------------------------------------------------------
+  Tune(
+    "Julia Clifford's",
+    "polka",
+    """T:Julia Clifford's
+R:Polka
+M:2/4
+L:1/8
+K:D
+f>a ge|f>a ge |fd ed      |  e/f/e/d/ Bd    |
+f>a ge|f>a ge |fd e/f/e/c/|1)d2       de   :|2) d2 dB||
+A2 A>B|Af  a>f|ed ef/e/   |  dA       Bd/B/ |
+A2 AF |Af  a>f|ed ef/e/   |1)d2       dB   :|2) d2 d2||""",
+    [],
+    []
+  ),
+#-----------------------------------------------------------------
+  Tune(
+    "Scartaglen",
+    "polka",
+    """T:Scartaglen
+R:Polka
+M:2/4
+L:1/8
+K:G
+GG/G/ GA      |Bd de/f/   |gB B/A/G/A/|  BA A2    |
+G>A   GA      |Bd de/f/   |gd AB/A/   |1)G2 GD   :|2)G2 BB/A/||
+Gg    g2      |fe e/f/g/e/|dB B/A/G/A/|  BA AB/A/ |
+Gg    g2      |fe e/f/g/e/|dB AB/A/   |1)G2 BB/A/ |2)G2 GA/B/||
+g2    a2      |b2 ba      |g2 a2      |  b2 ba    |
+gb    e/f/g/e/|dB g>e     |dB AB/A/   |1)G2 GA/B/ |2)G2 BB/A/||G4|""",
     [],
     []
   )
