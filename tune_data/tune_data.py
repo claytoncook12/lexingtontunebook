@@ -373,6 +373,27 @@ g2    a2      |b2 ba      |g2 a2      |  b2 ba    |
 gb    e/f/g/e/|dB g>e     |dB AB/A/   |1)G2 GA/B/ |2)G2 BB/A/||G4|""",
     [],
     []
+  ),
+#-----------------------------------------------------------------------
+  Tune(
+    "Vanishing Lake",
+    "set dance",
+    """T: Vanishing Lake
+C: Michael Fitzpatrick
+N: A Part 14 Bars (x2), B Part 18 Bars
+R: Set Dance
+M: 6/8
+L: 1/8
+K: Am
+|:e/d/|cBc ABc|BAB G>AB|cBc dcd|e3     e2g    |a2a age|
+       gag g2e|f2g fed |e3  e2d|c2A    BAG    |A3  Aed|
+       c2A BAG|E3  Eed |cee Bee|AA/A/A A2    :|
+  E/E/|EAA EAA|EBB EBB |E2c cBA|B3     B2E/E/ |
+       EAA EAA|EBB EBB |cBc deg|e3     ec'b   |
+       a2a age|gag g2e |f2g fed|e3     e2d    |c2A BAG|
+       A3  Aed|c2A BAG |E3  Eed|cee    Bee    |AA/A/A A2|""",
+      [],
+      [AudioReferences("Vanishing Lake","concertina (midi)","Vanishing Lake - Dotted Eight 75 bpm.mp3")]
   )
 ]
 
