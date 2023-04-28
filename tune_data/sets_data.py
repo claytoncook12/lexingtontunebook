@@ -7,7 +7,9 @@ set_list: list[Set] = [
     Set(
         'reel',
         [tune_dict["Cooley's"], tune_dict["Wise Maid, The"]],
-        []
+        [AudioReferences(
+            "Cooley's - Wise Maid (unaccompanied)","flute (Clayton Cook)","Cooley's - Wise Maid - flute- 80 bpm.mp3"
+        )]
     ),
     Set(
         'reel',
@@ -40,12 +42,25 @@ set_list: list[Set] = [
     Set(
         'polka',
         [tune_dict["I Looked East And I Looked West"],tune_dict["Julia Clifford's"],tune_dict["Scartaglen"]],
-        []
+        [AudioReferences(
+            "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied)",
+            "fiddle (Justin Bonar-Bridges)",
+            "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied).mp3")]
     ),
     # SLIDES
     Set(
         'slide',
+        [tune_dict["Denis Murphy's"], tune_dict["O'Keefe's"], tune_dict["Going to the Well For Water"]],
+        []
+    ),
+    Set(
+        'slide',
         [tune_dict["Mom's Favorite"], tune_dict["Brosna, The"]],
+        []
+    ),
+    Set(
+        'slide',
+        [tune_dict['Scattery Island'], tune_dict["Jack Regan's"]],
         []
     ),
     # MAZURKA

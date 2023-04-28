@@ -85,7 +85,8 @@ K: Gmaj
   Tune(
     "Scattery Island",
     "slide",
-    """C: Arr: Julia Clifford
+    """T: Scattery Island
+C: Arr: Julia Clifford
 R: Slide
 M: 12/8
 L: 1/8
@@ -102,7 +103,7 @@ K: Dmaj
     "Jack Regan's",
     "slide",
     """T: Jack Regan's
-T: The Tuar Mor
+T: The Tuar Mor, The Toormore
 C: Arr: Johnny O'Leary
 R: Slide
 M: 12/8
@@ -260,7 +261,7 @@ K: D
     'Merry Blacksmith',
     'reel',
     """T: Merry Blacksmith
-R: reel
+R: Reel
 M: C|
 K: G
   d2dA BAFA|ABdA BAFA|ABde f2ed|Beed e2fe |
@@ -278,7 +279,7 @@ K: G
     'Sally Gardens',
     'reel',
     """T: Sally Gardens
-R: reel
+R: Reel
 M: C|
 K: G
 BA| G2DG B2GB|dBeB dBAB|d2Bd efge|   dBAB GEDE |
@@ -394,6 +395,54 @@ K: Am
        A3  Aed|c2A BAG |E3  Eed|cee    Bee    |AA/A/A A2|""",
       [],
       [AudioReferences("Vanishing Lake","concertina (midi)","Vanishing Lake - Dotted Eight 75 bpm.mp3")]
+  ),
+#-------------------------------------------------------------
+  Tune(
+    "Denis Murphy's",
+    "slide",
+    """T: Denis Murphy's
+R: Slide
+M: 12/8
+L: 1/8
+K: D
+|:A2D FED F2A A2f|g2e f2d e2d Bcd|
+  A2D FED F2A A2f|a2f efe d3  d3:|
+|:d2e f3  gfe f3 |gfe fed e2d Bcd|
+  d2e f3  gfe f2f|a2f efe d3  d3:|""",
+  [],
+  []
+  ),
+#--------------------------------------------------------------
+  Tune(
+    "O'Keefe's",
+    "slide",
+    """T: O'Keefe's
+R: Slide
+M: 12/8
+L: 1/8
+K: Ador
+|:A2e e2d BAB d2B|A2e e2d B2G GAB|
+  A2e e2d BAB d3 |BAB d2e B2A A3:|
+|:e2a a2b a2g e2d|efg a2b a2g e2f|
+  g3  gfe dBA G3 |BAB d2e B2A A3:|""",
+  [],
+  []
+  ),
+#-----------------------------------------------------
+  Tune(
+    "Going to the Well For Water",
+    "slide",
+    """T: Going To The Well For Water
+R: Slide
+M: 12/8
+L: 1/8
+K: Dmaj
+A2f A2f A2f fed|B2g B2g B2g gfe|
+cdc BcB Ace a2f|1 g2e cde d3 dcB:|2 g2e cde d3 d2e||
+|:f2f fed e2e edc|d2d dcB c2c cBA|
+GBB GBB FAA FAA|1 EDE e2d cBc d2e:|2 EDE e2d cBc d3||""",
+  [],
+  []
   )
 ]
 
