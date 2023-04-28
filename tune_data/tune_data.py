@@ -244,9 +244,9 @@ K: Dmaj
 R: reel
 M: C|
 K: D
-  "^A Part" A2FA BAFA|A2FA BAFA|B2cA BAcA|B2cA BAFG |
+  A2FA BAFA|A2FA BAFA|B2cA BAcA|B2cA BAFG |
   A2FA BAFA|A2FA BAFE|FABc d2dB|AFEF D2FG:|
-|:"^B Part" Add2 Add2|AddA BAFA|B2cA BAcA|BAcA BAFG |
+|:Add2 Add2|AddA BAFA|B2cA BAcA|BAcA BAFG |
   Add2 Add2|AddA BAFE|FABc d2dB|AFEF D4  :|""",
     [
       YoutubeVideoEmbed("Foinn Seisiun 1 CD's", 'accordion, banjo, concertina, fiddle, flute', 'https://www.youtube.com/embed/j1mfZ15mPeA'),

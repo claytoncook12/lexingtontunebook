@@ -1,6 +1,7 @@
 import re
 import typing as t
 import datetime as datetime
+import urllib.parse
 
 from shared_functions import slugify
 
@@ -108,7 +109,11 @@ class Tune:
 
     def slug_id(self) -> str:
         return slugify(self.title)
-
+    
+    def drawthedots_link(self) -> str:
+        drawthedots_url = "https://editor.drawthedots.com/"
+        urlencode_abc = urllib.parse.quote(self.abc_notation, safe='')
+        return drawthedots_url + "?t=" + urlencode_abc
 
 def is_valid(input:str, valid_input: list[str]):
     return input in valid_input

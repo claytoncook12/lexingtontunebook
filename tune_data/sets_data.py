@@ -38,6 +38,11 @@ set_list: list[Set] = [
         [tune_dict["A Fig For A Kiss"], tune_dict["O'Farrell's Welcome to Limerick"]],
         []
     ),
+    Set(
+        'slip jig',
+        [tune_dict["Barony Jig, The"], tune_dict["Snowy Path, The"]],
+        []
+    ),
     # POLKAS
     Set(
         'polka',

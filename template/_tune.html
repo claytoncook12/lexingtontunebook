@@ -45,6 +45,12 @@
                 <h4>ABC Notation</h4>
                 <div class="abc-notation-container">
                     <pre>{{ tune.abc_notation }}</pre>
+                    <br>
+                    <a href="{{ tune.drawthedots_link() }}" target="_blank">
+                        <button>
+                            Edit ABC
+                        </button>
+                    </a>
                 </div>
             </div>
         {% endif %}
