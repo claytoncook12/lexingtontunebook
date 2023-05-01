@@ -443,7 +443,57 @@ cdc BcB Ace a2f|1 g2e cde d3 dcB:|2 g2e cde d3 d2e||
 GBB GBB FAA FAA|1 EDE e2d cBc d2e:|2 EDE e2d cBc d3||""",
   [],
   []
-  )
+  ),
+#--------------------------------------------------------
+  Tune(
+    "Kesh",
+    "jig",
+    """T: The Kesh
+R: Jig
+M: 6/8
+L: 1/8
+K: Gmaj
+|:G3 GAB|A3 ABd|edd gdd|edB dBA|
+  G3 GAB|A3 ABd|edd gdB|AGF G3:|
+|:B3 dBd|ege dBA|B2B dBG|A3 AGA|
+  B3 dBd|ege dBd|g3 aga|bgf g3:|""",
+  [],
+  []
+  ),
+#-------------------------------------------------------
+  Tune(
+    "Morrison's",
+    "jig",
+    """T: Morrison's
+R: Jig
+M: 6/8
+L: 1/8
+K: Edor
+|:E3 B3|EBE AFD|EDE B3|dcB AFD|
+E3 B3|EBE AFD|G3 FGA|dAG FED:|
+Bee fee|aee fee|Bee fee|a2g fed|
+Bee fee|aee fee|gfe d2A|BAG FGA|
+Bee fee|aee fee|Bee fee|faf def|
+g3 gfe|def g2d|edc d2A|BAG FED|""",
+  [],
+  []
+  ),
+#------------------------------------------------
+  Tune(
+    "Tripping Up the Stairs",
+    "jig",
+    """T: Tripping Up the Stairs
+R: Jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|:FAA GBB|FAd fed|cBc ABc|dfe dAG|
+FAA GBB|FAd fed|c2c ABc|1)dfe d2A:|2)dfe dBc||
+|:dBB fBB|f3 fed|cAA eAA|e3 edc|
+dBB fBB|f3 fed|cBc ABc|1)dfe dBc:||2)dfe d2A||""",
+  [],
+  []
+  ),
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
