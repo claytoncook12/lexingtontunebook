@@ -33,10 +33,22 @@
     {% block content %}{% endblock %}
 </div>
 
+<!-- Back to Top Btn -->
+<div style="position:fixed; bottom: 0; padding: 10px; width:100%">
+    <div style="margin: 0 auto; width: 90vw; max-width: 600px;">
+        <button onclick="topFunction()" id="backToTopBtn" title="Go to top"
+            style="float: right; padding: 3px; display: none;"
+        >
+            <small>Back to Top</small>
+        </button>
+    </div>
+</div>
+
 <!-- Bottom Padding -->
 <div class="bottom-padding"></div>
 
 <!-- After Javascript -->
 {% block afterJavascript %}{% endblock %}
+<script src="static/js/backtotopbtn.js"></script>
 </body>
 </html>

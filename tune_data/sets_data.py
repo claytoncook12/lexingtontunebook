@@ -35,12 +35,12 @@ set_list: list[Set] = [
     Set(
         'jig',
         [tune_dict["Kesh"], tune_dict["Morrison's"], tune_dict["Tripping Up the Stairs"]],
-        [AudioReferences("Kesh - Morrison's - Tripping Up the Stairs","flute (Clayton Cook)", "Kesh - Morrsion - Tripping - flute - 100 bpm.mp3")]
+        [AudioReferences("Kesh - Morrison's - Tripping Up the Stairs (unaccompanied)","flute (Clayton Cook)", "Kesh - Morrsion - Tripping - flute - 100 bpm.mp3")]
     ),
     Set(
         'jig',
         [tune_dict["Connaughtman's Rambles"], tune_dict["Pipe On The Hob"]],
-        []
+        [AudioReferences("Connaughtman's Rambles - Pipe On the Hob (unaccompanied)", "flute (Clayton Cook)","Conn - Pipe On the Hob - flute - 100 bpm.mp3")]
     ),
     # SLIP JIGS
     Set(

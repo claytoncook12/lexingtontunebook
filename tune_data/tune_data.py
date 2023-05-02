@@ -526,7 +526,7 @@ A|: d^cd A2G |F2D DED |EDE cBc|  E2D DFA  |
  [2 ~f3 ~g3  |agf g2e |fed eag|  ed^c d2A||
 """,
   [],
-  []
+  [AudioReferences("Pipe On the Hob - Slow","fiddle (Justin Bonar-Bridges)","F - PipeOnTheHob (slow).mp3")]
   ),
 ]
 
