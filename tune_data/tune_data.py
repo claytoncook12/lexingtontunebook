@@ -494,6 +494,40 @@ dBB fBB|f3 fed|cBc ABc|1)dfe dBc:||2)dfe d2A||""",
   [],
   []
   ),
+#------------------------------------------------
+  Tune(
+    "Connaughtman's Rambles",
+    "jig",
+    """T: Connaughtman's Rambles
+R: Jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|:FAA dAA|BAB dAG|FAA dfe|  d2B BAG |
+  FAA dAA|BAB def|gfe dfe|1 d2B BAG:|2 d2B B2g||
+|:fbb faa|fef ded|fbb faa|  fed e3  |
+  fbb faa|fef def|gfe dfe|1 d2B B2g:|2 d2B BAG||""",
+  [],
+  []
+  ),
+#------------------------------------------------
+  Tune(
+    "Pipe On The Hob",
+    "jig",
+    """T: The Pipe On The Hob
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+A|: d^cd A2G |F2D DED |EDE cBc|  E2D DFA  |
+    dcB cBA  |BAG A2G |EDE cBc|1 E2D D2A :|2 E2D D2e||
+ |: f2d d^cd |f2d d^cd|edB c2d|  ede age  |
+ [1 f2d d^cd |f2d d^cd|ede age|  ed^c d2e:|
+ [2 ~f3 ~g3  |agf g2e |fed eag|  ed^c d2A||
+""",
+  [],
+  []
+  ),
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
