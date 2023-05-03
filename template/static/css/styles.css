@@ -137,6 +137,7 @@ h4 {
 .abc-notation-container {
     padding: 10px;
     font-size: 12px;
+    overflow-x: scroll;
 }
 
 .bottom-padding {
