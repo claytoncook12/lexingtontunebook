@@ -39,6 +39,11 @@ set_list: list[Set] = [
     ),
     Set(
         'jig',
+        [tune_dict["Larry O'Gaff's"], tune_dict["Geese in the Bog"], tune_dict["Jimmy Ward's"]],
+        []
+    ),
+    Set(
+        'jig',
         [tune_dict["Connaughtman's Rambles"], tune_dict["Pipe On The Hob"]],
         [AudioReferences("Connaughtman's Rambles - Pipe On the Hob (unaccompanied)", "flute (Clayton Cook)","Conn - Pipe On the Hob - flute - 100 bpm.mp3")]
     ),
@@ -51,6 +56,11 @@ set_list: list[Set] = [
     Set(
         'slip jig',
         [tune_dict["Barony Jig, The"], tune_dict["Snowy Path, The"]],
+        []
+    ),
+    Set(
+        'slip jig',
+        [tune_dict["Little Fair Canavans"], tune_dict["Redigan's Mother"], tune_dict["Humours of Derrycrossane"]],
         []
     ),
     # POLKAS

@@ -528,6 +528,102 @@ A|: d^cd A2G |F2D DED |EDE cBc|  E2D DFA  |
   [],
   [AudioReferences("Pipe On the Hob - Slow","fiddle (Justin Bonar-Bridges)","F - PipeOnTheHob (slow).mp3")]
   ),
+#------------------------------------------------
+  Tune(
+    "Little Fair Canavans",
+    "slip jig",
+    """T: Little Fair Canavans
+R: Slip Jig
+M: 9/8
+L: 1/8
+K: G
+|:  A|BAG AGE GED|EGD DEG A2c|
+      BAG AGE GED|EGD DEF G2:|
+|:  A|Bdd edd BAG|Bdd edB A2c|
+      Bdd edd BAG|GED DEF G2:|
+""",
+  [],
+  [AudioReferences("Fair Little Canavans (slow then faster)","flute (John Skelton)","01_Flute_Cannavans.mp3")]
+  ),
+#---------------------------------------------------
+  Tune(
+    "Redigan's Mother",
+    "slip jig",
+    """T: Redican's Mother
+R: slip jig
+M: 9/8
+L: 1/8
+K: Dmaj
+  A|FAA FAd AFD|FAA FAd B2A|
+    FAA FAd AFD|EDB, DFA B2:|
+|:e|f3 faf edB|Aff fef g2e |
+    f3 faf edB|AFE DFA B2 :|""",
+  [],
+  [AudioReferences("Redican's Mother","flute (Clayton Cook)","redican's mother - flute.mp3")]
+  ),
+#---------------------------------------------------
+  Tune(
+    "Humours of Derrycrossane",
+    "slip jig",
+    """T: Humours of Derrycrossane
+R: slip jig
+M: 9/8
+L: 1/8
+K: G
+G|:B2B BAB c2c|BAG BdB ABc|BAG BdB cde|1)dBG GAF G2A:|2) dBG GAF GBd||
+ |:g3  edc Bcd|ecA ABG A2d|g2g edc Bcd|  gdB GAF GBd |
+   g3  edc Bcd|ecA ABG A2B|def gfe def|  gbg agf gdc ||  B3""",
+  [],
+  [AudioReferences("Humours of Derrycrossane","flute (Clayton Cook)","Humours of Derrycrossane - flute.mp3")]
+  ),
+#---------------------------------------------------
+  Tune(
+    "Larry O'Gaff's",
+    "jig",
+    """T: Larry O'Gaff's
+R: Jig
+M: 6/8
+L: 1/8
+K: Dmaj
+A|:d2D FED|ABA AFD|GBG    FAF|  EFG ABc |
+   d2D FED|ABA AFD|GBG    FAF|1)EFE D2A:|2)EFE D3 ||
+ |:ABc d3 |efe edB|AB/c/d ede|  fdc dcB |
+   ABc d3 |ABA AFD|G3     FGF|1)EFE D3 :|2)EFG ABc||d3""",
+  [],
+  []
+  ),
+#---------------------------------------------------
+  Tune(
+    "Geese in the Bog",
+    "jig",
+    """T: The Geese In The Bog
+R: Jig
+M: 6/8
+L: 1/8
+K: Ador
+  B|cEE GEE|cEE GAB|cEE GED|E2A A2B |
+    cEE GEE|cEE GAB|cBA GED|E2A A2 :||
+|:B|cde ged|e2a ged|cde ged|e2a a3  |
+    cde ged|e2a ged|cBA GED|E2A A2 :|""",
+  [],
+  []
+  ),
+  #---------------------------------------------------
+  Tune(
+    "Jimmy Ward's",
+    "jig",
+    """T: Jimmy Ward's
+R: Jig
+M: 6/8
+L: 1/8
+K: Gmaj
+|:G3  GAB|AGE GED|G3  AGE|  GED DEF|
+  G3  GAB|AGE GAB|cBA BGE|1)DED DEF:|2)DED D2B||
+|:cBA BAG|A3 AGE|cBA  BGE|  DED GAB|
+  cBA BAG|A2A ABc|dcA AGE|1)GED D2B:|2)GED DEF||G6||""",
+  [],
+  []
+  ),
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
