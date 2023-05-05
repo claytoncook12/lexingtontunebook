@@ -606,7 +606,7 @@ K: Ador
 |:B|cde ged|e2a ged|cde ged|e2a a3  |
     cde ged|e2a ged|cBA GED|E2A A2 :|""",
   [],
-  []
+  [AudioReferences("Geese in the Bog - Slow","flute","Geese in the Bog - flute- 80 bpm.mp3")]
   ),
 #---------------------------------------------------
   Tune(
