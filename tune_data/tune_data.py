@@ -217,7 +217,7 @@ c2A c2A AGE|c2A ABd e2d|c2A efd cBA|GED DEG A2:|
 |:B|c2d ecA AGE|c2d efd e2d|c2d ecA AGE|GED DEG A2B|
 c2d ecA AGE|c2d efd e2e|cde ged ecA|GED DEG A2:||""",
     [],
-    []
+    [AudioReferences("The Barony Jig - slow", "flute", "The Barony Jig - flute - 80 bpm.mp3")]
   ),
 #--------------------------------------------------------------
   Tune(
