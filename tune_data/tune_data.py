@@ -590,7 +590,7 @@ A|:d2D FED|ABA AFD|GBG    FAF|  EFG ABc |
  |:ABc d3 |efe edB|AB/c/d ede|  fdc dcB |
    ABc d3 |ABA AFD|G3     FGF|1)EFE D3 :|2)EFG ABc||d3""",
   [],
-  []
+  [AudioReferences("Larry O'Gaff Feb 26, 2023 Session","fiddle, mandolin, bouzouki","Larry O'Gaff's - session - 2023-02-26.mp3")]
   ),
 #---------------------------------------------------
   Tune(
