@@ -41,7 +41,7 @@ class SiteGenerator(object):
         template = self.env.get_template('_index.html')
         with open('public/index.html', 'w+') as file:
             html = template.render(
-                tune_types = ['reel','jig','slip jig','polka','slide','mazurka'],
+                tune_types = ['reel','jig','slip jig','polka','slide','mazurka','waltz'],
                 set_list = set_list
             )
             file.write(html)

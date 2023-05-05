@@ -93,5 +93,11 @@ set_list: list[Set] = [
         'mazurka',
         [tune_dict["Shoe The Donkey"]],
         []
+    ),
+    # WALTZES
+    Set(
+        'waltz',
+        [tune_dict["South Wind"]],
+        []
     )
 ]
