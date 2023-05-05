@@ -636,8 +636,9 @@ K: Gmaj
 dc|: B3A G2|B3c d2   |  A3 BA2|A4 dc    |
      B3A G2|E3D E2   |1)G6    |G4 dc   :|2)G6|G4 (3def||
   |: g4  g2|g2  f2 e2|  d3 ed2|d4   c2  |
-  |1)B3A G2|B3c d2   |  A3 BA2|A4 (3def:|
-  |2)B3A G2|Bc3 GA   |  G6-   |G6      ||
+     B3A G2|B3c d2   |  A3 BA2|A4 (3def |
+     g4  g2|g2  f2 e2|  d3 ed2|d4   c2  |
+     B3A G2|Bc3 GA   |  G6-   |G6      :|
 """,
   [],
   []
