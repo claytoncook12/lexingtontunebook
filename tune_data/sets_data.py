@@ -99,5 +99,10 @@ set_list: list[Set] = [
         'waltz',
         [tune_dict["South Wind"]],
         []
+    ),
+    Set(
+        'waltz',
+        [tune_dict["Si Beag Si Mor"]],
+        []
     )
 ]
