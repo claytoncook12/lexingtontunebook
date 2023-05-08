@@ -643,6 +643,61 @@ dc|: B3A G2|B3c d2   |  A3 BA2|A4 dc    |
   [],
   []
   ),
+#---------------------------------------------------
+  Tune(
+    "Si Beag Si Mor",
+    "waltz",
+    """T: Si Beag Si Mor
+R: Waltz
+M: 3/4
+L: 1/8
+K: Dmaj
+de|:f3e d2|d3e d2|B4 A2|F4 A2|BA Bc d2|e4 de|f2 f2 e2|
+d4 f2|B4 e2|A4 d2|F4 E2|D4 f2|B4 e2|A4 dc|d6|d4 de:|
+|:f2 fe d2|ed ef a2|b4 a2|f4 ed|e2 e2 a2|f4 e2|d4 B2|B4 BA|
+F4 E2|D4 f2|B4 e2|A4 a2|ba gf ed|e4 dc|d6|1 d4 de:|2 d6||
+""",
+  [],
+  []
+  ),
+#---------------------------------------------------
+  Tune(
+    "Cook in the Kitchen, The",
+    "jig",
+    """T: The Cook In The Kitchen
+R: Jig
+M: 6/8
+L: 1/8
+K: Gmaj
+N: Needs to be checked
+|:DGG GAG|FDE =F2E|D2G GFG|A2 d cAF|
+DGG GAG|FDE =F2 d|cAG FGA|1 BGF G2E:|2 BGF G2A||
+|:B2B BAG|A2A AGF|G2G GFG|A2 d cAG|
+B2B BAG|A2A A2 d|cAG FGA|1 BGF G2A:|2 BGF G2B||
+|:d2 e f2 g|a2 g fed|cAG FGA|B2B cAF|
+d2 e f2 g|a2 g fed|cAG FGA|1 BGF G2B:|2 BGF G2E:|
+""",
+  [],
+  []
+  ),
+#---------------------------------------------------
+  Tune(
+    "Rambling Pitchfork",
+    "jig",
+    """T: The Rambling Pitchfork
+R: Jig
+M: 6/8
+L: 1/8
+K: Dmaj
+N: Needs to be checked
+F2F AFF|dFF AFD|GFG ABc|ded cBA|
+F2F AFF|dFF AFD|GFG BAG|AFD [1D2E:|2 DFA||
+dcd fed|ecA ABc|dcd efg|aba gfe|
+dcd fed|ecA AGF|GFG BAG|AFD [1DFA:|2 D2E||
+""",
+  [],
+  []
+  ),
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
