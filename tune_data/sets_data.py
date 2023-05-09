@@ -8,7 +8,7 @@ set_list: list[Set] = [
         'reel',
         [tune_dict["Cooley's"], tune_dict["Wise Maid, The"]],
         [AudioReferences(
-            "Cooley's - Wise Maid (unaccompanied)","flute (Clayton Cook)","Cooley's - Wise Maid - flute- 80 bpm.mp3"
+            "Cooley's - Wise Maid (unaccompanied)","flute","Cooley's - Wise Maid - flute- 80 bpm.mp3"
         )]
     ),
     Set(
@@ -16,7 +16,7 @@ set_list: list[Set] = [
         [tune_dict["Concertina Reel"], tune_dict["Ships are Sailing"], tune_dict["Father Kelly's"]],
         [AudioReferences(
             "The Concertina - Ships Are Sailing- Father Kelly's (unaccompanied)",
-            "fiddle (Justin Bonar-Bridges)",
+            "fiddle",
             "05 The Concertina_Ships Are Sailing_Father Kelly's (unaccompanied).mp3")
         ]
     )
@@ -35,7 +35,7 @@ set_list: list[Set] = [
     Set(
         'jig',
         [tune_dict["Kesh"], tune_dict["Morrison's"], tune_dict["Tripping Up the Stairs"]],
-        [AudioReferences("Kesh - Morrison's - Tripping Up the Stairs (unaccompanied)","flute (Clayton Cook)", "Kesh - Morrsion - Tripping - flute - 100 bpm.mp3")]
+        [AudioReferences("Kesh - Morrison's - Tripping Up the Stairs (unaccompanied)","flute", "Kesh - Morrsion - Tripping - flute - 100 bpm.mp3")]
     ),
     Set(
         'jig',
@@ -45,7 +45,7 @@ set_list: list[Set] = [
     Set(
         'jig',
         [tune_dict["Connaughtman's Rambles"], tune_dict["Pipe On The Hob"]],
-        [AudioReferences("Connaughtman's Rambles - Pipe On the Hob (unaccompanied)", "flute (Clayton Cook)","Conn - Pipe On the Hob - flute - 100 bpm.mp3")]
+        [AudioReferences("Connaughtman's Rambles - Pipe On the Hob (unaccompanied)", "flute","Conn - Pipe On the Hob - flute - 100 bpm.mp3")]
     ),
     # SLIP JIGS
     Set(
@@ -69,7 +69,7 @@ set_list: list[Set] = [
         [tune_dict["I Looked East And I Looked West"],tune_dict["Julia Clifford's"],tune_dict["Scartaglen"]],
         [AudioReferences(
             "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied)",
-            "fiddle (Justin Bonar-Bridges)",
+            "fiddle",
             "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied).mp3")]
     ),
     # SLIDES

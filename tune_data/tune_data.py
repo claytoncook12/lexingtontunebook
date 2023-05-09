@@ -323,7 +323,7 @@ K:G
 "G"d2Bd gdBd|dGBd gdBd|"A"e2^ce "A/C#"agfe|"D"defg agfe|
 "G"d2Bd gdBd|"G/B"dGBd gdBd|"C"c2Ac  "Am"BAGB|1) "D"AGFA "G"GABc :|2) "D"AGFA "G"G3A||""",
     [],
-    []
+    [AudioReferences("Father Kelly's slow","concertina","10 Father Kelly's (slow).mp3")]
   ),
 #-----------------------------------------------------------------
   Tune(
@@ -526,7 +526,7 @@ A|: d^cd A2G |F2D DED |EDE cBc|  E2D DFA  |
  [2 ~f3 ~g3  |agf g2e |fed eag|  ed^c d2A||
 """,
   [],
-  [AudioReferences("Pipe On the Hob - Slow","fiddle (Justin Bonar-Bridges)","F - PipeOnTheHob (slow).mp3")]
+  [AudioReferences("Pipe On the Hob - Slow","fiddle","F - PipeOnTheHob (slow).mp3")]
   ),
 #------------------------------------------------
   Tune(
@@ -543,7 +543,7 @@ K: G
       Bdd edd BAG|GED DEF G2:|
 """,
   [],
-  [AudioReferences("Fair Little Canavans (slow then faster)","flute (John Skelton)","01_Flute_Cannavans.mp3")]
+  [AudioReferences("Fair Little Canavans (slow then faster)","flute","01_Flute_Cannavans.mp3")]
   ),
 #---------------------------------------------------
   Tune(
@@ -559,7 +559,7 @@ K: Dmaj
 |:e|f3 faf edB|Aff fef g2e |
     f3 faf edB|AFE DFA B2 :|""",
   [],
-  [AudioReferences("Redican's Mother","flute (Clayton Cook)","redican's mother - flute.mp3")]
+  [AudioReferences("Redican's Mother","flute","redican's mother - flute.mp3")]
   ),
 #---------------------------------------------------
   Tune(
@@ -574,7 +574,7 @@ G|:B2B BAB c2c|BAG BdB ABc|BAG BdB cde|1)dBG GAF G2A:|2) dBG GAF GBd||
  |:g3  edc Bcd|ecA ABG A2d|g2g edc Bcd|  gdB GAF GBd |
    g3  edc Bcd|ecA ABG A2B|def gfe def|  gbg agf gdc ||  B3""",
   [],
-  [AudioReferences("Humours of Derrycrossane","flute (Clayton Cook)","Humours of Derrycrossane - flute.mp3")]
+  [AudioReferences("Humours of Derrycrossane","flute","Humours of Derrycrossane - flute.mp3")]
   ),
 #---------------------------------------------------
   Tune(
@@ -669,13 +669,12 @@ R: Jig
 M: 6/8
 L: 1/8
 K: Gmaj
-N: Needs to be checked
 |:DGG GAG|FDE =F2E|D2G GFG|A2 d cAF|
 DGG GAG|FDE =F2 d|cAG FGA|1 BGF G2E:|2 BGF G2A||
 |:B2B BAG|A2A AGF|G2G GFG|A2 d cAG|
 B2B BAG|A2A A2 d|cAG FGA|1 BGF G2A:|2 BGF G2B||
 |:d2 e f2 g|a2 g fed|cAG FGA|B2B cAF|
-d2 e f2 g|a2 g fed|cAG FGA|1 BGF G2B:|2 BGF G2E:|
+d2 e f2 g|a2 g fed|cAG FGA|1 BGF G2B:|2 BGF G3||
 """,
   [],
   []
@@ -689,11 +688,10 @@ R: Jig
 M: 6/8
 L: 1/8
 K: Dmaj
-N: Needs to be checked
-F2F AFF|dFF AFD|GFG ABc|ded cBA|
-F2F AFF|dFF AFD|GFG BAG|AFD [1D2E:|2 DFA||
-dcd fed|ecA ABc|dcd efg|aba gfe|
-dcd fed|ecA AGF|GFG BAG|AFD [1DFA:|2 D2E||
+  F2F AFF|dFF AFD|G2G ABc|   ded cAG|
+  F2F AFF|dFF AFD|G2G B2B|1) AFD D2E:|2) AFD DFA||
+|:d2d fed|ecA ABc|d2d fed|   faf gfe |
+  d2d fed|ecA AGF|G2G B2B|1) AFD DFA:|2) AFD D3 ||
 """,
   [],
   []
