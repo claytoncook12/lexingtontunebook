@@ -18,6 +18,9 @@ class SiteGenerator(object):
         self.copy_static()
         self.render_main_page()
         self.render_tune_page()
+        self.render_tune_index_page()
+        self.render_todo_page()
+        self.render_submit_a_tune_page()
         self.finished()
 
     def empty_public(self) -> None:
@@ -55,6 +58,32 @@ class SiteGenerator(object):
                 tune_types = tune_types,
                 tune_list = tune_list_alphab
             )
+            file.write(html)
+    
+    def render_tune_index_page(self) -> None:
+        """ Create tune index Page """
+        print("Rendering index page to static file.")
+        template = self.env.get_template('_tune_index.html')
+        with open('public/tune_index.html', 'w+') as file:
+            html = template.render(
+                tune_list = tune_list_alphab
+            )
+            file.write(html)
+    
+    def render_todo_page(self) -> None:
+        """ Create Todo Page """
+        print("Rendering Todo page to static file.")
+        template = self.env.get_template('_todo.html')
+        with open('public/todo.html', 'w+') as file:
+            html = template.render()
+            file.write(html)
+    
+    def render_submit_a_tune_page(self) -> None:
+        """ Create Submit a Tune Page """
+        print("Rendering Submit a Tune page to static file.")
+        template = self.env.get_template('_submit_a_tune.html')
+        with open('public/submit-a-tune.html', 'w+') as file:
+            html = template.render()
             file.write(html)
     
     def finished(self) -> None:
