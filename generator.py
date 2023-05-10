@@ -62,7 +62,7 @@ class SiteGenerator(object):
     
     def render_tune_index_page(self) -> None:
         """ Create tune index Page """
-        print("Rendering index page to static file.")
+        print("Rendering Tune Index page to static file.")
         template = self.env.get_template('_tune_index.html')
         with open('public/tune_index.html', 'w+') as file:
             html = template.render(
