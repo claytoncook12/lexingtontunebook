@@ -537,10 +537,8 @@ R: Slip Jig
 M: 9/8
 L: 1/8
 K: G
-|:  A|BAG AGE GED|EGD DEG A2c|
-      BAG AGE GED|EGD DEF G2:|
-|:  A|Bdd edd BAG|Bdd edB A2c|
-      Bdd edd BAG|GED DEF G2:|
+|:  A|BAG AGE GED|EGD DEG A2c|BAG AGE GED|EGD DEF G2:|
+|:  A|Bdd edd BAG|Bdd edB A2c|Bdd edd BAG|GED DEF G2:|
 """,
   [],
   [AudioReferences("Fair Little Canavans (slow then faster)","flute","01_Flute_Cannavans.mp3")]
@@ -554,10 +552,8 @@ R: slip jig
 M: 9/8
 L: 1/8
 K: Dmaj
-  A|FAA FAd AFD|FAA FAd B2A|
-    FAA FAd AFD|EDB, DFA B2:|
-|:e|f3 faf edB|Aff fef g2e |
-    f3 faf edB|AFE DFA B2 :|""",
+  A|FAA FAd AFD|FAA FAd B2A|FAA FAd AFD|EDB, DFA B2:|
+|:e|f3 faf edB|Aff fef g2e |f3 faf edB|AFE DFA B2 :|""",
   [],
   [AudioReferences("Redican's Mother","flute","redican's mother - flute.mp3")]
   ),
@@ -696,6 +692,70 @@ K: Dmaj
   [],
   []
   ),
+#---------------------------------------------------
+  Tune(
+    "Rolling Wave, The",
+    "jig",
+    """T: The Rolling Waves
+T: (Humors of Trim)
+R: Jig
+M: 6/8
+L: 1/8
+K: Dmaj
+E||:"D"F3 DED|D2d cAG|FEF DE/F/G|"A"A2F GFE|
+"D"F3 DED|D2d cAG|"D/F#"F3 "G"G3|"A"A2F GFE:|
+|:"D"D2d cAd|cAd cAG|"D/C#"F2d cAG|F/G/AF GFE|
+"Bm"D2d cde|fed cAG|"D/F#"F3 "G"G3|"A"A2F GFE:|
+""",
+  [
+    YoutubeVideoEmbed("Rolling Wave slow then faster","flute","https://www.youtube.com/embed/4_Oav6Xz8i8"),
+    YoutubeVideoEmbed("Rolling Wave","concertina","https://www.youtube.com/embed/lDhVtftIc6E")
+  ],
+  []
+  ),
+#---------------------------------------------------
+  Tune(
+    "Maid Behind the Bar, The",
+    "reel",
+    """T: The Maid Behind The Bar
+R: reel
+M: C|
+L: 1/8
+K: Dmaj
+|:"D"FAAB AFED|FAAB ABde|"Bm"fBBA Bcde|"Em"f2gf "A"edBG|
+"D"FAAB AFED|FAAB ABde|"Bm"fBBA "G"BcdB|"A"AFEF "D"D4:|
+|:"D"faag fdde|fdag fd d2|"Em"efga beef|gebe "A"gee2|
+"D"faaa "G"b2af|"D"defd "A"e2de|"G"fBBA BcdB|"A"AFEF "D"D4:|
+""",
+    [
+      YoutubeVideoEmbed("Maid Behind the Bar Teaching","flute","https://www.youtube.com/embed/b3elEri-f2w"),
+      YoutubeVideoEmbed("Maid Behind the Bar","whistle","https://www.youtube.com/embed/-mYx_T-SCWY"),
+      YoutubeVideoEmbed("Maid Behind the Bar slow","whistle","https://www.youtube.com/embed/JbpL6fdrqcM"),
+    ],
+    [
+      AudioReferences("Maid Behind the Bar slow","concertina","11 The Maid Behind the Bar (slow).mp3")
+    ]
+  ),
+#---------------------------------------------------
+  Tune(
+    "Cock and the Hen",
+    "slip jig",
+    """T: Cock and the Hen
+T: Ryan's
+R: Slip Jig
+M: 9/8
+L: 1/8
+K: Dmaj
+|:"F#m"F3 FEF "A"c2A|"F#m"F3 FEF "E"AFE|"F#m"F3 FEF "A"c2d|1)"E"ecA BAF AFE:|2)"E"ecA BAF AFe||
+"A"ecA ABc "D"dzf|"A"ecA ABc "D"BAF|"A"ecA ABc "D"d2z|"E"cBA BAF AFe|
+"A"ecA ABc "D"dza|"A"ecA ABc "D"BAF|"A"ecA ABc "D"d2z|"E"cBA BAF AFE|
+""",
+    [
+      YoutubeVideoEmbed("Cock and the Hen slow then faster","fiddle","https://www.youtube.com/embed/FSwijXAW228"),
+      YoutubeVideoEmbed("Cock and the Hen (first tune)","flute, fiddle, guitar, bodhran","https://www.youtube.com/embed/hPU6w6jZ_MY")
+    ],
+    []
+  )
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
