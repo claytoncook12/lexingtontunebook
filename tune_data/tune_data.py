@@ -322,7 +322,7 @@ K:G
 "G"B2GB "D/F#"AGEG|"G"DGGE "G/B"GABc|"C"d2Bd  gdBd|1) "D"cFEF "G"G3A :|2) "D"cAFA "G"GABc||
 "G"d2Bd gdBd|dGBd gdBd|"A"e2^ce "A/C#"agfe|"D"defg agfe|
 "G"d2Bd gdBd|"G/B"dGBd gdBd|"C"c2Ac  "Am"BAGB|1) "D"AGFA "G"GABc :|2) "D"AGFA "G"G3A||""",
-    [],
+    [YoutubeVideoEmbed("Father Kelly's Slow Then Faster", "fiddle","https://www.youtube.com/embed/vDzBpuRhsfo")],
     [AudioReferences("Father Kelly's slow","concertina","10 Father Kelly's (slow).mp3")]
   ),
 #-----------------------------------------------------------------
