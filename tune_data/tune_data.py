@@ -45,8 +45,8 @@ K: Edor
 "Em"EFE G2A|B2A Bcd|"C"edB =cBA|"Bm"BGE "Em"E2:|
 |:d|"Em"e2f gfe|"D"fag fed|"Em"e2f gfe|fdB "Bm"B2d|
 "Em"e2f gfe|"D"fag fed|"C"edB =cBA|"Bm"BGE "Em"E2:|""",
-    [YoutubeVideoEmbed("Lannigan's Ball", "banjo", "https://www.youtube.com/embed/sjFM3hx-fNU")],
-    []
+    [YoutubeVideoEmbed("Lanigan's Ball", "banjo", "https://www.youtube.com/embed/sjFM3hx-fNU")],
+    [AudioReferences("Lanigan's Ball medium tempo", "flute", "Lanigan's Ball - flute - 80 bpm.mp3")]
   ),
 #--------------------------------------------------------------
   Tune(
