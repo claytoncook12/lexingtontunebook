@@ -673,7 +673,7 @@ B2B BAG|A2A A2 d|cAG FGA|1 BGF G2A:|2 BGF G2B||
 d2 e f2 g|a2 g fed|cAG FGA|1 BGF G2B:|2 BGF G3||
 """,
   [],
-  []
+  [AudioReferences("Cook in the Kitchen - 80 bpm","flute","Cook in the Kitchen - flute - 80 bpm.mp3")]
   ),
 #---------------------------------------------------
   Tune(
@@ -690,7 +690,7 @@ K: Dmaj
   d2d fed|ecA AGF|G2G B2B|1) AFD DFA:|2) AFD D3 ||
 """,
   [],
-  []
+  [AudioReferences("Rambling Pitchfork - 80 bpm","flute","Rambling Pitchfork - flute - 80 bpm.mp3")]
   ),
 #---------------------------------------------------
   Tune(
