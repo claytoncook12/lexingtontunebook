@@ -774,6 +774,22 @@ K: Dmaj
 """,
     [YoutubeVideoEmbed("The Lonesome Jig - slow then faster", "flute", "https://www.youtube.com/embed/ITyjNak_yoM")],
     []
+  ),
+#---------------------------------------------------
+  Tune(
+    "Egan's",
+    "polka",
+    """T: Egan's
+T: Peg Ryan's
+R: Polka
+M: 2/4
+L: 1/8
+K: Dmaj
+|:"D"fA BA|fA BA|"G"d2 e>f|"A"ed BA|"D"fA BA|fA BA|"G"d2 e>f|"A"ed "D"d2:|
+|:"D"fa fe|ed BA|"G"d2 e>f|"A"ed BA|"D"fa fe|ed BA|"G"d2 e>f|"A"ed "D"d2:|
+""",
+    [YoutubeVideoEmbed("Egan's Polka", "accordion, fiddle, flute, banjo", "https://www.youtube.com/embed/rzxQqqD-4AY")],
+    []
   )
 ]
 
