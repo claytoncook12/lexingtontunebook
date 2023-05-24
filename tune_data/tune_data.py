@@ -709,7 +709,8 @@ E||:"D"F3 DED|D2d cAG|FEF DE/F/G|"A"A2F GFE|
 """,
   [
     YoutubeVideoEmbed("Rolling Wave slow then faster","flute","https://www.youtube.com/embed/4_Oav6Xz8i8"),
-    YoutubeVideoEmbed("Rolling Wave","concertina","https://www.youtube.com/embed/lDhVtftIc6E")
+    YoutubeVideoEmbed("Rolling Wave","concertina","https://www.youtube.com/embed/lDhVtftIc6E"),
+    YoutubeVideoEmbed("Rolling Wave","fiddle","https://www.youtube.com/embed/0JUktG3OZ8Y")
   ],
   []
   ),
@@ -754,6 +755,24 @@ K: Dmaj
       YoutubeVideoEmbed("Cock and the Hen slow then faster","fiddle","https://www.youtube.com/embed/FSwijXAW228"),
       YoutubeVideoEmbed("Cock and the Hen (first tune)","flute, fiddle, guitar, bodhran","https://www.youtube.com/embed/hPU6w6jZ_MY")
     ],
+    []
+  ),
+#---------------------------------------------------
+  Tune(
+    "Lonesome Jig, The",
+    "jig",
+    """T: The Lonesome Jig
+T: Rolling Waves
+R: Jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|:"D"F2E EDE|F2D DED|F2E EFA|"G"d2e fdA |
+  "D"F2E EDE|F2D DED|"G"AFE EFA|"A"B3  "D"d3 :|
+|:"D"ABd e2f|d2c B2A|ABd e2f|"G"d2  AB3 |
+  "D"ABd ede|fdB BAF|"G"AFE EFA|"A"B3  "D"d3 :|
+""",
+    [YoutubeVideoEmbed("The Lonesome Jig - slow then faster", "flute", "https://www.youtube.com/embed/ITyjNak_yoM")],
     []
   )
 ]
