@@ -30,7 +30,7 @@ K: Dmaj
 |:"D"d2AG FDFA|dfaf "A"gfeg|"D"fAdf "A"eAce|"G"dfed "A"cAA2|
 "G"BDGB "D"ADFA|dfaf gfed|"G"Bdce "D"dBAG|"A"FGEF "D"D2FA:||"A"FGEF "D"D4||""",
     [],
-    []
+    [AudioReferences("Wise Maid - slow","concertina","14 The Wise Maid (slow).mp3")]
   ),
 #--------------------------------------------------------------
   Tune(
@@ -63,7 +63,7 @@ K: Dmaj
 |:e|"D"f2f afd|"G"gef gag|"D"fdf afa|baf "A"ede|
 "D"f2f edB|AFA BAF|DFA "G"BAB|"A"cBc "D"d2:|""",
     [],
-    []
+    [AudioReferences("Whistling Postman - 80 bpm","flute","Whistling Postman - flute - 80 bpm.mp3")]
   ),
 #--------------------------------------------------------------
   Tune(
@@ -79,7 +79,7 @@ K: Gmaj
 |:"Em"e2e edB|ege edB|"D"d2d dBA|ded dBA|
 "G"G2A B2d|ege "D"dBA|"G"GED G2A|1 "C"BGF "G"GBd:|2 "C"BGF "G"G3||""",
     [],
-    []
+    [AudioReferences("Out on the Ocean 80 bpm","flute","Out on the Ocean - flute - 80 bpm.mp3")]
   ),
 #--------------------------------------------------------------
   Tune(
@@ -773,7 +773,7 @@ K: Dmaj
   "D"ABd ede|fdB BAF|"G"AFE EFA|"A"B3  "D"d3 :|
 """,
     [YoutubeVideoEmbed("The Lonesome Jig - slow then faster", "flute", "https://www.youtube.com/embed/ITyjNak_yoM")],
-    []
+    [AudioReferences("The Lonesome Jig - 80 bpm", "flute", "Lonesome Jig -flute - 80 bpm.mp3")]
   ),
 #---------------------------------------------------
   Tune(
