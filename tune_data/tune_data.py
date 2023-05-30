@@ -790,6 +790,23 @@ K: Dmaj
 """,
     [YoutubeVideoEmbed("Egan's Polka", "accordion, fiddle, flute, banjo", "https://www.youtube.com/embed/rzxQqqD-4AY")],
     []
+  ),
+#------------------------------------------------------
+  Tune(
+      "Stack of Barley, The",
+      "hornpipe",
+      """T: Stack of Barley, The
+R: Hornpipe
+M: 2/2
+L: 1/8
+K: G
+|:gf|"C"efed "G/B"B2dB|"Am"AGEG "D"AcBA|"G"GFGA BABd|"D"e2A2 A2gf|
+     "C"efed "G/B"B2dB|"D"AGEG     AcBA|"G"GFGA BdAc|"G"B2"D/F#"G2 "G"G2:|
+|:GA|"G"BABd    g2fg|"Em"agfg    edBd|"C"g2fg edBd|"D"e2A2 A2fg|
+     "D"agfa "C"gedB|"G/B"cBAG "D"AcBA|"G"GFGA Bd Ac|"G"B2"D/F#"G2 "G"G2:|
+""",
+  [],
+  []
   )
 ]
 
