@@ -114,7 +114,7 @@ K: Bmin
 |:"Bm"f3 "A"efe "Bm"ded "A"cdc|"G"BAB edB "A"AFE EDE|
 "Bm"F2B BAB d2e faf|"A"e2d B2A "Bm"B3 B3:|""",
     [],
-    []
+    [AudioReferences("Jack Regan's","flute","Toormore Slide - Flute.mp3")]
   ),
 #--------------------------------------------------------------
   Tune(
@@ -872,6 +872,24 @@ K: D
   "D"fA BA|fA BA|"G"d2 e>f|"A"ed "D"d>e:|
 |:"D"fa fe|ed BA|   d2 e>f|"A"ed BA  |
   "D"fa fe|ed BA|"G"d2 e>f|1)"A"ed "D"d>e:|2)"A"ed "D"d2||
+""",
+  [],
+  []
+  ),
+#------------------------------------------------------
+  Tune(
+      "Kid on the Mountain",
+      "slip jig",
+      """T: Kid on the Mountain
+R: Slip Jig
+M: 9/8
+L: 1/8
+K: Eaeol
+E3 FEF GGF|EDE BcA BGD|E3 FEF G2A|BAG F/G/AG FED:|
+BGB AFA G2D|GAB dge dBA|BGB AFA G2A|BAG F/G/AG FED:|
+gfg eBe e2f|gfg efg afd|gfg eBe g2a|bag f/g/ag fed:|
+eBB e2f g3|eBB efg afd|eBB e2f g2a|bag f/g/ag fed:|
+edB dBA G2D|GAB dge dBd|edB dBA G2A|BAG F/G/AG FED:|HE3
 """,
   [],
   []
