@@ -807,6 +807,23 @@ K: G
 """,
   [],
   []
+  ),
+#------------------------------------------------------
+  Tune(
+      "John Ryan's Polka",
+      "polka",
+      """T: John Ryan's Polka
+R: Polka
+M: 2/4
+L: 1/8
+K: D
+|:"D"dd B/c/d/B/|AF AF   |dd B/c/d/B/|AF ED       |
+  "D"dd B/c/d/B/|AF Ad/e/|"G"fd "A"ec|1)"D"d2d2  :|2)"D"d2 de||
+|:"D"fd de/f/   |gf ed/e/|fd Ad      |"G"fa a>g   |
+| "D"fd de/f/   |gf ed/e/|"G"fd "A"ec|1)"D"d2 d>e:|2)"D"d2d2||
+""",
+  [],
+  []
   )
 ]
 
