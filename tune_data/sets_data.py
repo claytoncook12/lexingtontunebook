@@ -72,6 +72,11 @@ set_list: list[Set] = [
             "fiddle",
             "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied).mp3")]
     ),
+    Set(
+        'polka',
+        [tune_dict["Ballydesmond Polka 1"],tune_dict["Egan's"],tune_dict["Ballydesmond Polka 2"]],
+        []
+    ),
     # SLIDES
     Set(
         'slide',
