@@ -382,7 +382,7 @@ gb    e/f/g/e/|dB g>e     |dB AB/A/   |1)G2 GA/B/ |2)G2 BB/A/||G4|""",
     """T: Vanishing Lake
 C: Michael Fitzpatrick
 N: A Part 14 Bars (x2), B Part 18 Bars
-R: Set Dance
+R: Set Dance (Jig)
 M: 6/8
 L: 1/8
 K: Am
@@ -893,6 +893,44 @@ edB dBA G2D|GAB dge dBd|edB dBA G2A|BAG F/G/AG FED:|HE3
 """,
   [],
   []
+  ),
+#------------------------------------------------------
+  Tune(
+      "King of the Fairies",
+      "set dance",
+      """T: King of the Fairies
+R: Set Dance (Hornpipe)
+M: 4/4
+L: 1/8
+K: Eaeol
+B,2|:E>D E>F G>F G>A|B>c B>A G>F G>A|B2 E2 E>F G>E|F>G F>E D2 B,2|
+E>D E>F G>F G>A|B>A (3GAB d2- d>c|B2 E2 G>F E>D|1)E2 E>D E2 B,2:|2)E2 E>D E2- E>d||
+e2 B2 B>d e>f|g>a g>f e2- e>d|e2 B2 B>A B>^c|d>e d>^c B>c (3dcB|
+e2 B2 B>d e>f|g>a g>f e2- e>d|B>d e>g f>e d>f|e2 e>d e2- e>f|
+g2 g>e f2 f>d|e>d B>^c d2- d>e|d>B A>F G>A B>^c|d>^c B>A G>F E>D|
+B,2 E2 E>F G>A|B2 e2 e>d e>f|e2 B2 B>A G>F| E4 E4||
+""",
+  [],
+  []
+  ),
+#------------------------------------------------------
+  Tune(
+      "Bantry Bay",
+      "hornpipe",
+      """T: Bantry Bay
+T: Little Stack of Wheat
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Gmaj
+Q: 1/4=120
+GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
+"C"c2cA "G"B2BG|"D7"ABAG "C"E2D2|"G"BGAG "C"EGDE|1 "G"G2"C"GF "G"G2GA:|2 "G"G2"C"GF "G"GABc||
+|:"G"dBGB dBGA|"Em"B2e2 e3f|"C"gfed "G"BGBd|"C"(3gag "D7"fa "G"g2g2|
+"G"gagf "C"efed|"G"BGAG "C"EGD2|"G"BGAG "C"EG (3DEF|1)"G"G2"C"GF "G"G2Bc:|1)"G"G2"C"GF "G"G4:|
+""",
+  [],
+  [AudioReferences("Bantry Bay slow", "fiddle","F - BantryBay (hornpipe).mp3")]
   )
 ]
 

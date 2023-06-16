@@ -93,6 +93,12 @@ set_list: list[Set] = [
         [tune_dict['Scattery Island'], tune_dict["Jack Regan's"]],
         []
     ),
+    # Hornpipe
+    Set(
+        'hornpipe',
+        [tune_dict["Stack of Barley, The"],tune_dict["Bantry Bay"]],
+        []
+    ),
     # MAZURKA
     Set(
         'mazurka',
