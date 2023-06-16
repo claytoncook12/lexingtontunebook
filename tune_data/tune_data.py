@@ -923,7 +923,6 @@ R: hornpipe
 M: 4/4
 L: 1/8
 K: Gmaj
-Q: 1/4=120
 GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
 "C"c2cA "G"B2BG|"D7"ABAG "C"E2D2|"G"BGAG "C"EGDE|1 "G"G2"C"GF "G"G2GA:|2 "G"G2"C"GF "G"GABc||
 |:"G"dBGB dBGA|"Em"B2e2 e3f|"C"gfed "G"BGBd|"C"(3gag "D7"fa "G"g2g2|
