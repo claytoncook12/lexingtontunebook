@@ -861,23 +861,6 @@ ea g/a/g/e/|dB GA/B/|ce dB|A2 A2:|
   ),
 #------------------------------------------------------
   Tune(
-      "Egan's",
-      "polka",
-      """T: Egan's
-R: Polka
-M: 2/4
-L: 1/8
-K: D
-|:"D"fA BA|fA BA|"G"d2 e>f|"A"ed    BA  |
-  "D"fA BA|fA BA|"G"d2 e>f|"A"ed "D"d>e:|
-|:"D"fa fe|ed BA|   d2 e>f|"A"ed BA  |
-  "D"fa fe|ed BA|"G"d2 e>f|1)"A"ed "D"d>e:|2)"A"ed "D"d2||
-""",
-  [],
-  []
-  ),
-#------------------------------------------------------
-  Tune(
       "Kid on the Mountain",
       "slip jig",
       """T: Kid on the Mountain
@@ -911,7 +894,7 @@ g2 g>e f2 f>d|e>d B>^c d2- d>e|d>B A>F G>A B>^c|d>^c B>A G>F E>D|
 B,2 E2 E>F G>A|B2 e2 e>d e>f|e2 B2 B>A G>F| E4 E4||
 """,
   [],
-  []
+  [AudioReferences("King of the Fairies","flute","King of the Faries - flute - 120 bpm.mp3")]
   ),
 #------------------------------------------------------
   Tune(
