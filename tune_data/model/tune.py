@@ -82,7 +82,7 @@ class Tune:
         self,
         title: str,
         tune_type: str,
-        abc_notation: str,
+        abc_notation: str | None,
         reference_videos: list[YoutubeVideoEmbed],
         reference_audios: list[AudioReferences]
     ):

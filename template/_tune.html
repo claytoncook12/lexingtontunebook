@@ -8,9 +8,11 @@
         {% if tune_type == tune.tune_type %}
             <h3 class="tune-title" id="{{ tune.slug_id() }}">{{ tune.title }}</h3>
             <h4 class="tune-id">ID:{{loop.index}}</h4>
+            {% if tune.abc_notation %}
             <div id="tune{{loop.index}}" class="tune">
                 <pre>{{ tune.abc_notation }}</pre>
             </div>
+            {% endif %}
             <div class="tune-additional-data">
                 {% if tune.reference_audios|length > 0 %}
                     <h4>Audio References</h4>
@@ -41,7 +43,8 @@
                         </div>
                     {% endfor %}
                 {% endif %}
-
+                
+                {% if tune.abc_notation %}
                 <h4>ABC Notation</h4>
                 <div class="abc-notation-container">
                     <pre>{{ tune.abc_notation }}</pre>
@@ -52,6 +55,7 @@
                         </button>
                     </a>
                 </div>
+                {% endif %}
             </div>
         {% endif %}
     {% endfor %}

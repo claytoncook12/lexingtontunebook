@@ -913,6 +913,22 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
 """,
   [],
   [AudioReferences("Bantry Bay slow", "fiddle","F - BantryBay (hornpipe).mp3")]
+  ),
+#------------------------------------------------------
+  Tune(
+    "Blast of Wind",
+    "slip jig",
+    None,
+    [],
+    [AudioReferences("Blast of Wind (Drop of Spring Water)", "fiddle", "2023-06-25 Blast of Wind Fiddle.mp3")]
+  ),
+#------------------------------------------------------
+  Tune(
+    "High Road to Kilkenny",
+    "slip jig",
+    None,
+    [],
+    [AudioReferences("High Road to Kilkenny", "fiddle", "2023-06-25 High Road to Kilkenny Fiddle.mp3")]
   )
 ]
 
