@@ -148,7 +148,7 @@ K: Gmaj
 |:"D"DED DED "C"c3|c2B c2A GED|"D"DED DED "G"d2A|dfe dcA GED:|
 |:"D"d^cd ege "C"=c2A|"D"d^cd fdf "G"gfg|"D"afa ged "C"c2A|"G"BAG FAF GED:| """,
     [],
-    []
+    [AudioReferences("O'Farrell's Welcome to Limerick","fiddle bouzouki","2023-06-25 O'Farrell's Welcome to Limerick.mp3")]
   ),
 #--------------------------------------------------------------
   Tune(
@@ -168,7 +168,7 @@ K: Dmaj
 "Em"B2e ede "D"f2a afa|"Bm"baf g2f e2d B2g|
 "D"faf f2e efe B2A|FED FAF "Em"E3 E3||""",
     [],
-    []
+    [AudioReferences("Mom's Favorite","fiddle","2023-06-25 Mom's Favorite Fiddle.mp3")]
   ),
 #--------------------------------------------------------------
   Tune(
@@ -929,6 +929,14 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
     None,
     [],
     [AudioReferences("High Road to Kilkenny", "fiddle", "2023-06-25 High Road to Kilkenny Fiddle.mp3")]
+  ),
+#------------------------------------------------------
+  Tune(
+    "Sweets of May",
+    "jig",
+    None,
+    [],
+    [AudioReferences("Sweets of May", "fiddle", "2023-06-25 Sweets of May Fiddle.mp3")]
   )
 ]
 
