@@ -1,5 +1,40 @@
 {% extends '_base.html' %}
 
+{% block headCSS %}
+<style>
+.accordion {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion:after {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  font-size: 20px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "-"; /* Unicode character for "minus" sign (-) */
+  font-size: 20px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  background-color: rgba(0, 0, 0, 0);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+}
+</style>
+{% endblock %}
+
 {% block content %}
 
 {% for tune_type in tune_types %}
@@ -9,28 +44,32 @@
     {% for set in set_list %}
         {% if tune_type == set.set_type %}
         <li class="set-name">
-            {{ set.set_name() }}
-            <div class="tune-additional-data">
-                {% if set.reference_audios|length > 0 %}
-                    <h4>Audio References</h4>
-                    {% for audio in set.reference_audios %}
-                        <div class="audio-container">
-                            <h5 class="audio-title">{{ audio.title }}</h5>
-                            <h5>Instrument: {{ audio.instruments }}</h5>
-                            <audio controls>
-                                <source src="static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
-                            </audio>
+            <button class="accordion">
+                {{ set.set_name() }}
+            </button>
+            <div class="panel">
+                <div class="tune-additional-data">
+                    {% if set.reference_audios|length > 0 %}
+                        <h4>Audio References</h4>
+                        {% for audio in set.reference_audios %}
+                            <div class="audio-container">
+                                <h5 class="audio-title">{{ audio.title }}</h5>
+                                <h5>Instrument: {{ audio.instruments }}</h5>
+                                <audio controls>
+                                    <source src="static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
+                                </audio>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+                {% for tune in set.set_tune_list %}
+                    <a href="tune.html#{{ tune.slug_id() }}">
+                        <div id="{{ tune.slug_id() }}" class="tune" >
+                            <pre>{{ tune.abc_notation }}</pre>
                         </div>
-                    {% endfor %}
-                {% endif %}
+                    </a>
+                {% endfor%}
             </div>
-            {% for tune in set.set_tune_list %}
-                <a href="tune.html#{{ tune.slug_id() }}">
-                    <div id="{{ tune.slug_id() }}" class="tune" >
-                        <pre>{{ tune.abc_notation }}</pre>
-                    </div>
-                </a>
-            {% endfor%}
         </li>
         {% endif %}
     {% endfor %}
@@ -40,6 +79,23 @@
 {% endblock %}
 
 {% block afterJavascript %}
+<script type="text/javascript">
+    /** Accordion Functionality **/
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+
 <script type="text/javascript">
     var els = document.getElementsByClassName('tune');
     
