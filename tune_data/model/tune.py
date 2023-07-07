@@ -72,6 +72,8 @@ class Tune:
         The Tune Title
     tune type
         The tune type
+    tune key
+        The key of the tune
     ABC Notation
         The text for the abc notation
     Reference Videos
@@ -82,6 +84,7 @@ class Tune:
         self,
         title: str,
         tune_type: str,
+        tune_key: str | None,
         abc_notation: str | None,
         reference_videos: list[YoutubeVideoEmbed],
         reference_audios: list[AudioReferences]
@@ -91,6 +94,7 @@ class Tune:
             self.tune_type = tune_type
         else:
             raise ValueError(f'"{tune_type}" is not a valid tune type.\n\tValid tune types are {tune_types}')
+        self.tune_key = tune_key
         self.abc_notation = abc_notation
         self.reference_videos = reference_videos
         self.reference_audios = reference_audios
@@ -114,6 +118,12 @@ class Tune:
         drawthedots_url = "https://editor.drawthedots.com/"
         urlencode_abc = urllib.parse.quote(self.abc_notation, safe='')
         return drawthedots_url + "?t=" + urlencode_abc
+    
+    def title_and_key(self) -> str:
+        if self.tune_key is not None:
+            return f'{self.title} ({self.tune_key})'
+        else:
+            return self.title
 
 def is_valid(input:str, valid_input: list[str]):
     return input in valid_input

@@ -30,9 +30,9 @@ class Set:
         set_name_str = ''
         for tune in self.set_tune_list:
             if tune == self.set_tune_list[-1]:
-                set_name_str += tune.title
+                set_name_str += tune.title_and_key()
             else:
-                set_name_str += tune.title + " - "
+                set_name_str += tune.title_and_key() + " - "
         
         return set_name_str
     

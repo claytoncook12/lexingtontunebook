@@ -4,6 +4,7 @@ tune_list: list[Tune] = [
   Tune(
     "Cooley's",
     "reel",
+    "Edor",
     """T: Cooley's
 R: Reel
 M: 4/4
@@ -20,6 +21,7 @@ K: Edor
   Tune(
     "Wise Maid, The",
     "reel",
+    "Dmaj",
     """T: The Wise Maid
 R: Reel
 M: 4/4
@@ -36,6 +38,7 @@ K: Dmaj
   Tune(
     "Lanigan's Ball",
     "jig",
+    None,
     """T: Lanigan's Ball
 R: Jig
 M: 6/8
@@ -52,6 +55,7 @@ K: Edor
   Tune(
     "Whistling Postman, The",
     "jig",
+    None,
     """T: The Whistling Postman
 C: Charlie Mulvihill
 R: Jig
@@ -69,6 +73,7 @@ K: Dmaj
   Tune(
     "Out On The Ocean",
     "jig",
+    None,
     """T: Out On The Ocean
 R: Jig
 M: 6/8
@@ -85,6 +90,7 @@ K: Gmaj
   Tune(
     "Scattery Island",
     "slide",
+    None,
     """T: Scattery Island
 C: Arr: Julia Clifford
 R: Slide
@@ -102,6 +108,7 @@ K: Dmaj
   Tune(
     "Jack Regan's",
     "slide",
+    None,
     """T: Jack Regan's
 T: The Tuar Mor, The Toormore
 C: Arr: Johnny O'Leary
@@ -120,6 +127,7 @@ K: Bmin
   Tune(
     "A Fig For A Kiss",
     "slip jig",
+    None,
     """T: A Fig For A Kiss
 M: 9/8
 L: 1/8
@@ -135,6 +143,7 @@ K: Edor
   Tune(
     "O'Farrell's Welcome to Limerick",
     "slip jig",
+    None,
     """T: O'Farrell's Welcome to Limerick
 C: O'Farrell
 N: O'Farrell (first name unknown) published . . .
@@ -154,6 +163,7 @@ K: Gmaj
   Tune(
     "Mom's Favorite",
     "slip jig",
+    None,
     """T: Mom's Favorite
 T: The Knocknagree
 N: This setting and name comes from Maida McQuinn-Sugrue (b.1933), a student of Padraig O'Keeffe (1887-1963). Maida taught the tune to Terry "Cuz" Teahan (1905-1989) after they had both emigrated to Chicago. Teahan took to calling the tune "Teahan's Favorite", which Maida took umbrage with. She named the tune after her mother, who would always "dance around the kitchen" whenever she played it. Julia Clifford (1914-1997), also a student of O'Keeffe, recorded it as The Knocknagree.
@@ -174,6 +184,7 @@ K: Dmaj
   Tune(
     "Brosna, The",
     "slide",
+    None,
     """T: The Brosna
 R: Slide
 M: 12/8
@@ -190,6 +201,7 @@ K: Gmaj
   Tune(
     "Shoe The Donkey",
     "mazurka",
+    None,
     """T: Shoe The Donkey
 R: Mazurka
 M: 3/4
@@ -206,6 +218,7 @@ B2 A2 B2|"C"c3 Bcd|1 e2 d2 c2|"G"B3 ABc:|2 e2 d2 "D"F2|"G" G4|| """,
   Tune(
     "Barony Jig, The",
     "slip jig",
+    None,
     """T: The Barony Jig
 S: O'Neill - Dance Music of Ireland: 1001 Gems (1907), No. 970
 R: Slip Jig
@@ -223,6 +236,7 @@ c2d ecA AGE|c2d efd e2e|cde ged ecA|GED DEG A2:||""",
   Tune(
     "Snowy Path, The",
     "slip jig",
+    None,
     """T: The Snowy Path
 C: Mark Kelly
 R: slip jig
@@ -240,6 +254,7 @@ K: Dmaj
   Tune(
     'Concertina Reel',
     'reel',
+    None,
     """T: Concertina Reel
 R: reel
 M: C|
@@ -260,6 +275,7 @@ K: D
   Tune(
     'Merry Blacksmith',
     'reel',
+    None,
     """T: Merry Blacksmith
 R: Reel
 M: C|
@@ -278,6 +294,7 @@ K: G
   Tune(
     'Sally Gardens',
     'reel',
+    None,
     """T: Sally Gardens
 R: Reel
 M: C|
@@ -297,6 +314,7 @@ BA| G2DG B2GB|dBeB dBAB|d2Bd efge|   dBAB GEDE |
   Tune(
     "Ships are Sailing",
     "reel",
+    None,
     """T: Ships are Sailing
 R: reel
 M: C|
@@ -314,6 +332,7 @@ K: Em
   Tune(
     "Father Kelly's",
     "reel",
+    None,
     """T: Father Kelly's
 R: Reel
 M: C|
@@ -329,6 +348,7 @@ K:G
   Tune(
     "I Looked East And I Looked West",
     "polka",
+    None,
     """T:I Looked East And I Looked West
 R:Polka
 M:2/4
@@ -345,6 +365,7 @@ dg fe   |fA A>B  |cA FA|1) G2 GB/c/ :|2) g2 GD||""",
   Tune(
     "Julia Clifford's",
     "polka",
+    None,
     """T:Julia Clifford's
 R:Polka
 M:2/4
@@ -361,6 +382,7 @@ A2 AF |Af  a>f|ed ef/e/   |1)d2       dB   :|2) d2 d2||""",
   Tune(
     "Scartaglen",
     "polka",
+    None,
     """T:Scartaglen
 R:Polka
 M:2/4
@@ -379,6 +401,7 @@ gb    e/f/g/e/|dB g>e     |dB AB/A/   |1)G2 GA/B/ |2)G2 BB/A/||G4|""",
   Tune(
     "Vanishing Lake",
     "set dance",
+    None,
     """T: Vanishing Lake
 C: Michael Fitzpatrick
 N: A Part 14 Bars (x2), B Part 18 Bars
@@ -400,6 +423,7 @@ K: Am
   Tune(
     "Denis Murphy's",
     "slide",
+    None,
     """T: Denis Murphy's
 R: Slide
 M: 12/8
@@ -416,6 +440,7 @@ K: D
   Tune(
     "O'Keefe's",
     "slide",
+    None,
     """T: O'Keefe's
 R: Slide
 M: 12/8
@@ -432,6 +457,7 @@ K: Ador
   Tune(
     "Going to the Well For Water",
     "slide",
+    None,
     """T: Going To The Well For Water
 R: Slide
 M: 12/8
@@ -448,6 +474,7 @@ B|:A2f A2f A2f fed|  B2g B2g B2g gfe |
   Tune(
     "Kesh",
     "jig",
+    None,
     """T: The Kesh
 R: Jig
 M: 6/8
@@ -464,6 +491,7 @@ K: Gmaj
   Tune(
     "Morrison's",
     "jig",
+    None,
     """T: Morrison's
 R: Jig
 M: 6/8
@@ -482,6 +510,7 @@ g3 gfe|def g2d|edc d2A|BAG FED|""",
   Tune(
     "Tripping Up the Stairs",
     "jig",
+    None,
     """T: Tripping Up the Stairs
 R: Jig
 M: 6/8
@@ -498,6 +527,7 @@ dBB fBB|f3 fed|cBc ABc|1)dfe dBc:||2)dfe d2A||""",
   Tune(
     "Connaughtman's Rambles",
     "jig",
+    None,
     """T: Connaughtman's Rambles
 R: Jig
 M: 6/8
@@ -514,6 +544,7 @@ K: Dmaj
   Tune(
     "Pipe On The Hob",
     "jig",
+    None,
     """T: The Pipe On The Hob
 R: jig
 M: 6/8
@@ -532,6 +563,7 @@ A|: d^cd A2G |F2D DED |EDE cBc|  E2D DFA  |
   Tune(
     "Little Fair Canavans",
     "slip jig",
+    None,
     """T: Little Fair Canavans
 R: Slip Jig
 M: 9/8
@@ -547,6 +579,7 @@ K: G
   Tune(
     "Redigan's Mother",
     "slip jig",
+    None,
     """T: Redican's Mother
 R: slip jig
 M: 9/8
@@ -561,6 +594,7 @@ K: Dmaj
   Tune(
     "Humours of Derrycrossane",
     "slip jig",
+    None,
     """T: Humours of Derrycrossane
 R: slip jig
 M: 9/8
@@ -576,6 +610,7 @@ G|:B2B BAB c2c|BAG BdB ABc|BAG BdB cde|1)dBG GAF G2A:|2) dBG GAF GBd||
   Tune(
     "Larry O'Gaff's",
     "jig",
+    None,
     """T: Larry O'Gaff's
 R: Jig
 M: 6/8
@@ -592,6 +627,7 @@ A|:d2D FED|ABA AFD|GBG    FAF|  EFG ABc |
   Tune(
     "Geese in the Bog",
     "jig",
+    None,
     """T: The Geese In The Bog
 R: Jig
 M: 6/8
@@ -608,6 +644,7 @@ K: Ador
   Tune(
     "Jimmy Ward's",
     "jig",
+    None,
     """T: Jimmy Ward's
 R: Jig
 M: 6/8
@@ -624,6 +661,7 @@ K: Gmaj
   Tune(
     "South Wind",
     "waltz",
+    None,
     """T: South Wind
 R: Waltz
 M: 3/4
@@ -643,6 +681,7 @@ dc|: B3A G2|B3c d2   |  A3 BA2|A4 dc    |
   Tune(
     "Si Beag Si Mor",
     "waltz",
+    None,
     """T: Si Beag Si Mor
 R: Waltz
 M: 3/4
@@ -660,6 +699,7 @@ F4 E2|D4 f2|B4 e2|A4 a2|ba gf ed|e4 dc|d6|1 d4 de:|2 d6||
   Tune(
     "Cook in the Kitchen, The",
     "jig",
+    None,
     """T: The Cook In The Kitchen
 R: Jig
 M: 6/8
@@ -679,6 +719,7 @@ d2 e f2 g|a2 g fed|cAG FGA|1 BGF G2B:|2 BGF G3||
   Tune(
     "Rambling Pitchfork",
     "jig",
+    None,
     """T: The Rambling Pitchfork
 R: Jig
 M: 6/8
@@ -696,6 +737,7 @@ K: Dmaj
   Tune(
     "Rolling Wave, The",
     "jig",
+    None,
     """T: The Rolling Waves
 T: (Humors of Trim)
 R: Jig
@@ -718,6 +760,7 @@ E||:"D"F3 DED|D2d cAG|FEF DE/F/G|"A"A2F GFE|
   Tune(
     "Maid Behind the Bar, The",
     "reel",
+    None,
     """T: The Maid Behind The Bar
 R: reel
 M: C|
@@ -741,6 +784,7 @@ K: Dmaj
   Tune(
     "Cock and the Hen",
     "slip jig",
+    None,
     """T: Cock and the Hen
 T: Ryan's
 R: Slip Jig
@@ -761,6 +805,7 @@ K: Dmaj
   Tune(
     "Lonesome Jig, The",
     "jig",
+    None,
     """T: The Lonesome Jig
 T: Rolling Waves
 R: Jig
@@ -779,6 +824,7 @@ K: Dmaj
   Tune(
     "Egan's",
     "polka",
+    None,
     """T: Egan's
 T: Peg Ryan's
 R: Polka
@@ -793,9 +839,10 @@ K: Dmaj
   ),
 #------------------------------------------------------
   Tune(
-      "Stack of Barley, The",
-      "hornpipe",
-      """T: Stack of Barley, The
+    "Stack of Barley, The",
+    "hornpipe",
+    None,
+    """T: Stack of Barley, The
 R: Hornpipe
 M: 2/2
 L: 1/8
@@ -812,6 +859,7 @@ K: G
   Tune(
       "John Ryan's Polka",
       "polka",
+      None,
       """T: John Ryan's Polka
 R: Polka
 M: 2/4
@@ -829,6 +877,7 @@ K: D
   Tune(
       "Ballydesmond Polka 1",
       "polka",
+      None,
       """T: Ballydesmond Polka 1
 R: Polka
 M: 2/4
@@ -846,6 +895,7 @@ K: Ador
   Tune(
       "Ballydesmond Polka 2",
       "polka",
+      None,
       """T: Ballydesmond Polka 2
 R: Polka
 M: 2/4
@@ -863,6 +913,7 @@ ea g/a/g/e/|dB GA/B/|ce dB|A2 A2:|
   Tune(
       "Kid on the Mountain",
       "slip jig",
+      None,
       """T: Kid on the Mountain
 R: Slip Jig
 M: 9/8
@@ -881,6 +932,7 @@ edB dBA G2D|GAB dge dBd|edB dBA G2A|BAG F/G/AG FED:|HE3
   Tune(
       "King of the Fairies",
       "set dance",
+      None,
       """T: King of the Fairies
 R: Set Dance (Hornpipe)
 M: 4/4
@@ -900,6 +952,7 @@ B,2 E2 E>F G>A|B2 e2 e>d e>f|e2 B2 B>A G>F| E4 E4||
   Tune(
       "Bantry Bay",
       "hornpipe",
+      None,
       """T: Bantry Bay
 T: Little Stack of Wheat
 R: hornpipe
@@ -919,6 +972,7 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
     "Blast of Wind",
     "slip jig",
     None,
+    None,
     [],
     [AudioReferences("Blast of Wind (Drop of Spring Water)", "fiddle", "2023-06-25 Blast of Wind Fiddle.mp3")]
   ),
@@ -927,6 +981,7 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
     "High Road to Kilkenny",
     "slip jig",
     None,
+    None,
     [],
     [AudioReferences("High Road to Kilkenny", "fiddle", "2023-06-25 High Road to Kilkenny Fiddle.mp3")]
   ),
@@ -934,6 +989,7 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
   Tune(
     "Sweets of May",
     "jig",
+    None,
     None,
     [],
     [AudioReferences("Sweets of May", "fiddle", "2023-06-25 Sweets of May Fiddle.mp3")]
