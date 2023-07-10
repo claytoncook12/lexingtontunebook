@@ -28,7 +28,7 @@ set_list: list[Set] = [
     ),
     Set(
         'reel',
-        [tune_dict["Devanney's Goat"], tune_dict["GeenFields of Rossbeigh"], tune_dict['Maid Behind the Bar, The']],
+        [tune_dict["Devanney's Goat"], tune_dict["Geenfields of Rossbeigh"], tune_dict['Maid Behind the Bar, The']],
         []
     ),
     Set(

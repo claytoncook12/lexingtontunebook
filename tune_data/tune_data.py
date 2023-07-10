@@ -1096,10 +1096,10 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
   ),
 #------------------------------------------------------
   Tune(
-    "GeenFields of Rossbeigh",
+    "Geenfields of Rossbeigh",
     "reel",
     None,
-    """T:GeenFields of Rossbeigh
+    """T:Geenfields of Rossbeigh
 %%center Need Notes 
 """,
     [],
