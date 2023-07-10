@@ -31,7 +31,6 @@
         <a href="index.html">Sets</a>
         <a href="tune.html">Tunes</a>
         <a href="tune_index.html">Tune Index</a><br>
-        <a href="todo.html">To Do List</a>
         <a href="submit-a-tune.html">Submit A Tune</a>
     </div>
 </div>
@@ -39,17 +38,13 @@
 <!-- Main Content -->
 <div class="main">
     {% block content %}{% endblock %}
-</div>
 
-<!-- Back to Top Btn -->
-<div style="position:fixed; bottom: 0; padding: 10px; width:100%">
-    <div style="margin: 0 auto; width: 90vw; max-width: 600px;">
-        <button onclick="topFunction()" id="backToTopBtn" title="Go to top"
-            style="float: right; padding: 3px; display: none;"
-        >
-            <small>&#8593;</small>
-        </button>
-    </div>
+    <!-- Back to Top Btn -->
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top"
+    style="position:fixed; bottom: 0; float: right; padding: 3px; margin: 5px; display: none;"
+    >
+    <small>&#8593;</small>
+    </button>
 </div>
 
 <!-- Bottom Padding -->

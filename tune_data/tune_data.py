@@ -1347,6 +1347,161 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
     [],
     []
   ),
+#------------------------------------------------------
+  Tune(
+    "Foxhunter's",
+    "hop jig",
+    None,
+    """T:Foxhunter's
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Cucanandy",
+    "hop jig",
+    None,
+    """T:Cucanandy
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Dusty Miller, The",
+    "hop jig",
+    None,
+    """T:The Dusty Miller
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Comb Your Hair and Curl It",
+    "hop jig",
+    None,
+    """T:Comb Your Hair and Curl It
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Johnny McGreevy's",
+    "hop jig",
+    None,
+    """T:Johnny McGreevy's
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Planxty Hewlett",
+    "waltz",
+    None,
+    """T:Planxty Hewlett
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Planxty Irwin",
+    "waltz",
+    None,
+    """T:Planxty Irwin
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Johsefins Dopvals",
+    "waltz",
+    "F",
+    """T:Johsefins Dopvals
+T: By Vasen
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Blackbird",
+    "set dance",
+    None,
+    """T:Blackbird
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Three Sea Captians",
+    "set dance",
+    None,
+    """T:Three Sea Captians
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Piper Through the Meadow Straying",
+    "set dance",
+    None,
+    """T:Piper Through the Meadow Straying
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Orange Rogue",
+    "set dance",
+    None,
+    """T:Orange Rogue
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "St. Patrick's Day in the Morning",
+    "set dance",
+    None,
+    """T:St. Patrick's Day in the Morning
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Humors of Bandon",
+    "set dance",
+    None,
+    """T:Humors of Bandon
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)

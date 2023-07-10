@@ -19,7 +19,6 @@ class SiteGenerator(object):
         self.render_main_page()
         self.render_tune_page()
         self.render_tune_index_page()
-        self.render_todo_page()
         self.render_submit_a_tune_page()
         self.finished()
 
@@ -44,7 +43,7 @@ class SiteGenerator(object):
         template = self.env.get_template('_index.html')
         with open('public/index.html', 'w+') as file:
             html = template.render(
-                tune_types = ['reel','jig','slip jig','polka','slide','hornpipe','mazurka','waltz','march'],
+                tune_types = ['reel','jig','slip jig','polka','slide','hornpipe','mazurka','waltz','march','hop jig','set dance'],
                 set_list = set_list
             )
             file.write(html)
@@ -68,14 +67,6 @@ class SiteGenerator(object):
             html = template.render(
                 tune_list = tune_list_alphab
             )
-            file.write(html)
-    
-    def render_todo_page(self) -> None:
-        """ Create Todo Page """
-        print("Rendering Todo page to static file.")
-        template = self.env.get_template('_todo.html')
-        with open('public/todo.html', 'w+') as file:
-            html = template.render()
             file.write(html)
     
     def render_submit_a_tune_page(self) -> None:

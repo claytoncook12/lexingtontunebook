@@ -38,7 +38,11 @@
 {% block content %}
 
 {% for tune_type in tune_types %}
+    {% if tune_type != 'set dance' %}
     <h2 class="tune-type-title">{{ tune_type|title }} Sets</h2>
+    {% else %}
+    <h2>Set Dances</h2>
+    {% endif %}
     <hr class="hr-short">
     <ol>
     {% for set in set_list %}

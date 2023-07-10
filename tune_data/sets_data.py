@@ -191,10 +191,72 @@ set_list: list[Set] = [
         [tune_dict["Si Beag Si Mor"]],
         []
     ),
+    Set(
+        'waltz',
+        [tune_dict["Planxty Hewlett"],tune_dict["Planxty Irwin"]],
+        []
+    ),
+    Set(
+        'waltz',
+        [tune_dict["Johsefins Dopvals"]],
+        []
+    ),
     # MARCHES
     Set(
         'march',
         [tune_dict['Bonaparte Crossing the Alps'],tune_dict["Battle of Aughrim"]],
         []
-    )
+    ),
+    # Hop Jigs
+    Set(
+        'hop jig',
+        [tune_dict["Foxhunter's"],tune_dict["Cucanandy"],tune_dict["Dusty Miller, The"]],
+        []
+    ),
+        Set(
+        'hop jig',
+        [tune_dict["Comb Your Hair and Curl It"],tune_dict["Johnny McGreevy's"]],
+        []
+    ),
+    # Set Dance
+    Set(
+        'set dance',
+        [tune_dict["King of the Fairies"]],
+        []
+    ),
+    Set(
+        'set dance',
+        [tune_dict["Blackbird"]],
+        []
+    ),
+        Set(
+        'set dance',
+        [tune_dict["Three Sea Captians"]],
+        []
+    ),
+        Set(
+        'set dance',
+        [tune_dict["Piper Through the Meadow Straying"]],
+        []
+    ),
+        Set(
+        'set dance',
+        [tune_dict["Vanishing Lake"]],
+        []
+    ),
+        Set(
+        'set dance',
+        [tune_dict["Orange Rogue"]],
+        []
+    ),
+        Set(
+        'set dance',
+        [tune_dict["St. Patrick's Day in the Morning"]],
+        []
+    ),
+        Set(
+        'set dance',
+        [tune_dict["Humors of Bandon"]],
+        []
+    ),
 ]
