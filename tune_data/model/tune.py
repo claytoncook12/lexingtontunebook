@@ -115,8 +115,12 @@ class Tune:
         return slugify(self.title)
     
     def drawthedots_link(self) -> str:
-        drawthedots_url = "https://editor.drawthedots.com/"
-        urlencode_abc = urllib.parse.quote(self.abc_notation, safe='')
+
+        if self.abc_notation is None:
+            return ""
+
+        drawthedots_url: str = "https://editor.drawthedots.com/"
+        urlencode_abc: str = urllib.parse.quote(self.abc_notation, safe='')
         return drawthedots_url + "?t=" + urlencode_abc
     
     def title_and_key(self) -> str:
