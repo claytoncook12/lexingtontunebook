@@ -2,11 +2,50 @@
 
 {% block headCSS %}
 <style>
-    .list {
-        padding: 0 15px;
-        text-align: left;
-        list-style-type: none; /* Remove bullets */
-    }
+.table-container {
+    margin: 25px 0 0 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 85vh;
+    overflow: auto;
+}
+
+.tune-table {
+    border-collapse: collapse;
+}
+
+.tune-table thead tr {
+    background-color: #273B53;
+    color: #ffffff;
+    text-align: left;
+}
+
+.tune-table th,
+.tune-table td {
+    padding: 12px 15px;
+}
+
+.tune-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.tune-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.tune-table tbody tr:last-of-type {
+    border-bottom: 2px solid #273B53;
+}
+
+th {
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  background-color: #273B53;
+}
+
+a {
+    text-decoration: none;
+}
 </style>
 {% endblock %}
 
@@ -20,16 +59,59 @@
 {% endif %}
 </div>
 
-
-<ul class="list">
-    {% for tune in tune_list %}
-    <li>
-        <a href="tune.html#{{ tune.slug_id() }}">
-            {{ tune.title }}
-        </a>
-    </li>
-    {% endfor%}
-</ul>
-
+<div class="table-container">
+<table class="tune-table">
+    <thead>
+        <tr>
+            <th>Tune Title</th>
+            <th>Tune Type</th>
+            <th>Key</th>
+            <th>Sheet Music</th>
+            <th>Chords</th>
+            <th>Audio Reference</th>
+            <th>Video Reference</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for tune in tune_list %}
+        <tr>
+            <td>
+                <a href="tune.html#{{ tune.slug_id() }}">
+                    {{ tune.title }}
+                </a>
+            </td>
+            <td>
+                {{ tune.tune_type }}
+            </td>
+            <td>
+                {% if tune.tune_key != None %}
+                    {{ tune.tune_key }}
+                {% endif %}
+            </td>
+            <td>
+                {% if tune.notes_complete == true %}
+                    &#10003;
+                {% endif %}
+            </td>
+            <td>
+                {% if tune.chords_complete == true %}
+                    &#10003;
+                {% endif %}
+            </td>
+            <td>
+                {% if tune.reference_audios|length > 0 %}
+                    &#10003;
+                {% endif %}
+            </td>
+            <td>
+                {% if tune.reference_videos|length > 0 %}
+                    &#10003;
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor%}
+    </tbody>
+</table>
+</div>
 
 {% endblock %}

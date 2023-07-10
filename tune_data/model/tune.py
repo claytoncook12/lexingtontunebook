@@ -87,7 +87,9 @@ class Tune:
         tune_key: str | None,
         abc_notation: str | None,
         reference_videos: list[YoutubeVideoEmbed],
-        reference_audios: list[AudioReferences]
+        reference_audios: list[AudioReferences],
+        notes_complete: bool = False,
+        chords_complete: bool = False
     ):
         self.title = title
         if is_valid(tune_type, tune_types):
@@ -98,6 +100,9 @@ class Tune:
         self.abc_notation = abc_notation
         self.reference_videos = reference_videos
         self.reference_audios = reference_audios
+        self.notes_complete = notes_complete
+        self.chords_complete = chords_complete
+
     
     def __str__(self) -> str:
         return self.title

@@ -15,13 +15,15 @@ K: Edor
 |:gf|"Em"eBB2 eBgB|eBB2 gedB|"D"A2FA DAFA|A2FA defg|
 "Em"eBB2 eBgB|eBB2 defg|"D"afec dBAF|DEFD "Em"E2:|""",
     [],
-    [AudioReferences("Cooley's","flute","Cooley's - Flute - 80 bpm.mp3")]
+    [AudioReferences("Cooley's","flute","Cooley's - Flute - 80 bpm.mp3")],
+    notes_complete = True,
+    chords_complete= True
   ),
 #--------------------------------------------------------------
   Tune(
     "Wise Maid, The",
     "reel",
-    "Dmaj",
+    "D",
     """T: The Wise Maid
 R: Reel
 M: 4/4
@@ -38,7 +40,7 @@ K: Dmaj
   Tune(
     "Lanigan's Ball",
     "jig",
-    None,
+    "Edor",
     """T: Lanigan's Ball
 R: Jig
 M: 6/8
@@ -49,13 +51,15 @@ K: Edor
 |:d|"Em"e2f gfe|"D"fag fed|"Em"e2f gfe|fdB "Bm"B2d|
 "Em"e2f gfe|"D"fag fed|"C"edB =cBA|"Bm"BGE "Em"E2:|""",
     [YoutubeVideoEmbed("Lanigan's Ball", "banjo", "https://www.youtube.com/embed/sjFM3hx-fNU")],
-    [AudioReferences("Lanigan's Ball medium tempo", "flute", "Lanigan's Ball - flute - 80 bpm.mp3")]
+    [AudioReferences("Lanigan's Ball medium tempo", "flute", "Lanigan's Ball - flute - 80 bpm.mp3")],
+    notes_complete = True,
+    chords_complete = True
   ),
 #--------------------------------------------------------------
   Tune(
     "Whistling Postman, The",
     "jig",
-    None,
+    "D",
     """T: The Whistling Postman
 C: Charlie Mulvihill
 R: Jig
@@ -67,13 +71,15 @@ K: Dmaj
 |:e|"D"f2f afd|"G"gef gag|"D"fdf afa|baf "A"ede|
 "D"f2f edB|AFA BAF|DFA "G"BAB|"A"cBc "D"d2:|""",
     [],
-    [AudioReferences("Whistling Postman - 80 bpm","flute","Whistling Postman - flute - 80 bpm.mp3")]
+    [AudioReferences("Whistling Postman - 80 bpm","flute","Whistling Postman - flute - 80 bpm.mp3")],
+    notes_complete = True,
+    chords_complete = True
   ),
 #--------------------------------------------------------------
   Tune(
     "Out On The Ocean",
     "jig",
-    None,
+    "G",
     """T: Out On The Ocean
 R: Jig
 M: 6/8
@@ -84,13 +90,15 @@ K: Gmaj
 |:"Em"e2e edB|ege edB|"D"d2d dBA|ded dBA|
 "G"G2A B2d|ege "D"dBA|"G"GED G2A|1 "C"BGF "G"GBd:|2 "C"BGF "G"G3||""",
     [],
-    [AudioReferences("Out on the Ocean 80 bpm","flute","Out on the Ocean - flute - 80 bpm.mp3")]
+    [AudioReferences("Out on the Ocean 80 bpm","flute","Out on the Ocean - flute - 80 bpm.mp3")],
+    notes_complete = True,
+    chords_complete = True
   ),
 #--------------------------------------------------------------
   Tune(
     "Scattery Island",
     "slide",
-    None,
+    "D",
     """T: Scattery Island
 C: Arr: Julia Clifford
 R: Slide
@@ -102,13 +110,15 @@ K: Dmaj
 |:"D"faa f2e d3 def|"G"g2f e2d Bcd "A"efg|
 "D"faa f2e d3 def|"G"g2f ecA "A"f2e "D"d3:|""",
     [],
-    []
+    [],
+    notes_complete=True,
+    chords_complete=True
   ),
 #--------------------------------------------------------------
   Tune(
     "Jack Regan's",
     "slide",
-    None,
+    "Bmin",
     """T: Jack Regan's
 T: The Tuar Mor, The Toormore
 C: Arr: Johnny O'Leary
@@ -121,13 +131,15 @@ K: Bmin
 |:"Bm"f3 "A"efe "Bm"ded "A"cdc|"G"BAB edB "A"AFE EDE|
 "Bm"F2B BAB d2e faf|"A"e2d B2A "Bm"B3 B3:|""",
     [],
-    [AudioReferences("Jack Regan's","flute","Toormore Slide - Flute.mp3")]
+    [AudioReferences("Jack Regan's","flute","Toormore Slide - Flute.mp3")],
+    notes_complete=True,
+    chords_complete=True
   ),
 #--------------------------------------------------------------
   Tune(
     "A Fig For A Kiss",
     "slip jig",
-    None,
+    "Edor",
     """T: A Fig For A Kiss
 M: 9/8
 L: 1/8
@@ -137,13 +149,15 @@ K: Edor
 "Em"g2e g2e edB|"D"f2d dcd fed|"Em"g2e g2e edB|"Bm"dBG ABd "Em"e2f|
 "Em"g2e g2e edB|"D"f2d dcd fed|"Em"gfe "D"fed "Em"efg|"Bm"BdB AGF "Em"E3||""",
     [],
-    []
+    [],
+    notes_complete=True,
+    chords_complete=True
   ),
 #--------------------------------------------------------------
   Tune(
     "O'Farrell's Welcome to Limerick",
     "slip jig",
-    None,
+    "Dmix",
     """T: O'Farrell's Welcome to Limerick
 C: O'Farrell
 N: O'Farrell (first name unknown) published . . .
@@ -157,13 +171,15 @@ K: Gmaj
 |:"D"DED DED "C"c3|c2B c2A GED|"D"DED DED "G"d2A|dfe dcA GED:|
 |:"D"d^cd ege "C"=c2A|"D"d^cd fdf "G"gfg|"D"afa ged "C"c2A|"G"BAG FAF GED:| """,
     [],
-    [AudioReferences("O'Farrell's Welcome to Limerick","fiddle bouzouki","2023-06-25 O'Farrell's Welcome to Limerick.mp3")]
+    [AudioReferences("O'Farrell's Welcome to Limerick","fiddle bouzouki","2023-06-25 O'Farrell's Welcome to Limerick.mp3")],
+    notes_complete=True,
+    chords_complete=True
   ),
 #--------------------------------------------------------------
   Tune(
     "Mom's Favorite",
     "slip jig",
-    None,
+    "D",
     """T: Mom's Favorite
 T: The Knocknagree
 N: This setting and name comes from Maida McQuinn-Sugrue (b.1933), a student of Padraig O'Keeffe (1887-1963). Maida taught the tune to Terry "Cuz" Teahan (1905-1989) after they had both emigrated to Chicago. Teahan took to calling the tune "Teahan's Favorite", which Maida took umbrage with. She named the tune after her mother, who would always "dance around the kitchen" whenever she played it. Julia Clifford (1914-1997), also a student of O'Keeffe, recorded it as The Knocknagree.
@@ -178,13 +194,15 @@ K: Dmaj
 "Em"B2e ede "D"f2a afa|"Bm"baf g2f e2d B2g|
 "D"faf f2e efe B2A|FED FAF "Em"E3 E3||""",
     [],
-    [AudioReferences("Mom's Favorite","fiddle","2023-06-25 Mom's Favorite Fiddle.mp3")]
+    [AudioReferences("Mom's Favorite","fiddle","2023-06-25 Mom's Favorite Fiddle.mp3")],
+    notes_complete=True,
+    chords_complete=True
   ),
 #--------------------------------------------------------------
   Tune(
     "Brosna, The",
     "slide",
-    None,
+    "G",
     """T: The Brosna
 R: Slide
 M: 12/8
@@ -195,13 +213,15 @@ K: Gmaj
 |:"G"g2f efg f2e d2B|"C"c2B A2B c2d "D"e2f|
 "G"g2f efg f2e d2B|1 "C"c2A "D"F2A "G"G3 GBd:|2 "C"c2A "D"F2A "G"G3 G3|| """,
     [],
-    []
+    [],
+    notes_complete=True,
+    chords_complete=True
   ),
 #--------------------------------------------------------------
   Tune(
     "Shoe The Donkey",
     "mazurka",
-    None,
+    "G",
     """T: Shoe The Donkey
 R: Mazurka
 M: 3/4
@@ -212,13 +232,15 @@ A2 A2 DF|A2 A2 DF|A2 B2 A2|1 "G"G4 DG:|2 "G"G3 ABc||
 |:"G"d2 g2 f2|"D"A3 GAB|c2 e2 d2|"G"B4 Bc|
 B2 A2 B2|"C"c3 Bcd|1 e2 d2 c2|"G"B3 ABc:|2 e2 d2 "D"F2|"G" G4|| """,
     [],
-    []
+    [],
+    notes_complete=True,
+    chords_complete=True
   ),
 #--------------------------------------------------------------
   Tune(
     "Barony Jig, The",
     "slip jig",
-    None,
+    "Amin",
     """T: The Barony Jig
 S: O'Neill - Dance Music of Ireland: 1001 Gems (1907), No. 970
 R: Slip Jig
@@ -230,13 +252,14 @@ c2A c2A AGE|c2A ABd e2d|c2A efd cBA|GED DEG A2:|
 |:B|c2d ecA AGE|c2d efd e2d|c2d ecA AGE|GED DEG A2B|
 c2d ecA AGE|c2d efd e2e|cde ged ecA|GED DEG A2:||""",
     [],
-    [AudioReferences("The Barony Jig - slow", "flute", "The Barony Jig - flute - 80 bpm.mp3")]
+    [AudioReferences("The Barony Jig - slow", "flute", "The Barony Jig - flute - 80 bpm.mp3")],
+    notes_complete=True
   ),
 #--------------------------------------------------------------
   Tune(
     "Snowy Path, The",
     "slip jig",
-    None,
+    "D",
     """T: The Snowy Path
 C: Mark Kelly
 R: slip jig
@@ -248,13 +271,15 @@ K: Dmaj
 "A"c3 c2e d2c|"G"B2G B2c d2e|"Bm"f3 f2e d2B|"D"A2G F2G A2B|
 "A"c3 c2e d2c|"G"B2G B2c d2e|"D"d2A B2F A2F|"Em"E2D E2F GFE||""",
     [],
-    []
+    [],
+    notes_complete=True,
+    chords_complete=True
   ),
 #--------------------------------------------------------------
   Tune(
     'Concertina Reel',
     'reel',
-    None,
+    'D',
     """T: Concertina Reel
 R: reel
 M: C|
@@ -269,13 +294,14 @@ K: D
     ],
     [
       AudioReferences('Slow Playing of the Concertina Reel', 'concertina', '08 The Concertina (slow).mp3')
-    ]
+    ],
+    notes_complete=True
   ),
 #--------------------------------------------------------------    
   Tune(
     'Merry Blacksmith',
     'reel',
-    None,
+    'G',
     """T: Merry Blacksmith
 R: Reel
 M: C|
@@ -284,11 +310,12 @@ K: G
   d2dA BAFA|ABdA BAFA|ABde f2ed|BAFE D4  :|
 |:a2ag f2fe|d2dA BAFA|ABde f2ed|BAFE efge |
   a2ag f2fe|d2dA BAFA|ABde f2ed|BAFE D4  ||""",
-  [
-    YoutubeVideoEmbed("Foinn Seisiun 1 CD's", 'accordion, banjo, concertina, fiddle, flute', 'https://www.youtube.com/embed/dJz8TPijdXk'),
-    YoutubeVideoEmbed("Hatao's Irish Tune of the Day #151", 'flute', 'https://www.youtube.com/embed/pIQXhPhzEXE')
-  ],
-  []
+    [
+      YoutubeVideoEmbed("Foinn Seisiun 1 CD's", 'accordion, banjo, concertina, fiddle, flute', 'https://www.youtube.com/embed/dJz8TPijdXk'),
+      YoutubeVideoEmbed("Hatao's Irish Tune of the Day #151", 'flute', 'https://www.youtube.com/embed/pIQXhPhzEXE')
+    ],
+    [],
+    notes_complete=True
   ),
 #--------------------------------------------------------------    
   Tune(
@@ -303,18 +330,18 @@ BA| G2DG B2GB|dBeB dBAB|d2Bd efge|   dBAB GEDE |
     G2DG B2GB|dBeB dBAB|d2Bd efge|1) dBAB G2BA:|2) dBAB GABc||
   |:dggf g2de|g2bg aged|eaag a2eg|   a2bg ageg |
     dggf g2de|g2bg ageg|d2Bd efge|1) dBAB GABc:|2) dBAB G2BA||""",
-  [
-    YoutubeVideoEmbed("Foinn Seisiun 1 CD's", 'accordion, banjo, concertina, fiddle, flute', 'https://www.youtube.com/embed/ohQ2cF4H6NE'),
-    YoutubeVideoEmbed("Hatao's Irish Tune of the Day #11", 'flute', 'https://www.youtube.com/embed/ispQQ5GMzjc'),
-    YoutubeVideoEmbed("Banjo Buddy", "banjo", "https://www.youtube.com/embed/TuONrq0tQSo")
-  ],
-  []
+    [
+      YoutubeVideoEmbed("Foinn Seisiun 1 CD's", 'accordion, banjo, concertina, fiddle, flute', 'https://www.youtube.com/embed/ohQ2cF4H6NE'),
+      YoutubeVideoEmbed("Hatao's Irish Tune of the Day #11", 'flute', 'https://www.youtube.com/embed/ispQQ5GMzjc')
+    ],
+    [],
+    notes_complete=True,
   ),
 #---------------------------------------------------------------
   Tune(
     "Ships are Sailing",
     "reel",
-    None,
+    "Emin",
     """T: Ships are Sailing
 R: reel
 M: C|
@@ -323,16 +350,18 @@ K: Em
 "Em"Beed BcdB|"D"ADFD ADFA|"Em"E3F GFGA|1) "Em"Beed e4:|2) "Em"Beed e3f||
 "Em"g3a  bgeg|"D"f2fg afdf|"Em"gfga bgeg|"D"fede "Em"e3f|
 "Em"g2ga bgeg|"D"fefg afdf|"G"g2bg "D/F#"fgaf|1) "Em"edef "D"gfef:|2) "Em"edef "D"gfed||""",
-  [],
-  [
-    AudioReferences("Ships Are Sailing (slow)","concertina","09 Ships Are Sailing (slow).mp3")
-  ]
+    [],
+    [
+      AudioReferences("Ships Are Sailing (slow)","concertina","09 Ships Are Sailing (slow).mp3")
+    ],
+    notes_complete=True,
+    chords_complete=True
   ),
 #----------------------------------------------------------------
   Tune(
     "Father Kelly's",
     "reel",
-    None,
+    "G",
     """T: Father Kelly's
 R: Reel
 M: C|
@@ -342,13 +371,15 @@ K:G
 "G"d2Bd gdBd|dGBd gdBd|"A"e2^ce "A/C#"agfe|"D"defg agfe|
 "G"d2Bd gdBd|"G/B"dGBd gdBd|"C"c2Ac  "Am"BAGB|1) "D"AGFA "G"GABc :|2) "D"AGFA "G"G3A||""",
     [YoutubeVideoEmbed("Father Kelly's Slow Then Faster", "fiddle","https://www.youtube.com/embed/vDzBpuRhsfo")],
-    [AudioReferences("Father Kelly's slow","concertina","10 Father Kelly's (slow).mp3")]
+    [AudioReferences("Father Kelly's slow","concertina","10 Father Kelly's (slow).mp3")],
+    notes_complete=True,
+    chords_complete=True
   ),
 #-----------------------------------------------------------------
   Tune(
     "I Looked East And I Looked West",
     "polka",
-    None,
+    'G',
     """T:I Looked East And I Looked West
 R:Polka
 M:2/4
@@ -359,13 +390,14 @@ GA BA/G/|FA A>B  |cA FA|1) G2 GD    :|2) G2 GB/c/||
 dg fe   |fA A>B  |cd ef|   g2 fe     |
 dg fe   |fA A>B  |cA FA|1) G2 GB/c/ :|2) g2 GD||""",
     [],
-    []
+    [],
+    notes_complete=True
   ),
 #-----------------------------------------------------------------
   Tune(
     "Julia Clifford's",
     "polka",
-    None,
+    'D',
     """T:Julia Clifford's
 R:Polka
 M:2/4
@@ -376,13 +408,14 @@ f>a ge|f>a ge |fd e/f/e/c/|1)d2       de   :|2) d2 dB||
 A2 A>B|Af  a>f|ed ef/e/   |  dA       Bd/B/ |
 A2 AF |Af  a>f|ed ef/e/   |1)d2       dB   :|2) d2 d2||""",
     [],
-    []
+    [],
+    notes_complete=True
   ),
 #-----------------------------------------------------------------
   Tune(
     "Scartaglen",
     "polka",
-    None,
+    'G',
     """T:Scartaglen
 R:Polka
 M:2/4
@@ -395,13 +428,14 @@ Gg    g2      |fe e/f/g/e/|dB AB/A/   |1)G2 BB/A/ |2)G2 GA/B/||
 g2    a2      |b2 ba      |g2 a2      |  b2 ba    |
 gb    e/f/g/e/|dB g>e     |dB AB/A/   |1)G2 GA/B/ |2)G2 BB/A/||G4|""",
     [],
-    []
+    [],
+    notes_complete=True
   ),
 #-----------------------------------------------------------------------
   Tune(
     "Vanishing Lake",
     "set dance",
-    None,
+    "Amin",
     """T: Vanishing Lake
 C: Michael Fitzpatrick
 N: A Part 14 Bars (x2), B Part 18 Bars
@@ -416,14 +450,15 @@ K: Am
        EAA EAA|EBB EBB |cBc deg|e3     ec'b   |
        a2a age|gag g2e |f2g fed|e3     e2d    |c2A BAG|
        A3  Aed|c2A BAG |E3  Eed|cee    Bee    |AA/A/A A2|""",
-      [],
-      [AudioReferences("Vanishing Lake","concertina (midi)","Vanishing Lake - Dotted Eight 75 bpm.mp3")]
+    [],
+    [AudioReferences("Vanishing Lake","concertina (midi)","Vanishing Lake - Dotted Eight 75 bpm.mp3")],
+    notes_complete=True
   ),
 #-------------------------------------------------------------
   Tune(
     "Denis Murphy's",
     "slide",
-    None,
+    'D',
     """T: Denis Murphy's
 R: Slide
 M: 12/8
@@ -433,14 +468,15 @@ K: D
   A2D FED F2A A2f|a2f efe d3  d3:|
 |:d2e f3  gfe f3 |gfe fed e2d Bcd|
   d2e f3  gfe f2f|a2f efe d3  d3:|""",
-  [],
-  []
+    [],
+    [],
+    notes_complete=True
   ),
 #--------------------------------------------------------------
   Tune(
     "O'Keefe's",
     "slide",
-    None,
+    "Ador",
     """T: O'Keefe's
 R: Slide
 M: 12/8
@@ -450,14 +486,15 @@ K: Ador
   A2e e2d BAB d3 |BAB d2e B2A A3:|
 |:e2a a2b a2g e2d|efg a2b a2g e2f|
   g3  gfe dBA G3 |BAB d2e B2A A3:|""",
-  [],
-  []
+    [],
+    [],
+    notes_complete=True
   ),
 #-----------------------------------------------------
   Tune(
     "Going to the Well For Water",
     "slide",
-    None,
+    "D",
     """T: Going To The Well For Water
 R: Slide
 M: 12/8
@@ -467,8 +504,9 @@ B|:A2f A2f A2f fed|  B2g B2g B2g gfe |
    cdc BcB Ace a2f|1 g2e cde d3  dcB:|2 g2e cde d3 d2e||
  |:f2f fed e2e edc|  d2d dcB c2c cBA |
    GBB GBB FAA FAA|1 EDE e2d cBc d2e:|2 EDE e2d cBc d3||""",
-  [],
-  []
+    [],
+    [],
+    notes_complete=True
   ),
 #--------------------------------------------------------
   Tune(
@@ -491,7 +529,7 @@ K: Gmaj
   Tune(
     "Morrison's",
     "jig",
-    None,
+    "Edor",
     """T: Morrison's
 R: Jig
 M: 6/8
@@ -503,14 +541,15 @@ Bee fee|aee fee|Bee fee|a2g fed|
 Bee fee|aee fee|gfe d2A|BAG FGA|
 Bee fee|aee fee|Bee fee|faf def|
 g3 gfe|def g2d|edc d2A|BAG FED|""",
-  [],
-  []
+    [],
+    [],
+    notes_complete=True
   ),
 #------------------------------------------------
   Tune(
     "Tripping Up the Stairs",
     "jig",
-    None,
+    "D",
     """T: Tripping Up the Stairs
 R: Jig
 M: 6/8
@@ -520,14 +559,15 @@ K: Dmaj
 FAA GBB|FAd fed|c2c ABc|1)dfe d2A:|2)dfe dBc||
 |:dBB fBB|f3 fed|cAA eAA|e3 edc|
 dBB fBB|f3 fed|cBc ABc|1)dfe dBc:||2)dfe d2A||""",
-  [],
-  []
+    [],
+    [],
+    notes_complete=True
   ),
 #------------------------------------------------
   Tune(
     "Connaughtman's Rambles",
     "jig",
-    None,
+    "D",
     """T: Connaughtman's Rambles
 R: Jig
 M: 6/8
@@ -537,14 +577,15 @@ K: Dmaj
   FAA dAA|BAB def|gfe dfe|1 d2B BAG:|2 d2B B2g||
 |:fbb faa|fef ded|fbb faa|  fed e3  |
   fbb faa|fef def|gfe dfe|1 d2B B2g:|2 d2B BAG||""",
-  [],
-  []
+    [],
+    [],
+    notes_complete=True
   ),
 #------------------------------------------------
   Tune(
     "Pipe On The Hob",
     "jig",
-    None,
+    "Dmix",
     """T: The Pipe On The Hob
 R: jig
 M: 6/8
@@ -557,13 +598,14 @@ A|: d^cd A2G |F2D DED |EDE cBc|  E2D DFA  |
  [2 ~f3 ~g3  |agf g2e |fed eag|  ed^c d2A||
 """,
   [],
-  [AudioReferences("Pipe On the Hob - Slow","fiddle","F - PipeOnTheHob (slow).mp3")]
+  [AudioReferences("Pipe On the Hob - Slow","fiddle","F - PipeOnTheHob (slow).mp3")],
+  notes_complete=True
   ),
 #------------------------------------------------
   Tune(
     "Little Fair Canavans",
     "slip jig",
-    None,
+    "G",
     """T: Little Fair Canavans
 R: Slip Jig
 M: 9/8
@@ -573,13 +615,14 @@ K: G
 |:  A|Bdd edd BAG|Bdd edB A2c|Bdd edd BAG|GED DEF G2:|
 """,
   [],
-  [AudioReferences("Fair Little Canavans (slow then faster)","flute","01_Flute_Cannavans.mp3")]
+  [AudioReferences("Fair Little Canavans (slow then faster)","flute","01_Flute_Cannavans.mp3")],
+  notes_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Redigan's Mother",
     "slip jig",
-    None,
+    "D",
     """T: Redican's Mother
 R: slip jig
 M: 9/8
@@ -588,13 +631,14 @@ K: Dmaj
   A|FAA FAd AFD|FAA FAd B2A|FAA FAd AFD|EDB, DFA B2:|
 |:e|f3 faf edB|Aff fef g2e |f3 faf edB|AFE DFA B2 :|""",
   [],
-  [AudioReferences("Redican's Mother","flute","redican's mother - flute.mp3")]
+  [AudioReferences("Redican's Mother","flute","redican's mother - flute.mp3")],
+  notes_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Humours of Derrycrossane",
     "slip jig",
-    None,
+    "G",
     """T: Humours of Derrycrossane
 R: slip jig
 M: 9/8
@@ -604,13 +648,14 @@ G|:B2B BAB c2c|BAG BdB ABc|BAG BdB cde|1)dBG GAF G2A:|2) dBG GAF GBd||
  |:g3  edc Bcd|ecA ABG A2d|g2g edc Bcd|  gdB GAF GBd |
    g3  edc Bcd|ecA ABG A2B|def gfe def|  gbg agf gdc ||  B3""",
   [],
-  [AudioReferences("Humours of Derrycrossane","flute","Humours of Derrycrossane - flute.mp3")]
+  [AudioReferences("Humours of Derrycrossane","flute","Humours of Derrycrossane - flute.mp3")],
+  notes_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Larry O'Gaff's",
     "jig",
-    None,
+    "D",
     """T: Larry O'Gaff's
 R: Jig
 M: 6/8
@@ -621,13 +666,14 @@ A|:d2D FED|ABA AFD|GBG    FAF|  EFG ABc |
  |:ABc d3 |efe edB|AB/c/d ede|  fdc dcB |
    ABc d3 |ABA AFD|G3     FGF|1)EFE D3 :|2)EFG ABc||d3""",
   [],
-  [AudioReferences("Larry O'Gaff Feb 26, 2023 Session","fiddle, mandolin, bouzouki","Larry O'Gaff's - session - 2023-02-26.mp3")]
+  [AudioReferences("Larry O'Gaff Feb 26, 2023 Session","fiddle, mandolin, bouzouki","Larry O'Gaff's - session - 2023-02-26.mp3")],
+  notes_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Geese in the Bog",
     "jig",
-    None,
+    "C",
     """T: The Geese In The Bog
 R: Jig
 M: 6/8
@@ -638,13 +684,14 @@ K: Ador
 |:B|cde ged|e2a ged|cde ged|e2a a3  |
     cde ged|e2a ged|cBA GED|E2A A2 :|""",
   [],
-  [AudioReferences("Geese in the Bog - Slow","flute","Geese in the Bog - flute- 80 bpm.mp3")]
+  [AudioReferences("Geese in the Bog - Slow","flute","Geese in the Bog - flute- 80 bpm.mp3")],
+  notes_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Jimmy Ward's",
     "jig",
-    None,
+    "G",
     """T: Jimmy Ward's
 R: Jig
 M: 6/8
@@ -655,13 +702,14 @@ K: Gmaj
 |:cBA BAG|A3 AGE|cBA  BGE|  DED GAB|
   cBA BAG|A2A ABc|dcA AGE|1)GED D2B:|2)GED DEF||G6||""",
   [],
-  []
+  [],
+  notes_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "South Wind",
     "waltz",
-    None,
+    "G",
     """T: South Wind
 R: Waltz
 M: 3/4
@@ -675,13 +723,14 @@ dc|: B3A G2|B3c d2   |  A3 BA2|A4 dc    |
      B3A G2|Bc3 GA   |  G6-   |G6      :|
 """,
   [],
-  []
+  [],
+  notes_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Si Beag Si Mor",
     "waltz",
-    None,
+    "D",
     """T: Si Beag Si Mor
 R: Waltz
 M: 3/4
@@ -693,13 +742,14 @@ d4 f2|B4 e2|A4 d2|F4 E2|D4 f2|B4 e2|A4 dc|d6|d4 de:|
 F4 E2|D4 f2|B4 e2|A4 a2|ba gf ed|e4 dc|d6|1 d4 de:|2 d6||
 """,
   [],
-  []
+  [],
+  notes_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Cook in the Kitchen, The",
     "jig",
-    None,
+    "G",
     """T: The Cook In The Kitchen
 R: Jig
 M: 6/8
@@ -713,13 +763,14 @@ B2B BAG|A2A A2 d|cAG FGA|1 BGF G2A:|2 BGF G2B||
 d2 e f2 g|a2 g fed|cAG FGA|1 BGF G2B:|2 BGF G3||
 """,
   [],
-  [AudioReferences("Cook in the Kitchen - 80 bpm","flute","Cook in the Kitchen - flute - 80 bpm.mp3")]
+  [AudioReferences("Cook in the Kitchen - 80 bpm","flute","Cook in the Kitchen - flute - 80 bpm.mp3")],
+  notes_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Rambling Pitchfork",
     "jig",
-    None,
+    "D",
     """T: The Rambling Pitchfork
 R: Jig
 M: 6/8
@@ -731,13 +782,14 @@ K: Dmaj
   d2d fed|ecA AGF|G2G B2B|1) AFD DFA:|2) AFD D3 ||
 """,
   [],
-  [AudioReferences("Rambling Pitchfork - 80 bpm","flute","Rambling Pitchfork - flute - 80 bpm.mp3")]
+  [AudioReferences("Rambling Pitchfork - 80 bpm","flute","Rambling Pitchfork - flute - 80 bpm.mp3")],
+  notes_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Rolling Wave, The",
     "jig",
-    None,
+    "D",
     """T: The Rolling Waves
 T: (Humors of Trim)
 R: Jig
@@ -754,13 +806,15 @@ E||:"D"F3 DED|D2d cAG|FEF DE/F/G|"A"A2F GFE|
     YoutubeVideoEmbed("Rolling Wave","concertina","https://www.youtube.com/embed/lDhVtftIc6E"),
     YoutubeVideoEmbed("Rolling Wave","fiddle","https://www.youtube.com/embed/0JUktG3OZ8Y")
   ],
-  []
+  [],
+  notes_complete=True,
+  chords_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Maid Behind the Bar, The",
     "reel",
-    None,
+    "D",
     """T: The Maid Behind The Bar
 R: reel
 M: C|
@@ -778,13 +832,15 @@ K: Dmaj
     ],
     [
       AudioReferences("Maid Behind the Bar slow","concertina","11 The Maid Behind the Bar (slow).mp3")
-    ]
+    ],
+    notes_complete=True,
+    chords_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Cock and the Hen",
     "slip jig",
-    None,
+    "F#min",
     """T: Cock and the Hen
 T: Ryan's
 R: Slip Jig
@@ -799,13 +855,15 @@ K: Dmaj
       YoutubeVideoEmbed("Cock and the Hen slow then faster","fiddle","https://www.youtube.com/embed/FSwijXAW228"),
       YoutubeVideoEmbed("Cock and the Hen (first tune)","flute, fiddle, guitar, bodhran","https://www.youtube.com/embed/hPU6w6jZ_MY")
     ],
-    []
+    [],
+    notes_complete=True,
+    chords_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Lonesome Jig, The",
     "jig",
-    None,
+    "D",
     """T: The Lonesome Jig
 T: Rolling Waves
 R: Jig
@@ -818,13 +876,15 @@ K: Dmaj
   "D"ABd ede|fdB BAF|"G"AFE EFA|"A"B3  "D"d3 :|
 """,
     [YoutubeVideoEmbed("The Lonesome Jig - slow then faster", "flute", "https://www.youtube.com/embed/ITyjNak_yoM")],
-    [AudioReferences("The Lonesome Jig - 80 bpm", "flute", "Lonesome Jig -flute - 80 bpm.mp3")]
+    [AudioReferences("The Lonesome Jig - 80 bpm", "flute", "Lonesome Jig -flute - 80 bpm.mp3")],
+    notes_complete=True,
+    chords_complete=True
   ),
 #---------------------------------------------------
   Tune(
     "Egan's",
     "polka",
-    None,
+    "D",
     """T: Egan's
 T: Peg Ryan's
 R: Polka
@@ -835,13 +895,15 @@ K: Dmaj
 |:"D"fa fe|ed BA|"G"d2 e>f|"A"ed BA|"D"fa fe|ed BA|"G"d2 e>f|"A"ed "D"d2:|
 """,
     [YoutubeVideoEmbed("Egan's Polka", "accordion, fiddle, flute, banjo", "https://www.youtube.com/embed/rzxQqqD-4AY")],
-    []
+    [],
+    notes_complete=True,
+    chords_complete=True
   ),
 #------------------------------------------------------
   Tune(
     "Stack of Barley, The",
     "hornpipe",
-    None,
+    "G",
     """T: Stack of Barley, The
 R: Hornpipe
 M: 2/2
@@ -853,14 +915,17 @@ K: G
      "D"agfa "C"gedB|"G/B"cBAG "D"AcBA|"G"GFGA Bd Ac|"G"B2"D/F#"G2 "G"G2:|
 """,
   [],
-  []
+  [],
+  notes_complete=True,
+  chords_complete=True
   ),
 #------------------------------------------------------
   Tune(
       "John Ryan's Polka",
       "polka",
-      None,
+      "D",
       """T: John Ryan's Polka
+      T: Dum Dum
 R: Polka
 M: 2/4
 L: 1/8
@@ -871,13 +936,15 @@ K: D
 | "D"fd de/f/   |gf ed/e/|"G"fd "A"ec|1)"D"d2 d>e:|2)"D"d2d2||
 """,
   [],
-  []
+  [],
+  notes_complete=True,
+  chords_complete=True
   ),
 #------------------------------------------------------
   Tune(
       "Ballydesmond Polka 1",
       "polka",
-      None,
+      'Ador',
       """T: Ballydesmond Polka 1
 R: Polka
 M: 2/4
@@ -889,13 +956,14 @@ K: Ador
   ea a>b|ag e>f |ge dB|A2 A2:|
 """,
   [],
-  []
+  [],
+  notes_complete=True
   ),
 #------------------------------------------------------
   Tune(
       "Ballydesmond Polka 2",
       "polka",
-      None,
+      'Ador',
       """T: Ballydesmond Polka 2
 R: Polka
 M: 2/4
@@ -907,13 +975,14 @@ A/B/|:c2 B2      |AB/A/ G>A  |Bd ed|g2 ed|
 ea g/a/g/e/|dB GA/B/|ce dB|A2 A2:| 
 """,
   [],
-  []
+  [],
+  notes_complete=True
   ),
 #------------------------------------------------------
   Tune(
       "Kid on the Mountain",
       "slip jig",
-      None,
+      "Eaeol",
       """T: Kid on the Mountain
 R: Slip Jig
 M: 9/8
@@ -926,13 +995,14 @@ eBB e2f g3|eBB efg afd|eBB e2f g2a|bag f/g/ag fed:|
 edB dBA G2D|GAB dge dBd|edB dBA G2A|BAG F/G/AG FED:|HE3
 """,
   [],
-  []
+  [],
+  notes_complete=True
   ),
 #------------------------------------------------------
   Tune(
       "King of the Fairies",
       "set dance",
-      None,
+      "Eaeol",
       """T: King of the Fairies
 R: Set Dance (Hornpipe)
 M: 4/4
@@ -946,13 +1016,14 @@ g2 g>e f2 f>d|e>d B>^c d2- d>e|d>B A>F G>A B>^c|d>^c B>A G>F E>D|
 B,2 E2 E>F G>A|B2 e2 e>d e>f|e2 B2 B>A G>F| E4 E4||
 """,
   [],
-  [AudioReferences("King of the Fairies","flute","King of the Faries - flute - 120 bpm.mp3")]
+  [AudioReferences("King of the Fairies","flute","King of the Faries - flute - 120 bpm.mp3")],
+  notes_complete=True
   ),
 #------------------------------------------------------
   Tune(
       "Bantry Bay",
       "hornpipe",
-      None,
+      "G",
       """T: Bantry Bay
 T: Little Stack of Wheat
 R: hornpipe
@@ -965,14 +1036,18 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
 "G"gagf "C"efed|"G"BGAG "C"EGD2|"G"BGAG "C"EG (3DEF|1)"G"G2"C"GF "G"G2Bc:|1)"G"G2"C"GF "G"G4:|
 """,
   [],
-  [AudioReferences("Bantry Bay slow", "fiddle","F - BantryBay (hornpipe).mp3")]
+  [AudioReferences("Bantry Bay slow", "fiddle","F - BantryBay (hornpipe).mp3")],
+  notes_complete=True,
+  chords_complete=True
   ),
 #------------------------------------------------------
   Tune(
     "Blast of Wind",
     "slip jig",
     None,
-    None,
+    """T:Blast of Wind
+%%center Need Notes 
+""",
     [],
     [AudioReferences("Blast of Wind (Drop of Spring Water)", "fiddle", "2023-06-25 Blast of Wind Fiddle.mp3")]
   ),
@@ -981,7 +1056,9 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
     "High Road to Kilkenny",
     "slip jig",
     None,
-    None,
+"""T:High Road to Kilkenny
+%%center Need Notes 
+""",
     [],
     [AudioReferences("High Road to Kilkenny", "fiddle", "2023-06-25 High Road to Kilkenny Fiddle.mp3")]
   ),
@@ -989,8 +1066,10 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
   Tune(
     "Sweets of May",
     "jig",
-    None,
-    None,
+    "G",
+    """T:Sweets of May
+%%center Need Notes 
+""",
     [],
     [AudioReferences("Sweets of May", "fiddle", "2023-06-25 Sweets of May Fiddle.mp3")]
   )
