@@ -23,7 +23,27 @@ set_list: list[Set] = [
     ,
     Set(
         'reel',
-        [tune_dict["Sally Gardens"], tune_dict['Merry Blacksmith']],
+        [tune_dict["Miss McLeod's"], tune_dict['Merry Blacksmith'], tune_dict["Sally Gardens"]],
+        []
+    ),
+    Set(
+        'reel',
+        [tune_dict["Devanney's Goat"], tune_dict["GeenFields of Rossbeigh"], tune_dict['Maid Behind the Bar, The']],
+        []
+    ),
+    Set(
+        'reel',
+        [tune_dict["Congress Reel"]],
+        []
+    ),
+    Set(
+        'reel',
+        [tune_dict["Over the Moor to Maggie"],tune_dict["Trip to Durrow"]],
+        []
+    ),
+    Set(
+        'reel',
+        [tune_dict["Frank's Reel"]],
         []
     ),
     # JIGS
@@ -47,6 +67,21 @@ set_list: list[Set] = [
         [tune_dict["Connaughtman's Rambles"], tune_dict["Pipe On The Hob"]],
         [AudioReferences("Connaughtman's Rambles - Pipe On the Hob (unaccompanied)", "flute","Conn - Pipe On the Hob - flute - 100 bpm.mp3")]
     ),
+    Set(
+        'jig',
+        [tune_dict["Thrush in the Straw"], tune_dict["Lark on the Strand"]],
+        []
+    ),
+    Set(
+        'jig',
+        [tune_dict["Trip to the Cottage"],tune_dict["Calliope House"]],
+        []
+    ),
+    Set(
+        'jig',
+        [tune_dict['Sweets of May'],tune_dict['Lonesome Jig, The'],tune_dict['Rolling Wave, The']],
+        []
+    ),
     # SLIP JIGS
     Set(
         'slip jig',
@@ -63,6 +98,16 @@ set_list: list[Set] = [
         [tune_dict["Little Fair Canavans"], tune_dict["Redigan's Mother"], tune_dict["Humours of Derrycrossane"]],
         []
     ),
+    Set(
+        'slip jig',
+        [tune_dict["High Road to Kilkenny"],tune_dict["Cock and the Hen"],tune_dict["Blast of Wind"]],
+        []
+    ),
+    Set(
+        'slip jig',
+        [tune_dict['Kid on the Mountain']],
+        []
+    ),
     # POLKAS
     Set(
         'polka',
@@ -75,6 +120,11 @@ set_list: list[Set] = [
     Set(
         'polka',
         [tune_dict["Ballydesmond Polka 1"],tune_dict["Egan's"],tune_dict["Ballydesmond Polka 2"]],
+        []
+    ),
+    Set(
+        'polka',
+        [tune_dict["Farewell to Whiskey"],tune_dict["Lakes of Sligo"], tune_dict["John Ryan's Polka"]],
         []
     ),
     # SLIDES
@@ -93,16 +143,41 @@ set_list: list[Set] = [
         [tune_dict['Scattery Island'], tune_dict["Jack Regan's"]],
         []
     ),
+    Set(
+        'slide',
+        [tune_dict["Where's the Cat"], tune_dict["The Cat's Rambles to the Child's Saucepan"]],
+        []
+    ),
     # Hornpipe
     Set(
         'hornpipe',
         [tune_dict["Stack of Barley, The"],tune_dict["Bantry Bay"]],
         []
     ),
+    Set(
+        'hornpipe',
+        [tune_dict["Peacock's Feather, The"],tune_dict["Chief O'Neill's"]],
+        []
+    ),
+    Set(
+        'hornpipe',
+        [tune_dict["Her Long Golden Hair"],tune_dict["Scully Casey's"]],
+        []
+    ),
+    Set(
+        'hornpipe',
+        [tune_dict["Humours of Tuamgraney"],tune_dict["Walsh's"]],
+        []
+    ),
     # MAZURKA
     Set(
         'mazurka',
         [tune_dict["Shoe The Donkey"]],
+        []
+    ),
+    Set(
+        'mazurka',
+        [tune_dict["Sonny's Mazurka"],tune_dict["Irish Mazurka, The"]],
         []
     ),
     # WALTZES
@@ -114,6 +189,12 @@ set_list: list[Set] = [
     Set(
         'waltz',
         [tune_dict["Si Beag Si Mor"]],
+        []
+    ),
+    # MARCHES
+    Set(
+        'march',
+        [tune_dict['Bonaparte Crossing the Alps'],tune_dict["Battle of Aughrim"]],
         []
     )
 ]

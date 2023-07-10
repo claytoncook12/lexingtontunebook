@@ -6,7 +6,7 @@ import urllib.parse
 from shared_functions import slugify
 
 tune_types: list[str] = [
-    'reel','jig','slip jig','hornpipe','polka','slide','mazurka','marche',
+    'reel','jig','slip jig','hornpipe','polka','slide','mazurka','march',
     'hop jig','waltz','set dance' 
 ]
 

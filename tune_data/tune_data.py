@@ -301,11 +301,11 @@ K: D
   Tune(
     'Merry Blacksmith',
     'reel',
-    'G',
+    'D',
     """T: Merry Blacksmith
 R: Reel
 M: C|
-K: G
+K: D
   d2dA BAFA|ABdA BAFA|ABde f2ed|Beed e2fe |
   d2dA BAFA|ABdA BAFA|ABde f2ed|BAFE D4  :|
 |:a2ag f2fe|d2dA BAFA|ABde f2ed|BAFE efge |
@@ -321,7 +321,7 @@ K: G
   Tune(
     'Sally Gardens',
     'reel',
-    None,
+    'G',
     """T: Sally Gardens
 R: Reel
 M: C|
@@ -921,11 +921,10 @@ K: G
   ),
 #------------------------------------------------------
   Tune(
-      "John Ryan's Polka",
-      "polka",
-      "D",
-      """T: John Ryan's Polka
-      T: Dum Dum
+    "John Ryan's Polka",
+    "polka",
+    "D",
+    """T: John Ryan's Polka
 R: Polka
 M: 2/4
 L: 1/8
@@ -935,10 +934,10 @@ K: D
 |:"D"fd de/f/   |gf ed/e/|fd Ad      |"G"fa a>g   |
 | "D"fd de/f/   |gf ed/e/|"G"fd "A"ec|1)"D"d2 d>e:|2)"D"d2d2||
 """,
-  [],
-  [],
-  notes_complete=True,
-  chords_complete=True
+    [],
+    [],
+    notes_complete=True,
+    chords_complete=True
   ),
 #------------------------------------------------------
   Tune(
@@ -1072,7 +1071,282 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
 """,
     [],
     [AudioReferences("Sweets of May", "fiddle", "2023-06-25 Sweets of May Fiddle.mp3")]
-  )
+  ),
+#------------------------------------------------------
+  Tune(
+    "Devanney's Goat",
+    "reel",
+    None,
+    """T:Devanney's Goat
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Miss McLeod's",
+    "reel",
+    "G",
+    """T:Miss McLeod's
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "GeenFields of Rossbeigh",
+    "reel",
+    None,
+    """T:GeenFields of Rossbeigh
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Congress Reel",
+    "reel",
+    None,
+    """T:Congress Reel
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Over the Moor to Maggie",
+    "reel",
+    None,
+    """T:Over the Moor to Maggie
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Trip to Durrow",
+    "reel",
+    None,
+    """T:Trip to Durrow
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Frank's Reel",
+    "reel",
+    None,
+    """T:Frank's Reel
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Thrush in the Straw",
+    "jig",
+    None,
+    """T:Thrush in the Straw
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Lark on the Strand",
+    "jig",
+    None,
+    """T:Lark on the Strand
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Trip to the Cottage",
+    "jig",
+    None,
+    """T:Trip to the Cottage
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Calliope House",
+    "jig",
+    None,
+    """T:Calliope House
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Her Long Golden Hair",
+    "hornpipe",
+    None,
+    """T:Her Long Golden Hair
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Scully Casey's",
+    "hornpipe",
+    None,
+    """T:Scully Casey's
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Peacock's Feather, The",
+    "hornpipe",
+    None,
+    """T:Peacock's Feather, The
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Chief O'Neill's",
+    "hornpipe",
+    None,
+    """T:Chief O'Neill's
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Humours of Tuamgraney",
+    "hornpipe",
+    None,
+    """T:Humours of Tuamgraney
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Walsh's",
+    "jig",
+    None,
+    """T:Walsh's
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Farewell to Whiskey",
+    "jig",
+    None,
+    """T:Farewell to Whiskey
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Lakes of Sligo",
+    "jig",
+    None,
+    """T:Lakes of Sligo
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Where's the Cat",
+    "slide",
+    None,
+    """T:Where's the Cat
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "The Cat's Rambles to the Child's Saucepan",
+    "slide",
+    None,
+    """T:The Cat's Rambles to the Child's Saucepan
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Sonny's Mazurka",
+    "mazurka",
+    None,
+    """T:Sonny's Mazurka
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Irish Mazurka, The",
+    "mazurka",
+    None,
+    """T:Irish Mazurka, The
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Bonaparte Crossing the Alps",
+    "march",
+    None,
+    """T:Bonaparte Crossing the Alps
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
+#------------------------------------------------------
+  Tune(
+    "Battle of Aughrim",
+    "march",
+    None,
+    """T:Battle of Aughrim
+%%center Need Notes 
+""",
+    [],
+    []
+  ),
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
