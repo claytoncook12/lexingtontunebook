@@ -512,7 +512,7 @@ B|:A2f A2f A2f fed|  B2g B2g B2g gfe |
   Tune(
     "Kesh",
     "jig",
-    None,
+    "G",
     """T: The Kesh
 R: Jig
 M: 6/8
