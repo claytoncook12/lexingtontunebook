@@ -1417,12 +1417,26 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
   Tune(
     "Planxty Irwin",
     "waltz",
-    None,
+    "G",
     """T:Planxty Irwin
-%%center Need Notes 
+R:Waltz
+K:G
+M:3/4
+L:1/8
+C:O'Carolan
+d2|:"G"g4"D7"f2|"C"e3fg2|"G"d4"C"c2|"Em"B3AG2|
+   "C"c4A2|"G"B3cd2|"D7"F4"A7"G2|"D7"A4d2|
+   "G"g4"D7"f2|"C"e3fg2|"G"d4"C"c2|"Em"B3AG2|
+   "C"c4A2|"G"B3cd2|"C"G4"D7"F2|"G"G4d2:|
+   |:"G"g3ag2|g3fg2|"D7"a3ba2|a3fd2|
+   "G"b4b2|"D7"a3bg2|"A7"f3ge2|"D7"d2e2f2|
+   "G"g4"D7"f2|"C"e3fg2|"G"d4"C"c2|"Em"B3AG2|
+   "C"c4A2|"G"B3cd2|"C"G4"D7"F2|1)"G"G4d2:|2)"G"G6||
 """,
     [],
-    []
+    [AudioReferences("Planxty Irwin unaccompanied","fiddle","Planxty Irwin (O'Carolan) fiddle unaccompanied.mp3")],
+    notes_complete=True,
+    chords_complete=True
   ),
 #------------------------------------------------------
   Tune(
