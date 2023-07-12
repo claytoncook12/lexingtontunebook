@@ -7,7 +7,7 @@ tune_list: list[Tune] = [
     "Edor",
     """T: Cooley's
 R: Reel
-M: 4/4
+M: C|
 L: 1/8
 K: Edor
 |:D2|"Em"EBBA B2EB|B2AB dBAG|"D"FDAD BDAD|FDFA BAGF|
@@ -26,7 +26,7 @@ K: Edor
     "D",
     """T: The Wise Maid
 R: Reel
-M: 4/4
+M: C|
 L: 1/8
 K: Dmaj
 |:"D"F3G FEDE|FAAB AFED|d2eg fdec|dBAG "A"BEE2|
@@ -1043,12 +1043,21 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
   Tune(
     "Blast of Wind",
     "slip jig",
-    None,
+    "D",
     """T:Blast of Wind
-%%center Need Notes 
+T:Drop of Spring Water
+R:Slip Jig
+K:D
+M:9/8
+L:1/8
+d3 dAG FED|dBc dAF G2B|ABc dAG FGA|=cB=c E2F GFE|
+D2d dAG FED|dBc dAF G2B|ABc dAG FGA|=cB=c E2F GFE|
+D2g fdf ecA|d2g fdf gfg|d2g fdf eAB|=cB=c E2F GFE|
+D2g fdf ecA|d2g fdf gfg|afd gdc dAB|=cB=c E2F GFE||D3
 """,
     [],
-    [AudioReferences("Blast of Wind (Drop of Spring Water)", "fiddle", "2023-06-25 Blast of Wind Fiddle.mp3")]
+    [AudioReferences("Blast of Wind (Drop of Spring Water)", "fiddle", "2023-06-25 Blast of Wind Fiddle.mp3")],
+    notes_complete=True,
   ),
 #------------------------------------------------------
   Tune(
@@ -1069,7 +1078,8 @@ e2f g2e fdB|e2f g2a bge|faf gge dBG|A/B/cA BGE E2D||G3
     [
       AudioReferences("High Road to Kilkenny", "fiddle", "2023-06-25 High Road to Kilkenny Fiddle.mp3"),
       AudioReferences("High Road to Kilkenny", "whistle", "High Road to Kilkenny Whistle.mp3")
-    ]
+    ],
+    notes_complete=True
   ),
 #------------------------------------------------------
   Tune(
@@ -1098,11 +1108,20 @@ e2f g2e fdB|e2f g2a bge|faf gge dBG|A/B/cA BGE E2D||G3
     "Miss McLeod's",
     "reel",
     "G",
-    """T:Miss McLeod's
-%%center Need Notes 
+    """T:Miss McLeod
+R:Reel
+K:G
+M:C|
+L:1/8
+"G"G2BG dGBG|B2BA BcBA|G2BG dGBG|"C"A2AG "D"AcBA|
+"G"G2BG dGBG|B2BA B2Bd|"C"eeed Bdef|"D"gedB AcBA:|
+|:"G"G2gg efge|dBBA BcBA|G2gg efge|"C"a2ab "D"agef|
+"Em"g2gg efge|"G"dBBA BBBd|"C"eeed Bdef|"D"gedB AcBA:|HG4
 """,
     [],
-    []
+    [],
+    notes_complete=True,
+    chords_complete=True
   ),
 #------------------------------------------------------
   Tune(
