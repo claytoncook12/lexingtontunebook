@@ -1054,12 +1054,22 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
   Tune(
     "High Road to Kilkenny",
     "slip jig",
-    None,
+    "G",
 """T:High Road to Kilkenny
-%%center Need Notes 
+R:Slip Jig
+K:G
+M:9/8
+L:1/8
+G2g gag dBG|A2B c2d ecA|G2g gag dBG|e/f/ge f/g/af gdB|
+G2g gag dBG|A2B c2d ecA|G2g gag dBG|A/B/cA BGE E3|
+e2f g2e fdB|e2f g2a bge|g/a/bg f/g/af e/f/ge|B/c/dB A/B/cA BGE|
+e2f g2e fdB|e2f g2a bge|faf gge dBG|A/B/cA BGE E2D||G3
 """,
     [],
-    [AudioReferences("High Road to Kilkenny", "fiddle", "2023-06-25 High Road to Kilkenny Fiddle.mp3")]
+    [
+      AudioReferences("High Road to Kilkenny", "fiddle", "2023-06-25 High Road to Kilkenny Fiddle.mp3"),
+      AudioReferences("High Road to Kilkenny", "whistle", "High Road to Kilkenny Whistle.mp3")
+    ]
   ),
 #------------------------------------------------------
   Tune(
@@ -1465,11 +1475,14 @@ T: By Vasen
   Tune(
     "Three Sea Captians",
     "set dance",
-    None,
+    "G",
     """T:Three Sea Captians
+K:G
+M:6/8
+L:1/8
 %%center Need Notes 
 """,
-    [],
+    [YoutubeVideoEmbed("Three Sea Captains (Fiddle Lesson)","fiddle","https://www.youtube.com/embed/7UgEtDL6N5E")],
     []
   ),
 #------------------------------------------------------
