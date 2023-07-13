@@ -1043,21 +1043,22 @@ GA|:"G"BGAG "C"EGDE|"G"G2"C"GF "G"GBAG|"C"EGAB "D7"cBAG|"Am"E2A2 A3B|
   Tune(
     "Blast of Wind",
     "slip jig",
-    "D",
+    "Dmix",
     """T:Blast of Wind
 T:Drop of Spring Water
 R:Slip Jig
 K:D
 M:9/8
 L:1/8
-d3 dAG FED|dBc dAF G2B|ABc dAG FGA|=cB=c E2F GFE|
-D2d dAG FED|dBc dAF G2B|ABc dAG FGA|=cB=c E2F GFE|
-D2g fdf ecA|d2g fdf gfg|d2g fdf eAB|=cB=c E2F GFE|
-D2g fdf ecA|d2g fdf gfg|afd gdc dAB|=cB=c E2F GFE||D3
+"D"d3 dAG FED|dBc dAF G2B|ABc dAG FGA|"C"=cB=c E2F GFE|
+"D"D2d dAG FED|dBc dAF G2B|ABc dAG FGA|"C"=cB=c E2F GFE|
+"D"D2g fdf ecA|d2g fdf gfg|d2g fdf eAB|"C"=cB=c E2F GFE|
+"D"D2g fdf ecA|d2g fdf gfg|"G"afd gdc dAB|"C"=cB=c E2F GFE||"D"D3
 """,
     [],
     [AudioReferences("Blast of Wind (Drop of Spring Water)", "fiddle", "2023-06-25 Blast of Wind Fiddle.mp3")],
     notes_complete=True,
+    chords_complete=True
   ),
 #------------------------------------------------------
   Tune(
