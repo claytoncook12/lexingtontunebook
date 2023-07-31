@@ -637,10 +637,10 @@ K: Dmaj
 #---------------------------------------------------
   Tune(
     "Humours of Derrycrossane",
-    "Slip Jig",
+    "slip jig",
     "G",
     """T: Humours of Derrycrossane
-R: slip jig
+R: Slip Jig
 M: 9/8
 L: 1/8
 K: G
