@@ -620,11 +620,11 @@ K: G
   ),
 #---------------------------------------------------
   Tune(
-    "Redigan's Mother",
+    "Redican's Mother",
     "slip jig",
     "D",
     """T: Redican's Mother
-R: slip jig
+R: Slip Jig
 M: 9/8
 L: 1/8
 K: Dmaj
@@ -637,7 +637,7 @@ K: Dmaj
 #---------------------------------------------------
   Tune(
     "Humours of Derrycrossane",
-    "slip jig",
+    "Slip Jig",
     "G",
     """T: Humours of Derrycrossane
 R: slip jig
@@ -1161,13 +1161,22 @@ L:1/8
   Tune(
     "Trip to Durrow",
     "reel",
-    None,
+    "D",
     """T:Trip to Durrow
-%%center Need Notes 
+R:Reel
+K:D
+M:C|
+L:1/8
+D2DF ADFA|defd A3B |dBBA dAAB|FADE FEE2|
+D2DF ADFA|defd A3B |dBBA FAdB|AFGE FDD2:|
+|:dcde fefg|afdf gfed|cdef gebe|gebe gfef|
+dcde fefg|afdf gfed|cdef gebe|fdec d2ze|
+fdec d3e |fded B3c |dBBA dBBA|FADE FEE2|
+D2DF ADFA|defd A3B |dBBA FAdB|AFGE FDD2:|
 """,
-    [],
-    []
-  ),
+    [YoutubeVideoEmbed("Trip to Durrow","fiddle, concertina, harp, etc.","https://www.youtube.com/embed/yXmF9xgrDyk")],
+    [AudioReferences("Trip to Durrow","fiddle, flute","2023-07-22 Trip to Durrow.mp3")],
+  notes_complete=True),
 #------------------------------------------------------
   Tune(
     "Frank's Reel",
@@ -1177,7 +1186,7 @@ L:1/8
 %%center Need Notes 
 """,
     [],
-    []
+    [AudioReferences("Frank's Reel","fiddle","2023-07-22 Franks Reel.mp3")]
   ),
 #------------------------------------------------------
   Tune(
@@ -1315,12 +1324,20 @@ L:1/8
   Tune(
     "Where's the Cat",
     "slide",
-    None,
+    "G",
     """T:Where's the Cat
-%%center Need Notes 
+R:Slide
+M:12/8
+L:1/8
+K:G
+Z:Center for Irish Music 2021 Common Tunes | www.centerforirishmusic.org
+"G"DED "G/B"G2D "C"E2D G3    |"Em"DED G2B "Am"ABG E2D  |
+"G"DED "G/B"G2D "C"E2D G2A   |"G/B"BAB "Am"c2B ABG E2D:|
+|:"G"BAB "G/B"d2B "Am"AGE c2A|"G/B"BAB d2B "Am"ABG E2D |
+"G"BAB "G/B"d2B "Am"AGE c3   |"C"ege "D"d2B ABG E2D   :| 
 """,
     [],
-    []
+    [AudioReferences("Where's the Cat","fiddle","07-2-where-is-the-cat.mp3")]
   ),
 #------------------------------------------------------
   Tune(
@@ -1419,7 +1436,9 @@ L:1/8
 %%center Need Notes 
 """,
     [],
-    []
+    [
+      AudioReferences("Comb Your Hair and Curl It","fiddle","06 Comb Your Hair and Curl It (unaccompanied).mp3"),
+    ]
   ),
 #------------------------------------------------------
   Tune(
@@ -1430,7 +1449,10 @@ L:1/8
 %%center Need Notes 
 """,
     [],
-    []
+    [
+      AudioReferences("Johnny McGreevy's","mandolin, fiddle","2023-07-30 Johnny Mcgreevy's.mp3"),
+      AudioReferences("Johnny McGreevy's","fiddle","05 Johnny McGreevy's (unaccompanied).mp3")
+    ]
   ),
 #------------------------------------------------------
   Tune(
@@ -1472,7 +1494,7 @@ d2|:"G"g4"D7"f2|"C"e3fg2|"G"d4"C"c2|"Em"B3AG2|
   Tune(
     "Johsefins Dopvals",
     "waltz",
-    "F",
+    "G",
     """T:Johsefins Dopvals
 T: By Vasen
 %%center Need Notes 
@@ -1503,7 +1525,7 @@ L:1/8
 %%center Need Notes 
 """,
     [YoutubeVideoEmbed("Three Sea Captains (Fiddle Lesson)","fiddle","https://www.youtube.com/embed/7UgEtDL6N5E")],
-    []
+    [AudioReferences("Three Sea Captains","mandolin","2023-07-30 Three Sea Captains.mp3")]
   ),
 #------------------------------------------------------
   Tune(

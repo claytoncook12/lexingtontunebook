@@ -95,7 +95,7 @@ set_list: list[Set] = [
     ),
     Set(
         'slip jig',
-        [tune_dict["Little Fair Canavans"], tune_dict["Redigan's Mother"], tune_dict["Humours of Derrycrossane"]],
+        [tune_dict["Little Fair Canavans"], tune_dict["Redican's Mother"], tune_dict["Humours of Derrycrossane"]],
         []
     ),
     Set(
@@ -167,7 +167,7 @@ set_list: list[Set] = [
     Set(
         'hornpipe',
         [tune_dict["Humours of Tuamgraney"],tune_dict["Walsh's"]],
-        []
+        [AudioReferences("Humors of Tuamgraney - Walsh's","fidle","2023-07-30 Humors of Tuamgraney - Walsh's.mp3")]
     ),
     # MAZURKA
     Set(
@@ -232,7 +232,7 @@ set_list: list[Set] = [
         Set(
         'set dance',
         [tune_dict["Three Sea Captians"]],
-        []
+        [AudioReferences("Three Sea Captains","mandolin","2023-07-30 Three Sea Captains.mp3")]
     ),
         Set(
         'set dance',
