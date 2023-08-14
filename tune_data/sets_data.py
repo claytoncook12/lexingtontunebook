@@ -167,7 +167,7 @@ set_list: list[Set] = [
     Set(
         'hornpipe',
         [tune_dict["Humours of Tuamgraney"],tune_dict["Walsh's"]],
-        [AudioReferences("Humors of Tuamgraney - Walsh's","fidle","2023-07-30 Humors of Tuamgraney - Walsh's.mp3")]
+        [AudioReferences("Humors of Tuamgraney - Walsh's","fiddle","2023-07-30 Humors of Tuamgraney - Walsh's.mp3")]
     ),
     # MAZURKA
     Set(

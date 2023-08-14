@@ -1343,12 +1343,18 @@ Z:Center for Irish Music 2021 Common Tunes | www.centerforirishmusic.org
   Tune(
     "The Cat's Rambles to the Child's Saucepan",
     "slide",
-    None,
+    "D",
     """T:The Cat's Rambles to the Child's Saucepan
-%%center Need Notes 
+R:Slide
+M:12/8
+L:1/8
+K:D
+|:d2e f2e dcd B3|g2A cBA e2A cBA|d2e f2e dcd B3|g2A cBA d3 d3:|
+|:d2e f2a baf a2f|e2A cBA e2A cBA|d2e f2a baf a2f|e2A cBA d3 d3:|
 """,
     [],
-    []
+    [AudioReferences("The Cat's Rambles to the Child's Saucepan","banjo, whistle, fiddle","2023-08-14 Louisville Session - Cats Rambles to the Child's Saucepan.mp3")],
+    notes_complete=True
   ),
 #------------------------------------------------------
   Tune(
