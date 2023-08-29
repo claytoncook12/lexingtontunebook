@@ -1577,6 +1577,24 @@ L:1/8
     [],
     []
   ),
+#------------------------------------------------------
+  Tune(
+    "Blacksmith, The",
+    "reel",
+    "G",
+    """T:Blacksmith
+R:Reel
+K:G
+M:6/8
+L:1/8
+dBBB dBGB|dBBB ABcA|dBBB dBG2|cABG AcBA:|
+|:G2BG DGBG|GGBG AcBA|G2BG DGB2|cABG AcBA:|G4
+""",
+    [],
+    [AudioReferences('The Blacksmith',"fiddle","2023-07-22_Ceili_Mhor_Teaching_Blacksmith.mp3")],
+    notes_complete=True,
+    chords_complete=False
+  ),
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
