@@ -1139,12 +1139,19 @@ L:1/8
   Tune(
     "Congress Reel",
     "reel",
-    None,
-    """T:Congress Reel
-%%center Need Notes 
+    "Ador",
+    """T:Congress
+R: Reel
+M: C|
+K: Ador
+d|:eAAG A2Bd|eaaf gedg|eAcA eAcA|BGGA Bdeg|
+eAAG A2Bd|eaaf ged2|cBcd eged|c/B/ABG A2Bd:|
+|:eaag abag|eaag egdg|egdg egdg|eaaf gedg|
+eaag a2ag|eaaf ged2|cBcd eged|c/B/ABG A2Bd:|
 """,
-    [],
-    []
+    [YoutubeVideoEmbed("The Congress - Irish Reel","fiddle, guitar","https://www.youtube.com/embed/riioAazcuC8?si=hfafJ1fKGqIkVujW")],
+    [AudioReferences("Congress Reel - up tempo", "whistle","2023-09-24 Congress Reel - whistle.mp3")], 
+    True
   ),
 #------------------------------------------------------
   Tune(
