@@ -146,7 +146,7 @@ set_list: list[Set] = [
     Set(
         'slide',
         [tune_dict["Where's the Cat"], tune_dict["The Cat's Rambles to the Child's Saucepan"]],
-        []
+        [AudioReferences("Cat Slides","flute","2023-10-03 Wheres the Cat - Cats Rambles to the Child's Saucepan slides.mp3")]
     ),
     # Hornpipe
     Set(

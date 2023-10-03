@@ -1313,7 +1313,7 @@ D2DF ADFA|defd A3B |dBBA FAdB|AFGE FDD2:|
     """T:Farewell to Whiskey
 %%center Need Notes 
 """,
-    [],
+    [YoutubeVideoEmbed("Farewell to Whiskey","fiddle","https://www.youtube.com/embed/P4sU77gabks?si=_voYxvX9fGNtmbNt")],
     []
   ),
 #------------------------------------------------------
@@ -1324,7 +1324,7 @@ D2DF ADFA|defd A3B |dBBA FAdB|AFGE FDD2:|
     """T:Lakes of Sligo
 %%center Need Notes 
 """,
-    [],
+    [YoutubeVideoEmbed("Lakes of Sligo","fiddle","https://www.youtube.com/embed/fqDVXdB7d-U?si=hdOWoiBD1X7GV79A")],
     []
   ),
 #------------------------------------------------------
@@ -1338,13 +1338,13 @@ M:12/8
 L:1/8
 K:G
 Z:Center for Irish Music 2021 Common Tunes | www.centerforirishmusic.org
-"G"DED "G/B"G2D "C"E2D G3    |"Em"DED G2B "Am"ABG E2D  |
-"G"DED "G/B"G2D "C"E2D G2A   |"G/B"BAB "Am"c2B ABG E2D:|
-|:"G"BAB "G/B"d2B "Am"AGE c2A|"G/B"BAB d2B "Am"ABG E2D |
-"G"BAB "G/B"d2B "Am"AGE c3   |"C"ege "D"d2B ABG E2D   :| 
+"G"DED "G/B"G2D "C"E2D G3    |"Em"DED G2B "Am"ABG E2D  |"G"DED "G/B"G2D "C"E2D G2A   |"G/B"BAB "Am"c2B ABG E2D:|
+|:"G"BAB "G/B"d2B "Am"AGE c2A|"G/B"BAB d2B "Am"ABG E2D |"G"BAB "G/B"d2B "Am"AGE c3   |"C"ege "D"d2B ABG E2D   :| 
 """,
     [],
-    [AudioReferences("Where's the Cat","fiddle","07-2-where-is-the-cat.mp3")]
+    [AudioReferences("Where's the Cat","fiddle","07-2-where-is-the-cat.mp3")],
+    notes_complete=True,
+    chords_complete=True
   ),
 #------------------------------------------------------
   Tune(
@@ -1356,12 +1356,13 @@ R:Slide
 M:12/8
 L:1/8
 K:D
-|:d2e f2e dcd B3|g2A cBA e2A cBA|d2e f2e dcd B3|g2A cBA d3 d3:|
-|:d2e f2a baf a2f|e2A cBA e2A cBA|d2e f2a baf a2f|e2A cBA d3 d3:|
+|:"D"d2e f2e dcd B3|"G"g2A cBA "A"e2A cBA|"D"d2e f2e dcd B3|"Em"g2A "A"cBA "D"d3 d3:|
+|:"D"d2e f2a baf a2f|"A"e2A cBA e2A cBA|"D"d2e f2a baf a2f|"Em"e2A "A"cBA "D"d3 d3:|
 """,
     [],
     [AudioReferences("The Cat's Rambles to the Child's Saucepan","banjo, whistle, fiddle","2023-08-14 Louisville Session - Cats Rambles to the Child's Saucepan.mp3")],
-    notes_complete=True
+    notes_complete=True,
+    chords_complete=True
   ),
 #------------------------------------------------------
   Tune(
