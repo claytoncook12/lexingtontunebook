@@ -1097,12 +1097,21 @@ e2f g2e fdB|e2f g2a bge|faf gge dBG|A/B/cA BGE E2D||G3
   Tune(
     "Devanney's Goat",
     "reel",
-    None,
+    "D",
     """T:Devanney's Goat
-%%center Need Notes 
+R:Reel
+K:D
+M:C|
+L:1/8
+"D"DFAB AFAB|d2fe dBAF|"D/F#"DFAF "G"B2AF|"A"E/F/GFD E3F|
+"D"DFAB AFAB|d2fe dBA2|"G"efdB AFF2|1)"A"AFEG FDDE:|2)"A"AFEG "D"FDD2||
+|:"D"faab afdf |a2fd "A"edB/c/d|"D"ABde fdd2|edfd edB/c/d|
+"D"ABde fddf|"Bm"g2fded B/c/d|"G"A2dB AFF2|1)"A"AFEG FDD2:|2)"A"AFEG "D"FDDE||
 """,
     [],
-    []
+    [],
+    True,
+    True
   ),
 #------------------------------------------------------
   Tune(
