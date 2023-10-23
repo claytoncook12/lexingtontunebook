@@ -1329,12 +1329,21 @@ D2DF ADFA|defd A3B |dBBA FAdB|AFGE FDD2:|
   Tune(
     "Lakes of Sligo",
     "jig",
-    None,
+    "D",
     """T:Lakes of Sligo
-%%center Need Notes 
+R: Polka
+M: 2/4
+L: 1/8
+K: D
+"D"FA AB/c/|d>e dc|"G"BG Bd|"A"e>d ef|
+"D"FA AB/c/|d>e f/g/f/e/|"D"dB "G"Af|1)"A"e2 "D"d2:|2)"A"e2 "D"d>e||
+|:"D"fa d>e|fa ag/f/|"G"gb e>f|gb "A"ba/g/|
+"D"fa ef/e/|d>e f/g/f/e/|"D"dB "G"Af|1)"A"e2 "D"d>e:|2)"A"e2 "D"d2||
 """,
     [YoutubeVideoEmbed("Lakes of Sligo","fiddle","https://www.youtube.com/embed/fqDVXdB7d-U?si=hdOWoiBD1X7GV79A")],
-    []
+    [AudioReferences("Lakes of Sligo - 80 bpm", "flute","2023-10-23-LakesOfSligo-flute-80bpm.mp3")],
+    True,
+    True
   ),
 #------------------------------------------------------
   Tune(
