@@ -1317,13 +1317,22 @@ D2DF ADFA|defd A3B |dBBA FAdB|AFGE FDD2:|
 #------------------------------------------------------
   Tune(
     "Farewell to Whiskey",
-    "jig",
-    None,
+    "polka",
+    "G",
     """T:Farewell to Whiskey
-%%center Need Notes 
+R: Polka
+M: 2/4
+L: 1/8
+K: G
+|:"G"DG/A/ B/A/G/A/|BE "C"E/F/G/E/|"G"DG/A/ B/A/G/B/|"D"dd "G/B"Bd|
+"C"e/f/g/e/ "G"dB|"Am"c/B/A/G/ "D"AB|"G"DG/A/ B/A/G/A/|1)"D"BG "G"G2:|2)"D"BG "G"G>B||
+|:"G"dB g2|e/f/g/e/ dB/c/|dB g>g|"C"ef "D"g>g|
+"C"e/f/g/e/ "G"dB|"Am"c/B/A/G/ "D"AB|"G"DG/A/ B/A/G/A/|1)"D"BG "G"G>B:|2)"D"2BG "G"G2||
 """,
     [YoutubeVideoEmbed("Farewell to Whiskey","fiddle","https://www.youtube.com/embed/P4sU77gabks?si=_voYxvX9fGNtmbNt")],
-    []
+    [],
+    True,
+    True
   ),
 #------------------------------------------------------
   Tune(
