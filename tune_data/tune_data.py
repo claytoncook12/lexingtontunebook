@@ -560,7 +560,7 @@ FAA GBB|FAd fed|c2c ABc|1)dfe d2A:|2)dfe dBc||
 |:dBB fBB|f3 fed|cAA eAA|e3 edc|
 dBB fBB|f3 fed|cBc ABc|1)dfe dBc:||2)dfe d2A||""",
     [],
-    [],
+    [AudioReferences("Tripping up the Stairs - 80 bpm","flute","2023-10-24-Tripping Up The Stairs-Flute-80bpm.mp3")],
     notes_complete=True
   ),
 #------------------------------------------------
