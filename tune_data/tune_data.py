@@ -1222,9 +1222,10 @@ D2DF ADFA|defd A3B |dBBA FAdB|AFGE FDD2:|
     "jig",
     None,
     """T:Thrush in the Straw
+T: (The Lisheen Jig)
 %%center Need Notes 
 """,
-    [],
+    [YoutubeVideoEmbed("The Trush in the Straw","fiddle, concertina", "https://www.youtube.com/embed/byBzI33D5PI")],
     []
   ),
 #------------------------------------------------------
@@ -1235,7 +1236,7 @@ D2DF ADFA|defd A3B |dBBA FAdB|AFGE FDD2:|
     """T:Lark on the Strand
 %%center Need Notes 
 """,
-    [],
+    [YoutubeVideoEmbed('Lark on the Strand','uilleann pipes and fiddle','https://www.youtube.com/embed/xykFbbZ3s1I')],
     []
   ),
 #------------------------------------------------------
