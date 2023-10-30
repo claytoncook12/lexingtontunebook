@@ -1088,10 +1088,22 @@ e2f g2e fdB|e2f g2a bge|faf gge dBG|A/B/cA BGE E2D||G3
     "jig",
     "G",
     """T:Sweets of May
-%%center Need Notes 
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+d2c|:"G"B2G "D"AFD|"G"G3 G2A|B3 GAB|"C"cBc "D"d2c|
+"G"B2G "D"AFD|"G"G3 G2c|"G"B2G "D"AFD|1)"G"G3 G2c:|2)"G"G3 G2G||
+|:"Am"A2A A2G|"C"E2F G2E|"Am"A2A c2d|"Em"e2d c2B|
+"Am"A2A A2G|E2F G2E|"G"A2A BAG|1)"Am"A3 A2G:|2)"Am"A3 ABc||
+|:"G"ded d3|D3 D3|"C"cdc c3|D3 D3|
+"G"G2D G2A|"C"B2G ABc|"D"ded "C"cBA|1)"G"G3 ABc:|2)"G"G3 G3||
+
 """,
     [],
-    [AudioReferences("Sweets of May", "fiddle", "2023-06-25 Sweets of May Fiddle.mp3")]
+    [AudioReferences("Sweets of May", "fiddle", "2023-06-25 Sweets of May Fiddle.mp3")],
+    True,
+    True
   ),
 #------------------------------------------------------
   Tune(
