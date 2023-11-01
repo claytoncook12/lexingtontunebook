@@ -1232,12 +1232,24 @@ T: (The Lisheen Jig)
   Tune(
     "Lark on the Strand",
     "jig",
-    None,
+    "G",
     """T:Lark on the Strand
-%%center Need Notes 
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+"A5"A3 AGA|BGE "G"G3 |"G"ABA GBd|edg "D"edB|
+"A5"A3 AGA|BGE "G"G2B|"G"dBA G2B|dBG "D"B/c/dB:|
+|:"G"GBd g3|gba "C"gdB|"G"GBd g2d|"D"edg edB|
+  "G"GBd g3|gba "C"gfg|"D"a3 agb|age edB:|"A5"A3
 """,
-    [YoutubeVideoEmbed('Lark on the Strand','uilleann pipes and fiddle','https://www.youtube.com/embed/xykFbbZ3s1I')],
-    []
+    [
+      YoutubeVideoEmbed('Lark on the Strand','uilleann pipes and fiddle','https://www.youtube.com/embed/xykFbbZ3s1I'),
+      YoutubeVideoEmbed('Lark on the Strand','whistle',"https://www.youtube.com/embed/o2ie_d6AbWQ")
+    ],
+    [],
+    True,
+    True
   ),
 #------------------------------------------------------
   Tune(
