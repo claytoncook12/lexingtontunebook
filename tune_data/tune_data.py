@@ -1220,10 +1220,17 @@ D2DF ADFA|defd A3B |dBBA FAdB|AFGE FDD2:|
   Tune(
     "Thrush in the Straw",
     "jig",
-    None,
+    "G",
     """T:Thrush in the Straw
 T: (The Lisheen Jig)
-%%center Need Notes 
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+d|:efg edB|c2A BGD|G3 BdB|BAG ABd|
+efg edB|c2A BGD|G3 BdB|1)AGF GBd:|2)AGF G2D||
+|:GBd g3|abf g2e|f2d edB|c2A BGD|
+GBd g3|abf g2e|f2d edB|1)AGF G2D:|2)AGF GBd||
 """,
     [YoutubeVideoEmbed("The Trush in the Straw","fiddle, concertina", "https://www.youtube.com/embed/byBzI33D5PI")],
     []
@@ -1232,7 +1239,7 @@ T: (The Lisheen Jig)
   Tune(
     "Lark on the Strand",
     "jig",
-    "G",
+    "G Modal",
     """T:Lark on the Strand
 R: Jig
 M: 6/8
