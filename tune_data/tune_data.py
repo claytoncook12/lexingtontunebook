@@ -1227,13 +1227,15 @@ R: Jig
 M: 6/8
 L: 1/8
 K: G
-d|:efg edB|c2A BGD|G3 BdB|BAG ABd|
-efg edB|c2A BGD|G3 BdB|1)AGF GBd:|2)AGF G2D||
-|:GBd g3|abf g2e|f2d edB|c2A BGD|
-GBd g3|abf g2e|f2d edB|1)AGF G2D:|2)AGF GBd||
+d|:"C"efg edB|"D"c2A BGD|"G"G3 BdB|BAG "D"ABd|
+"C"efg edB|"D"c2A BGD|"G"G3 BdB|1)"D"AGF "G"GBd:|2)"D"AGF "G"G2D||
+|:"G"GBd g3|abf g2e|"C"f2d edB|c2A "D"BGD|
+"G"GBd g3|abf g2e|"C"f2d edB|1)"D"AGF "G"G2D:|2)"D"AGF "G"GBd||
 """,
     [YoutubeVideoEmbed("The Trush in the Straw","fiddle, concertina", "https://www.youtube.com/embed/byBzI33D5PI")],
-    []
+    [],
+    True,
+    True
   ),
 #------------------------------------------------------
   Tune(
