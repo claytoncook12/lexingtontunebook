@@ -1,17 +1,47 @@
 {% extends '_base.html' %}
 
-{% block content %}
+{% block headCSS %}
+<style>
+.accordion {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
 
-<!-- Set Section -->
-<div class="w3-row w3-padding-64" id="menu">
-<div class="w3-col l6 w3-padding-large">
-    <h1 class="w3-center">Sets</h1><br>
+.accordion:after {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  font-size: 20px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "-"; /* Unicode character for "minus" sign (-) */
+  font-size: 20px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  background-color: rgba(0, 0, 0, 0);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+}
+</style>
+{% endblock %}
+
+{% block content %}
 
 {% for tune_type in tune_types %}
     {% if tune_type != 'set dance' %}
-    <h4 class="tune-type-title">{{ tune_type|title }} Sets</h4>
+    <h2 class="tune-type-title">{{ tune_type|title }} Sets</h2>
     {% else %}
-    <h4>Set Dances</h4>
+    <h2>Set Dances</h2>
     {% endif %}
     <hr class="hr-short">
     <ol>
@@ -50,8 +80,6 @@
     </ol>
 {% endfor %}
 
-    </div>
-</div>
 {% endblock %}
 
 {% block afterJavascript %}
