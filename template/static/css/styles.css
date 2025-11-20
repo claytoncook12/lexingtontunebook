@@ -1,76 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #E7EDF4;
-    overflow-x: hidden;
-}
-
-.header {
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    width: 100vw;
-    background-color: #273B53;
-}
-
-.header-title {
-    color: #DAC37B
-}
-
-.navigation {
-    padding: 10px;
-}
-
-.navigation a {
-    line-height: 30px;
-    margin: 5px 5px;
-    padding: 3px;
-    border: solid #DAC37B 1px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #DAC37B;
-}
-
-.navigation a:hover {
-    background-color: white;
-    color: black;
-}
-
-.main {
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    width: 90vw;
-    max-width: 600px;
-}
-
-h1 {
-    padding: 10px;
-}
-
-h2 {
-    padding: 10px 10px 20px 10px;
-}
-
-.hr-short {
-    width: 20%;
-    margin: 0 auto;
-}
-
-h3 {
-    padding: 20px 10px 0px 10px;
-    text-align: left;
-}
-
-h4 {
-    padding: 20px 10px 0px 10px;
-    text-align: left;
-}
-
 .set-name {
     text-align: left;
     margin-left: 20px;
@@ -147,4 +74,21 @@ h4 {
 
 .bottom-padding {
     height: 200px;
+}
+
+.google-calendar-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (adjust as needed) */
+}
+
+.google-calendar-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
