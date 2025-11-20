@@ -19,7 +19,7 @@
 
 <!-- Calendar -->
 <div class="w3-container w3-center" id="calender">
-    <h2>Upcoming Events</h2>
+    <h2>Upcoming</h2>
     <div class="google-calendar-container">
         <iframe 
             src="https://calendar.google.com/calendar/embed?src=f51d24e682f96b84acb2b8a7768e934b725a7f0cab2370677da140f15478e84a%40group.calendar.google.com&ctz=America%2FNew_York" 
@@ -34,7 +34,7 @@
 <hr>
 
 <!-- Set Section -->
-<div class="w3-container w3-center" id="sets">
+<div class="w3-container w3-center w3-padding-64" id="sets">
     <h2>Sets</h2>
     <p>Here is a selection of common sets we play.</p>
 
@@ -49,64 +49,37 @@
     {% for set in set_list %}
         {% if tune_type == set.set_type %}
             <button onclick="showNextDiv(this)" class="w3-button w3-block w3-left-align">
-                <span>{{ set.set_name() }}</span>
+                <span style="white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">
+                    {{ set.set_name() }}
+                </span>
                 <div class="w3-right">+</div>
             </button>
             <div class="w3-container w3-padding-16 w3-hide">
-                {% if set.reference_audios|length > 0 %}
-                    {% for audio in set.reference_audios %}
-                        <div class="w3-panel w3-border w3-round-xxlarge">
-                            Audio: {{ audio.title }}<br>
-                            <audio controls>
-                                <source src="static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
-                            </audio><br>
-                            Instrument: {{ audio.instruments }}
-                        </div>
-                    {% endfor %}
-                {% endif %}
-                <br>
-                {% for tune in set.set_tune_list %}
-                    <a href="tune.html#{{ tune.slug_id() }}">
-                        <div id="{{ tune.slug_id() }}" class="tune" >
-                            <pre>{{ tune.abc_notation }}</pre>
-                        </div>
-                    </a>
-                {% endfor%}
-            </div>
-        {%  endif %}
-    {% endfor %}
-    <!-- <ol>
-    {% for set in set_list %}
-        {% if tune_type == set.set_type %}
-        <li>
-            {{ set.set_name() }}
-            <div class="panel">
-                <div class="tune-additional-data">
+                <div class="row">
                     {% if set.reference_audios|length > 0 %}
-                        <h5>Audio References</h5>
                         {% for audio in set.reference_audios %}
-                            <div class="audio-container">
-                                <h6 class="audio-title">{{ audio.title }}</h6>
-                                <h6>Instrument: {{ audio.instruments }}</h6>
+                            <div class="w3-col m12 l6 w3-panel w3-border w3-round-xxlarge">
+                                Audio: {{ audio.title }}<br>
                                 <audio controls>
                                     <source src="static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
-                                </audio>
+                                </audio><br>
+                                Instrument: {{ audio.instruments }}
                             </div>
                         {% endfor %}
                     {% endif %}
+                    <div class="w3-col m8 l6">
+                        {% for tune in set.set_tune_list %}
+                            <a href="tune.html#{{ tune.slug_id() }}">
+                                <div id="{{ tune.slug_id() }}" class="tune" >
+                                    <pre>{{ tune.abc_notation }}</pre>
+                                </div>
+                            </a>
+                        {% endfor%}
+                    </div>
                 </div>
-                {% for tune in set.set_tune_list %}
-                    <a href="tune.html#{{ tune.slug_id() }}">
-                        <div id="{{ tune.slug_id() }}" class="tune" >
-                            <pre>{{ tune.abc_notation }}</pre>
-                        </div>
-                    </a>
-                {% endfor%}
             </div>
-        </li>
-        {% endif %}
+        {%  endif %}
     {% endfor %}
-    </ol> -->
 {% endfor %}
 </div>
 {% endblock %}
