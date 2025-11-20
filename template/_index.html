@@ -13,7 +13,7 @@
 <!-- Welcome Paragraph -->
 <div class="w3-container w3-center" id="welcome">
     <h1>Welcome to the Lexington Irish Session</h1>
-    <p>Enjoy traditional Irish music in a friendly and welcoming environment.</p>
+    <p>Enjoy traditional Irish dance music in a friendly and welcoming environment.</p>
 </div>
 <hr>
 
@@ -39,27 +39,55 @@
     <p>Here is a selection of common sets we play.</p>
 
 {% for tune_type in tune_types %}
-    {% if tune_type != 'set dance' %}
-    <h4 class="tune-type-title">{{ tune_type|title }} Sets</h4>
-    {% else %}
-    <h4>Set Dances</h4>
-    {% endif %}
-    <hr class="hr-short">
-    <ol>
+    <div class="w3-left-align">
+        {% if tune_type != 'set dance' %}
+        <h4>{{ tune_type|title }} Sets</h4>
+        {% else %}
+        <h4>Set Dances</h4>
+        {% endif %}
+    </div>
     {% for set in set_list %}
         {% if tune_type == set.set_type %}
-        <li class="set-name">
-            <button class="accordion">
-                {{ set.set_name() }}
+            <button onclick="showNextDiv(this)" class="w3-button w3-block w3-left-align">
+                <span>{{ set.set_name() }}</span>
+                <div class="w3-right">+</div>
             </button>
+            <div class="w3-container w3-padding-16 w3-hide">
+                {% if set.reference_audios|length > 0 %}
+                    {% for audio in set.reference_audios %}
+                        <div class="w3-panel w3-border w3-round-xxlarge">
+                            Audio: {{ audio.title }}<br>
+                            <audio controls>
+                                <source src="static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
+                            </audio><br>
+                            Instrument: {{ audio.instruments }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+                <br>
+                {% for tune in set.set_tune_list %}
+                    <a href="tune.html#{{ tune.slug_id() }}">
+                        <div id="{{ tune.slug_id() }}" class="tune" >
+                            <pre>{{ tune.abc_notation }}</pre>
+                        </div>
+                    </a>
+                {% endfor%}
+            </div>
+        {%  endif %}
+    {% endfor %}
+    <!-- <ol>
+    {% for set in set_list %}
+        {% if tune_type == set.set_type %}
+        <li>
+            {{ set.set_name() }}
             <div class="panel">
                 <div class="tune-additional-data">
                     {% if set.reference_audios|length > 0 %}
-                        <h4>Audio References</h4>
+                        <h5>Audio References</h5>
                         {% for audio in set.reference_audios %}
                             <div class="audio-container">
-                                <h5 class="audio-title">{{ audio.title }}</h5>
-                                <h5>Instrument: {{ audio.instruments }}</h5>
+                                <h6 class="audio-title">{{ audio.title }}</h6>
+                                <h6>Instrument: {{ audio.instruments }}</h6>
                                 <audio controls>
                                     <source src="static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
                                 </audio>
@@ -78,29 +106,23 @@
         </li>
         {% endif %}
     {% endfor %}
-    </ol>
+    </ol> -->
 {% endfor %}
-
-    </div>
 </div>
 {% endblock %}
 
 {% block afterJavascript %}
-<script type="text/javascript">
-    /** Accordion Functionality **/
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-        });
+<script>
+function showNextDiv(element) {
+    var nextDiv = element.nextElementSibling;
+    if (nextDiv && nextDiv.tagName === 'DIV') {
+        if (nextDiv.className.indexOf("w3-show") == -1) {
+            nextDiv.className += " w3-show";
+        } else {
+            nextDiv.className = nextDiv.className.replace(" w3-show", "");
+        }
     }
+}
 </script>
 
 <script type="text/javascript">
