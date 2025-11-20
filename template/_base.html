@@ -4,9 +4,9 @@
 <title>Lexington Irish Session</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="static/css/w3.css">
-<link rel="stylesheet" href="static/css/styles.css">
-<script src="static/js/abcjs-basic-min.js"></script>
+<link rel="stylesheet" href="{{ base_path }}static/css/w3.css">
+<link rel="stylesheet" href="{{ base_path }}static/css/styles.css">
+<script src="{{ base_path }}static/js/abcjs-basic-min.js"></script>
 <style>
 body {font-family: "Times New Roman", Georgia, Serif;}
 h1, h2, h3 {
@@ -26,24 +26,22 @@ h4, h5, h6 {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-padding">
-  <a href="index.html" class="w3-bar-item w3-button w3-border-top w3-border-bottom w3-border-green w3-hover-green w3-round-xlarge" style="letter-spacing:4px;">Lexington Irish Session</a>
+  <div class="w3-bar w3-light-green w3-padding">
+  <a href="{{ base_path }}index.html" class="w3-bar-item w3-button w3-border-top w3-border-bottom w3-border-green w3-hover-white w3-round-xlarge" style="letter-spacing:4px;">Lexington Irish Session</a>
   <div class="w3-right">
-    <a href="index.html#sets" class="w3-bar-item w3-button w3-hide-small w3-hover-green w3-round-xlarge">Sets</a>
-    <a href="tune.html" class="w3-bar-item w3-button w3-hide-small w3-hover-green w3-round-xlarge">Tunes</a>
-    <a href="tune_index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-green w3-round-xlarge">Tune Index</a>
+    <a href="{{ base_path }}index.html#sets" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-round-xlarge">Sets</a>
+    <a href="{{ base_path }}tune_index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-round-xlarge">Tune Index</a>
   </div>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium 3-hover-green w3-round-xlarge" onclick="hamburgerMenu()">&#9776;</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-white w3-round-xlarge" onclick="hamburgerMenu()">&#9776;</a>
   </div>
-  <div id="demo" class="w3-bar-block w3-hide  w3-white w3-hide-large w3-hide-medium">
-    <a href="index.html#sets" class="w3-bar-item w3-button w3-hover-green w3-round-xlarge">Sets</a>
-    <a href="tune.html" class="w3-bar-item w3-button w3-hover-green w3-round-xlarge">Tunes</a>
-    <a href="tune_index.html" class="w3-bar-item w3-button w3-hover-green w3-round-xlarge">Tune Index</a>
+  <div id="demo" class="w3-bar-block w3-light-green w3-hide w3-hide-large w3-hide-medium">
+    <a href="{{ base_path }}index.html#sets" class="w3-bar-item w3-button w3-hover-white w3-round-xlarge">Sets</a>
+    <a href="{{ base_path }}tune_index.html" class="w3-bar-item w3-button w3-hover-white w3-round-xlarge">Tune Index</a>
   </div>
 </div>
 
 <!-- Page content -->
-<div class="w3-content w3-padding-64" style="max-width:1100px">
+<div class="w3-content w3-padding-48" style="max-width:1100px">
 
   {% block content %}{% endblock %}
   
@@ -57,7 +55,6 @@ h4, h5, h6 {
 
 <!-- After Javascript -->
 {% block afterJavascript %}{% endblock %}
-<script src="static/js/backtotopbtn.js"></script>
 <script>
 function hamburgerMenu() {
   var x = document.getElementById("demo");

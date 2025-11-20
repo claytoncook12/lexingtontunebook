@@ -1,0 +1,90 @@
+{% extends '_base.html' %}
+
+{% block content %}
+<div class="w3-content w3-padding-16" style="max-width:1100px">
+    <div class="w3-container">
+    <h2 class="w3-center"><u>{{ tune.title }}</u></h2>
+    
+    <div class="w3-row w3-padding-16">
+        <!-- Audio -->
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+            {% if tune.reference_audios|length > 0 %}
+                <h4>Audio References</h4>
+                {% for audio in tune.reference_audios %}
+                    <div class="audio-container">
+                        <p>
+                            {{ audio.title }}<br>
+                            Instrument: {{ audio.instruments }}
+                        </p>
+                        <audio controls>
+                            <source src="../static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
+                        </audio>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <!-- Video -->
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+            {% if tune.reference_videos|length > 0 %}
+                <h4>Video References</h4>
+                {% for video in tune.reference_videos %}
+                    <div class="video-container">
+                        <p>
+                            {{ video.title }}<br>
+                            Instrument: {{ video.instruments }}
+                        </p>
+                        <div class="frame-container">
+                            <iframe
+                                class="responsive-iframe"
+                                src="{{ video.embed_url }}"
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="w3-row w3-padding-16">
+        <!-- ABC Notation That is Generated to Notes -->
+        {% if tune.abc_notation %}
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+            <div id="{{ tune.slug_id() }}" class="tune">
+                <pre>{{ tune.abc_notation }}</pre>
+            </div>
+        </div>
+        {% endif %}
+        
+        <!-- ABC Notation -->
+        {% if tune.abc_notation %}
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+        <h4>ABC Notation</h4>
+            <div> 
+                <pre style="white-space: pre-wrap;">{{ tune.abc_notation }}</pre>
+                <br>
+                <a href="{{ tune.drawthedots_link() }}" target="_blank">
+                    <button>
+                        Edit ABC
+                    </button>
+                </a>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+</div>
+{% endblock %}
+
+{% block afterJavascript %}
+<script type="text/javascript">
+    var els = document.getElementsByClassName('tune');
+    
+    var visualOptions = { responsive: 'resize' };
+    for (let index = 0; index < els.length; index++) {
+        ABCJS.renderAbc(els[index].id,els[index].textContent,visualOptions)
+        // ABCJS.renderAbc(els[index].id,els[index].textContent)
+    }
+</script>
+{% endblock %}

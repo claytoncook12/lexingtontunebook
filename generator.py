@@ -18,6 +18,7 @@ class SiteGenerator(object):
         self.copy_static()
         self.render_main_page()
         self.render_tune_page()
+        self.render_tune_pages()
         self.render_tune_index_page()
         self.render_submit_a_tune_page()
         self.finished()
@@ -58,6 +59,25 @@ class SiteGenerator(object):
                 tune_list = tune_list_alphab
             )
             file.write(html)
+    
+    def render_tune_pages(self) -> None:
+        """ Create Tune Pages """
+        print("Rendering Tune pages to static file.")
+        
+        # Create tune folder if it doesn't exist
+        tune_folder = 'public/tune'
+        if not os.path.exists(tune_folder):
+            os.makedirs(tune_folder)
+        
+        template = self.env.get_template('_tune_detail.html')
+        for tune in tune_list:
+            with open(f'public/tune/{tune.slug_id()}.html', 'w+') as file:
+                html = template.render(
+                    tune = tune,
+                    base_path = '../'
+                )
+                file.write(html)
+            
     
     def render_tune_index_page(self) -> None:
         """ Create tune index Page """
