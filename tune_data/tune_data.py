@@ -110,7 +110,10 @@ K: Dmaj
 |:"D"faa f2e d3 def|"G"g2f e2d Bcd "A"efg|
 "D"faa f2e d3 def|"G"g2f ecA "A"f2e "D"d3:|""",
     [],
-    [],
+    [AudioReferences(
+            "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied)",
+            "fiddle",
+            "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied).mp3")],
     notes_complete=True,
     chords_complete=True
   ),
@@ -390,7 +393,10 @@ GA BA/G/|FA A>B  |cA FA|1) G2 GD    :|2) G2 GB/c/||
 dg fe   |fA A>B  |cd ef|   g2 fe     |
 dg fe   |fA A>B  |cA FA|1) G2 GB/c/ :|2) g2 GD||""",
     [],
-    [],
+    [AudioReferences(
+            "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied)",
+            "fiddle",
+            "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied).mp3")],
     notes_complete=True
   ),
 #-----------------------------------------------------------------
@@ -428,7 +434,10 @@ Gg    g2      |fe e/f/g/e/|dB AB/A/   |1)G2 BB/A/ |2)G2 GA/B/||
 g2    a2      |b2 ba      |g2 a2      |  b2 ba    |
 gb    e/f/g/e/|dB g>e     |dB AB/A/   |1)G2 GA/B/ |2)G2 BB/A/||G4|""",
     [],
-    [],
+    [AudioReferences(
+            "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied)",
+            "fiddle",
+            "Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied).mp3")],
     notes_complete=True
   ),
 #-----------------------------------------------------------------------
@@ -1147,17 +1156,6 @@ L:1/8
   ),
 #------------------------------------------------------
   Tune(
-    "Geenfields of Rossbeigh",
-    "reel",
-    None,
-    """T:Geenfields of Rossbeigh
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
     "Congress Reel",
     "reel",
     "Ador",
@@ -1262,72 +1260,6 @@ K: G
   ),
 #------------------------------------------------------
   Tune(
-    "Trip to the Cottage",
-    "jig",
-    None,
-    """T:Trip to the Cottage
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Calliope House",
-    "jig",
-    None,
-    """T:Calliope House
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Her Long Golden Hair",
-    "hornpipe",
-    None,
-    """T:Her Long Golden Hair
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Scully Casey's",
-    "hornpipe",
-    None,
-    """T:Scully Casey's
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Peacock's Feather, The",
-    "hornpipe",
-    None,
-    """T:Peacock's Feather, The
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Chief O'Neill's",
-    "hornpipe",
-    None,
-    """T:Chief O'Neill's
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
     "Humours of Tuamgraney",
     "hornpipe",
     None,
@@ -1335,18 +1267,18 @@ K: G
 %%center Need Notes 
 """,
     [],
-    []
+    [AudioReferences("Humors of Tuamgraney - Walsh's","fiddle","2023-07-30 Humors of Tuamgraney - Walsh's.mp3")]
   ),
 #------------------------------------------------------
   Tune(
     "Walsh's",
-    "jig",
+    "hornpipe",
     None,
     """T:Walsh's
 %%center Need Notes 
 """,
     [],
-    []
+    [AudioReferences("Humors of Tuamgraney - Walsh's","fiddle","2023-07-30 Humors of Tuamgraney - Walsh's.mp3")]
   ),
 #------------------------------------------------------
   Tune(
@@ -1427,83 +1359,6 @@ K:D
   ),
 #------------------------------------------------------
   Tune(
-    "Sonny's Mazurka",
-    "mazurka",
-    None,
-    """T:Sonny's Mazurka
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Irish Mazurka, The",
-    "mazurka",
-    None,
-    """T:Irish Mazurka, The
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Bonaparte Crossing the Alps",
-    "march",
-    None,
-    """T:Bonaparte Crossing the Alps
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Battle of Aughrim",
-    "march",
-    None,
-    """T:Battle of Aughrim
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Foxhunter's",
-    "hop jig",
-    None,
-    """T:Foxhunter's
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Cucanandy",
-    "hop jig",
-    None,
-    """T:Cucanandy
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Dusty Miller, The",
-    "hop jig",
-    None,
-    """T:The Dusty Miller
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
     "Comb Your Hair and Curl It",
     "hop jig",
     None,
@@ -1528,17 +1383,6 @@ K:D
       AudioReferences("Johnny McGreevy's","mandolin, fiddle","2023-07-30 Johnny Mcgreevy's.mp3"),
       AudioReferences("Johnny McGreevy's","fiddle","05 Johnny McGreevy's (unaccompanied).mp3")
     ]
-  ),
-#------------------------------------------------------
-  Tune(
-    "Planxty Hewlett",
-    "waltz",
-    None,
-    """T:Planxty Hewlett
-%%center Need Notes 
-""",
-    [],
-    []
   ),
 #------------------------------------------------------
   Tune(
@@ -1567,18 +1411,6 @@ d2|:"G"g4"D7"f2|"C"e3fg2|"G"d4"C"c2|"Em"B3AG2|
   ),
 #------------------------------------------------------
   Tune(
-    "Johsefins Dopvals",
-    "waltz",
-    "G",
-    """T:Johsefins Dopvals
-T: By Vasen
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
     "Blackbird",
     "set dance",
     None,
@@ -1601,50 +1433,6 @@ L:1/8
 """,
     [YoutubeVideoEmbed("Three Sea Captains (Fiddle Lesson)","fiddle","https://www.youtube.com/embed/7UgEtDL6N5E")],
     [AudioReferences("Three Sea Captains","mandolin","2023-07-30 Three Sea Captains.mp3")]
-  ),
-#------------------------------------------------------
-  Tune(
-    "Piper Through the Meadow Straying",
-    "set dance",
-    None,
-    """T:Piper Through the Meadow Straying
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Orange Rogue",
-    "set dance",
-    None,
-    """T:Orange Rogue
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "St. Patrick's Day in the Morning",
-    "set dance",
-    None,
-    """T:St. Patrick's Day in the Morning
-%%center Need Notes 
-""",
-    [],
-    []
-  ),
-#------------------------------------------------------
-  Tune(
-    "Humors of Bandon",
-    "set dance",
-    None,
-    """T:Humors of Bandon
-%%center Need Notes 
-""",
-    [],
-    []
   ),
 #------------------------------------------------------
   Tune(
