@@ -2,18 +2,26 @@
 
 {% block headCSS %}
 <style>
+
 .table-container {
-    margin: 25px 0 0 0;
     width: 100%;
 }
 
 .tune-table {
     border-collapse: collapse;
+    width: 100%;
 }
 
-.tune-table th,
-.tune-table td {
-    padding: 5px 10px;
+th, td {
+    padding: 15px;
+    max-width: 400px;
+}
+
+.tune-btn {
+    width: 100%;
+    max-width: 30ch;
+    overflow-wrap: anywhere;     /* Breaks anywhere if needed */
+    white-space: normal;
 }
 
 .tune-table tbody tr {
@@ -36,76 +44,76 @@ a {
 {% endblock %}
 
 {% block content %}
-<div class="w3-content w3-padding-32" style="max-width:1100px">
+<div class="w3-content w3-padding-32">
     <div class="w3-container w3-center" id="tune-index-header">
-<h2>Tunes Alphabetically</h2>
+        <h2>Tunes Alphabetically</h2>
+        <hr>
 
-<div style="text-align: right;">
-    {% if tune_list|length > 1 %}
-    <h3>Total Tunes: {{tune_list|count}}</h3>
-{% endif %}
-</div>
+        <div class="w3-padding-16">
+            <h3>Click on Tunes Title to See More Informaiton.</h3>
+        </div>
 
-<div class="w3-padding-32">
-    <h3>Click on Tunes Title to See More Informaiton.</h3>
-</div>
+        <div class="w3-padding-16" style="text-align: right;">
+            {% if tune_list|length > 1 %}
+            <h3>Total Tunes: {{tune_list|count}}</h3>
+        {% endif %}
+        </div>
 
 
-<div class="table-container w3-center" style="display: flex; justify-content: center;">
-<table class="tune-table">
-    <thead class="w3-black">
-        <tr>
-            <th class="w3-center w3-black w3-padding-16">Tune Title</th>
-            <th class="w3-center w3-black">Tune Type</th>
-            <th class="w3-center w3-black">Key</th>
-            <th class="w3-center w3-black w3-hide-medium w3-hide-small">Sheet Music</th>
-            <th class="w3-center w3-black w3-hide-medium w3-hide-small">Chords</th>
-            <th class="w3-center w3-black w3-hide-medium w3-hide-small">Audio Reference</th>
-            <th class="w3-center w3-black w3-hide-medium w3-hide-small">Video Reference</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for tune in tune_list %}
-        <tr>
-            <td>
-                <a href="tune/{{ tune.slug_id() }}.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    {{ tune.title }}
-                </a>
-            </td>
-            <td>
-                {{ tune.tune_type }}
-            </td>
-            <td>
-                {% if tune.tune_key != None %}
-                    {{ tune.tune_key }}
-                {% endif %}
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                {% if tune.notes_complete == true %}
-                    &#10003;
-                {% endif %}
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                {% if tune.chords_complete == true %}
-                    &#10003;
-                {% endif %}
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                {% if tune.reference_audios|length > 0 %}
-                    &#10003;
-                {% endif %}
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                {% if tune.reference_videos|length > 0 %}
-                    &#10003;
-                {% endif %}
-            </td>
-        </tr>
-        {% endfor%}
-    </tbody>
-</table>
-</div>
-
-</div>
+        <div class="table-container w3-center w3-padding-large" style="justify-content: center;">
+            <table class="tune-table">
+                <thead class="w3-black">
+                    <tr>
+                        <th class="w3-center w3-black">Tune Title</th>
+                        <th class="w3-center w3-black">Tune Type</th>
+                        <th class="w3-center w3-black">Key</th>
+                        <th class="w3-center w3-black w3-hide-small">Sheet<br>Music</th>
+                        <th class="w3-center w3-black w3-hide-small">Chords</th>
+                        <th class="w3-center w3-black w3-hide-small">Audio<br>Reference</th>
+                        <th class="w3-center w3-black w3-hide-small">Video<br>Reference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for tune in tune_list %}
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/{{ tune.slug_id() }}.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                {{ tune.title }}
+                            </a>
+                        </td>
+                        <td>
+                            {{ tune.tune_type }}
+                        </td>
+                        <td>
+                            {% if tune.tune_key != None %}
+                                {{ tune.tune_key }}
+                            {% endif %}
+                        </td>
+                        <td class="w3-hide-small">
+                            {% if tune.notes_complete == true %}
+                                &#10003;
+                            {% endif %}
+                        </td>
+                        <td class="w3-hide-small">
+                            {% if tune.chords_complete == true %}
+                                &#10003;
+                            {% endif %}
+                        </td>
+                        <td class="w3-hide-small">
+                            {% if tune.reference_audios|length > 0 %}
+                                &#10003;
+                            {% endif %}
+                        </td>
+                        <td class="w3-hide-small">
+                            {% if tune.reference_videos|length > 0 %}
+                                &#10003;
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor%}
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div> 
 {% endblock %}

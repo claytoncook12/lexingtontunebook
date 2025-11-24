@@ -3,7 +3,7 @@
 {% block content %}
 
 <!-- Image Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:3200px;min-width:500px" id="home">
+<header class="w3-display-container w3-content w3-wide" style="max-width:3200px;" id="home">
   <img class="w3-image" src="static/images/NativeCafeTable.jpeg" alt="Native Cafe Table" width="3200" height="1600">
   <div class="w3-display-bottomleft w3-padding-large" hidden>
     <h1 class="w3-xxlarge">Lexington Irish Session</h1>
@@ -11,14 +11,17 @@
 </header>
 
 <!-- Welcome Paragraph -->
-<div class="w3-container w3-center w3-light-green" id="welcome">
-    <h1>Welcome to the Lexington Irish Session</h1>
-    <p>Enjoy traditional Irish dance music in a friendly and welcoming environment.</p>
+<div class="w3-container w3-center w3-light-green my-background" id="welcome">
+    <div class="w3-paper w3-padding w3-round-xxlarge" style="margin: 20px">
+        <h1 class="w3-opacity-off">Welcome to the Lexington Irish Session</h1>
+        <p class="w3-opacity-off">Enjoy traditional Irish dance music in a friendly and welcoming environment.</p>
+    </div>
 </div>
 
 <!-- Calendar -->
 <div class="w3-container w3-center w3-padding-16" id="calender">
     <h2>Upcoming</h2>
+    <hr>
     <div class="google-calendar-container">
         <iframe 
             src="https://calendar.google.com/calendar/embed?src=f51d24e682f96b84acb2b8a7768e934b725a7f0cab2370677da140f15478e84a%40group.calendar.google.com&ctz=America%2FNew_York" 
@@ -34,6 +37,7 @@
 <!-- Set Section -->
 <div class="w3-container w3-center w3-padding-48" id="sets">
     <h2>Sets</h2>
+    <hr>
     <p>Here is a selection of common sets we play.</p>
 
 {% for tune_type in tune_types %}

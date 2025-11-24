@@ -36,3 +36,10 @@
     width: 100%;
     height: 100%;
 }
+
+.my-background {
+    background-image: url('../images/notes.png'); /* Replace with your image path */
+    background-size: 10%; /* Adjusts the image to cover the entire div */
+    background-position: center; /* Centers the image within the div */
+    background-repeat: repeat; /* Prevents the image from repeating */
+}
