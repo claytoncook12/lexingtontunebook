@@ -17,9 +17,9 @@ class SiteGenerator(object):
         self.empty_public()
         self.copy_static()
         self.render_main_page()
-        self.render_tune_page()
-        self.render_tune_index_page()
-        self.render_submit_a_tune_page()
+        # self.render_tune_page()
+        # self.render_tune_index_page()
+        # self.render_submit_a_tune_page()
         self.finished()
 
     def empty_public(self) -> None:

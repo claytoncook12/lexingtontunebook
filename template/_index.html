@@ -37,48 +37,27 @@
 
 {% block content %}
 
-{% for tune_type in tune_types %}
-    {% if tune_type != 'set dance' %}
-    <h2 class="tune-type-title">{{ tune_type|title }} Sets</h2>
-    {% else %}
-    <h2>Set Dances</h2>
-    {% endif %}
-    <hr class="hr-short">
-    <ol>
-    {% for set in set_list %}
-        {% if tune_type == set.set_type %}
-        <li class="set-name">
-            <button class="accordion">
-                {{ set.set_name() }}
-            </button>
-            <div class="panel">
-                <div class="tune-additional-data">
-                    {% if set.reference_audios|length > 0 %}
-                        <h4>Audio References</h4>
-                        {% for audio in set.reference_audios %}
-                            <div class="audio-container">
-                                <h5 class="audio-title">{{ audio.title }}</h5>
-                                <h5>Instrument: {{ audio.instruments }}</h5>
-                                <audio controls>
-                                    <source src="static/audio/{{ audio.audio_file_name }}" type="audio/mp3">
-                                </audio>
-                            </div>
-                        {% endfor %}
-                    {% endif %}
-                </div>
-                {% for tune in set.set_tune_list %}
-                    <a href="tune.html#{{ tune.slug_id() }}">
-                        <div id="{{ tune.slug_id() }}" class="tune" >
-                            <pre>{{ tune.abc_notation }}</pre>
-                        </div>
-                    </a>
-                {% endfor%}
-            </div>
-        </li>
-        {% endif %}
-    {% endfor %}
-    </ol>
-{% endfor %}
+<h1>Site Moved!</h1>
+<p>
+    This website has moved locations. Please visit the new site at:
+    <br>
+    <h2>
+        <a href="https://lexingtontunebook.onrender.com/">lexingtontunebook.onrender.com/</a>
+    </h2>
+</p>
+
+<p>
+    <img 
+        src="static/images/cardinal_fiddle.png" 
+        alt="Cardinal Fiddling" 
+        style="max-width:60%; height:auto;"
+    >
+</p>
+
+<p>
+    The old site will be removed soon. Please update any bookmarks or links you may have.
+</p>
+
 
 {% endblock %}
 
