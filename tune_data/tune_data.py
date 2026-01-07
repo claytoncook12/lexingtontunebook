@@ -1452,6 +1452,29 @@ dBBB dBGB|dBBB ABcA|dBBB dBG2|cABG AcBA:|
     notes_complete=True,
     chords_complete=False
   ),
+#------------------------------------------------------
+  Tune(
+    "Kerry",
+    "reel",
+    "Edor",
+    """T: Kerry
+T: (The Green Fields Of Rossbeigh)
+R: reel
+M: C|
+L: 1/8
+K: Edor
+|:BE (3EDE BAFA|ABde fded|BE (3EDE BAFA|(3BcB AF E2FA|
+BE (3EDE BAFA|ABde fded|BE (3EDE BAFA|BFAF E2FA:|
+(3Bcd ef g2fe|dB (3BAB dBAd|(3Bcd ef gfge|dBAF E2ef|
+g3a gfeg|f3g fedB|ABde f2fe|dBAF E2FA:|
+""",
+    [YoutubeVideoEmbed("Kerry Reel","group","https://www.youtube.com/embed/Bonhrpac37s"),
+     YoutubeVideoEmbed("Kerry Reel","flute","https://www.youtube.com/embed/rcLa758Aexc"),
+     YoutubeVideoEmbed("Kerry Reel","flute","https://www.youtube.com/embed/uCLnVdrEtyM")],
+    [],
+    notes_complete=True,
+    chords_complete=False
+  ),
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
