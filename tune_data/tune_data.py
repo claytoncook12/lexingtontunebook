@@ -1475,6 +1475,29 @@ g3a gfeg|f3g fedB|ABde f2fe|dBAF E2FA:|
     notes_complete=True,
     chords_complete=False
   ),
+  #------------------------------------------------------
+  Tune(
+    "Coachman's Whip, The",
+    "reel",
+    "G",
+    """T: The Coachman's Whip
+R: reel
+M: C|
+L: 1/8
+K: G
+|:D3E G3B|d2BG DGBG|E2cE dEcE|gdcA AGGE|
+D3E G3B|d2BG DGBG|FGAB cdef|1gdcA AGG2:|2gdcA AGGB||
+|:d2BG DGBG|E2cE dEcE|d2BG DGBG|FGAc BGGB|
+d2BG DGBG|E2cE dEcE|FGAB cdef|1gdcA AGGB:|2gdcA A2F2|G4
+""",
+    [YoutubeVideoEmbed("The Coachman's Whip - Reel","fiddle","https://www.youtube.com/embed/85j9rM34bZI")],
+    [
+      AudioReferences("Coachman's Whip","fiddle","The Coachmans Whip_fiddle_justin.mp4"),
+      AudioReferences("Coachman's Whip","flute","01 The Coachmans Whip.mp3"),
+    ],
+    notes_complete=True,
+    chords_complete=False
+  ),
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
