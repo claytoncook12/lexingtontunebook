@@ -1498,6 +1498,75 @@ d2BG DGBG|E2cE dEcE|FGAB cdef|1gdcA AGGB:|2gdcA A2F2|G4
     notes_complete=True,
     chords_complete=False
   ),
+    #------------------------------------------------------
+  Tune(
+    "Daly's Mill",
+    "polka",
+    "A",
+    """T: Daly's Mill
+T: (John Walsh No. 2)
+R: Polka
+M: 2/4
+L: 1/8
+K: A
+|:Ac ef|ec BA|Ac ef|e2 a2 |
+  Ac ef|ec BA|AF FE|A2 A2:|
+|:fe cB|AF FE|AA/2A/2 Ac|e2 e2|
+  |fe cB|AF FE|AA/2A/2 AF|A2 A2:|
+""",
+    [
+      YoutubeVideoEmbed(
+        "Many a wild night / John Walsh's polka / Daly's mill (polkas) - performed by Sliabh Notes",
+        "fiddle, accordian, guitar",
+        "https://www.youtube.com/embed/KQK6tpiz9ug"),
+      YoutubeVideoEmbed("Daly's Mill - Polka","fiddle","https://www.youtube.com/embed/wz0BLnUzV7s"),
+      YoutubeVideoEmbed("597 Daly's Mill (Polka, A)","flute","https://www.youtube.com/embed/OvnxKcs6YnA")
+    ],
+    [
+      AudioReferences("Many a Wild Night / John Walsh's Polka / Daly's Mill (Polkas)","banjo, fiddle","Sleeve Notes polka set John walsh.mp4"),
+    ],
+    notes_complete=True,
+    chords_complete=False
+  ),
+      #------------------------------------------------------
+  Tune(
+    "John Walsh's",
+    "polka",
+    None,
+    None,
+    [
+      YoutubeVideoEmbed(
+        "Many a wild night / John Walsh's polka / Daly's mill (polkas) - performed by Sliabh Notes",
+        "fiddle, accordian, guitar",
+        "https://www.youtube.com/embed/KQK6tpiz9ug"),
+      YoutubeVideoEmbed("John Walsh's - Polka", "fiddle", "https://www.youtube.com/embed/_8M3F1pfrtc"),
+      YoutubeVideoEmbed("John Walsh's - Polka", "fiddle", "https://www.youtube.com/embed/Z_ggxpneUrE")
+    ],
+    [
+      AudioReferences("Many a Wild Night / John Walsh's Polka / Daly's Mill (Polkas)","banjo, fiddle","Sleeve Notes polka set John walsh.mp4"),
+    ],
+    notes_complete=False,
+    chords_complete=False
+  ),
+      #------------------------------------------------------
+  Tune(
+    "Many a Wild Night",
+    "polka",
+    None,
+    None,
+    [
+      YoutubeVideoEmbed(
+        "Many a wild night / John Walsh's polka / Daly's mill (polkas) - performed by Sliabh Notes",
+        "fiddle, accordian, guitar",
+        "https://www.youtube.com/embed/KQK6tpiz9ug"),
+      YoutubeVideoEmbed("Many a Wild Night - Polka", "fiddle", "https://www.youtube.com/embed/J7dLAdQXllo")
+    ],
+    [
+      AudioReferences("Many a Wild Night / John Walsh's Polka / Daly's Mill (Polkas)","banjo, fiddle","Sleeve Notes polka set John walsh.mp4"),
+    ],
+    notes_complete=False,
+    chords_complete=False
+  ),
 ]
 
 tune_list_alphab: list[Tune] = sorted(tune_list, key=lambda x: x.title)
